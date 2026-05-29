@@ -52,7 +52,6 @@ The pitch line: *The LLM is a reasoning layer. The innovation is the pipeline th
 | SERP API | LTO press-release verification | 20 newsroom-verified LTO entries |
 | Scraping Browser | Yelp baseline + protected targets | 239 reviews |
 
-Total spend during build: ~$170. The chronological review dataset alone (~$80) is the largest single source of analytic value.
 
 This project is not reproducible from CSV exports or single-script scraping. CSV can't reach this scale or freshness. Bright Data is the dependency.
 
