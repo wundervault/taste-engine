@@ -1176,10 +1176,11 @@ with tab_overview:
         subtitle = (hero.get("tagline") if not is_gap
                     else (hero.get("dish_potential","")[:240]))
 
+        st.markdown(brand_banner(hero["brand"]), unsafe_allow_html=True)
         st.markdown(
             f'<div style="background: linear-gradient(135deg, #f4ede0 0%, #ede5d0 100%); '
             f'border: 1px solid #d4c89a; border-radius: 6px; padding: 1rem 1.3rem; '
-            f'margin: 0.5rem 0 1.2rem 0;">'
+            f'margin: 0.1rem 0 1.2rem 0;">'
             f'<div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.4rem;">'
             f'<span style="background:{verdict_color}; color:white; padding:0.15rem 0.7rem; '
             f'border-radius:4px; font-size:0.72rem; font-weight:700; letter-spacing:0.06em;">{verdict_text}</span>'
