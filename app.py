@@ -1588,7 +1588,7 @@ with tab_validation:
                                     domain=list(v["indie_review_quarterly"].keys()),
                                     range=["#A33A1F", "#C46B45", "#5A8B5A"],
                                 ),
-                                legend=alt.Legend(title="City", orient="right")),
+                                legend=alt.Legend(title="City", orient="top")),
                 tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
         )
