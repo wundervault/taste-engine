@@ -1530,7 +1530,8 @@ with tab_validation:
             )
             .encode(
                 x=alt.X("date:T", title=None,
-                        axis=alt.Axis(format="%b '%y", tickCount="quarter",
+                        axis=alt.Axis(format="%b '%y",
+                                      tickCount={"interval": "month", "step": 3},
                                       labelAngle=-30, labelFontSize=11,
                                       grid=True, gridColor="#e8e0cc", gridOpacity=0.6)),
                 y=alt.Y("total:Q",
