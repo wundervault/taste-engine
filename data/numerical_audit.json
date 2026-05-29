@@ -1,0 +1,377 @@
+{
+  "weho": [
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: truffle",
+      "audit": {
+        "violations": [
+          {
+            "kind": "mention_count_mismatch",
+            "claimed": 188,
+            "actual": 156,
+            "kind_of_count": "mentions"
+          }
+        ],
+        "verdict": "MISMATCH",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": [
+          [
+            188,
+            "mentions"
+          ],
+          [
+            158,
+            "reviews"
+          ],
+          [
+            38,
+            "restaurants"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": [
+          [
+            17,
+            "mentions"
+          ],
+          [
+            17,
+            "mentions"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "violations": [
+          {
+            "kind": "mention_count_mismatch",
+            "claimed": 31,
+            "actual": 23,
+            "kind_of_count": "mentions"
+          }
+        ],
+        "verdict": "MISMATCH",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": [
+          [
+            31,
+            "mentions"
+          ],
+          [
+            23,
+            "reviews"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Honey-Chipotle Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [
+          2023,
+          2026,
+          2026
+        ],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "violations": [
+          {
+            "kind": "mention_count_mismatch",
+            "claimed": 47,
+            "actual": 38,
+            "kind_of_count": "mentions"
+          }
+        ],
+        "verdict": "MISMATCH",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": [
+          [
+            47,
+            "mentions"
+          ],
+          [
+            43,
+            "reviews"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Harissa Lentil Sumac Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": [
+          [
+            7,
+            "mentions"
+          ]
+        ]
+      }
+    }
+  ],
+  "williamsburg": [
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: jerk",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [
+          2023
+        ],
+        "mention_claims_checked": [
+          [
+            100,
+            "review"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Honey Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [
+          2026,
+          2026,
+          2026,
+          2024
+        ],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Tahini Harissa Lamb Bowl",
+      "audit": {
+        "violations": [
+          {
+            "kind": "signal_score_mismatch",
+            "claimed": 0.917,
+            "actual": 0.63,
+            "delta": 0.287
+          }
+        ],
+        "verdict": "MISMATCH",
+        "signal_claims_checked": [
+          0.917
+        ],
+        "year_claims_checked": [
+          2026,
+          2026,
+          2026
+        ],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: birria",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [
+          2021,
+          2019,
+          2025,
+          2025,
+          2021,
+          2025
+        ],
+        "mention_claims_checked": [
+          [
+            53,
+            "review"
+          ],
+          [
+            9,
+            "restaurants"
+          ]
+        ]
+      }
+    }
+  ],
+  "mission": [
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Guac Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [],
+        "year_claims_checked": [
+          2026,
+          2026
+        ],
+        "mention_claims_checked": [
+          [
+            14,
+            "restaurants"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Miso Kimchi Crunch Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [
+          0.828
+        ],
+        "year_claims_checked": [],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [
+          0.865
+        ],
+        "year_claims_checked": [
+          2025
+        ],
+        "mention_claims_checked": [
+          [
+            12,
+            "restaurants"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [
+          0.865
+        ],
+        "year_claims_checked": [
+          2023
+        ],
+        "mention_claims_checked": [
+          [
+            12,
+            "restaurants"
+          ]
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Harissa Honey Lentil Bowl",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [
+          0.353
+        ],
+        "year_claims_checked": [
+          2026,
+          2026
+        ],
+        "mention_claims_checked": []
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: pesto",
+      "audit": {
+        "violations": [],
+        "verdict": "OK",
+        "signal_claims_checked": [
+          0.855
+        ],
+        "year_claims_checked": [
+          2026
+        ],
+        "mention_claims_checked": [
+          [
+            7,
+            "restaurants"
+          ]
+        ]
+      }
+    }
+  ]
+}

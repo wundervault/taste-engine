@@ -1,0 +1,11 @@
+streamlit>=1.57
+altair>=6.0
+pandas>=2.2
+anthropic>=0.45
+markdown>=3.10
+pytrends>=4.9
+requests>=2.31
+# playwright is only needed for the build_submission_artifacts + capture_slides
+# scripts — install separately with `python -m playwright install chromium` if
+# you want to regenerate the PDF / slide deck.
+playwright>=1.40

@@ -1,0 +1,42 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local state
+*.log
+/tmp/
+.streamlit/secrets.toml
+
+# Large raw data — regenerable from BD pulls
+data/maps_raw/
+data/maps_reviews_raw/
+data/yelp_search_html_cache/
+
+# Source pantry photos (user-emailed BYO screenshots) — transcribed already into JSON
+# loaders. Originals not needed at runtime.
+data/sweetgreen_byo/
+data/cava_byo/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build outputs we keep
+# dist/SUBMISSION.pdf, dist/VIDEO_SCRIPT.pdf, dist/slides/PRESENTATION.pdf are committed.
+# Regenerable screenshots are not.
+dist/slides/shots/

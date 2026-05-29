@@ -1,0 +1,103 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Pineapple Bowl",
+    "tagline": "Achiote-chipotle chicken, charred corn, and a smoky tomatillo finish.",
+    "ingredients": [
+      "cilantro-lime white rice",
+      "black beans",
+      "chicken al pastor",
+      "corn salsa",
+      "tomatillo red chili salsa",
+      "guacamole",
+      "shredded monterey jack cheese"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.29",
+    "signal_rank_note": "Al pastor is an emerging-tier signal in WeHo \u2014 solid but not a headliner versus mole or miso in this DMA.",
+    "novelty_check": "Chipotle has no fixed dish list; this is a specific assembly built around the LTO al pastor protein with a pineapple-forward, smoky build distinct from default chicken/steak bowls.",
+    "confidence": "MID",
+    "confidence_reason": "Al pastor scores only 0.29 in WeHo, but the LTO protein is in-pantry and pineapple-achiote pairings have proven national pull; locally Mexican-fusion (Gracias Madre) is a stronger frame than al pastor itself."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": "0.88",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A Mole Burrito Bowl line \u2014 barbacoa or sofritas ladled with real mole over cilantro-lime rice, finished with queso blanco and pickled onion; opens a premium-tier bowl tier above the standard salsa matrix.",
+    "operational_lift": "Mole ships as a heat-and-hold sauce in a single hotel pan on the line \u2014 one new SKU, one ladle station, no new prep skill.",
+    "comp_context": "Gracias Madre on Melrose is winning the plant-based mole conversation in WeHo, and Guelaguetza (a short drive east) sets the city's mole benchmark \u2014 Chipotle has zero presence in this top-signal flavor."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Black Lentil Harissa Bowl",
+    "tagline": "Braised black lentils, harissa honey chicken, and a cool tahini finish.",
+    "ingredients": [
+      "black lentils",
+      "saffron basmati rice",
+      "harissa honey chicken",
+      "fiery broccoli",
+      "pickled onions",
+      "persian cucumber",
+      "lemon herb tahini",
+      "side harissa"
+    ],
+    "signal_term": "lentils",
+    "signal_score": "0.33",
+    "signal_rank_note": "Lentils are a notable-tier signal in WeHo \u2014 meaningful but not top-of-mind versus mole or miso in this neighborhood.",
+    "novelty_check": "CAVA has no fixed dish list; this build pairs the black lentil base (rarely featured) with harissa honey chicken and a tahini-forward dressing for a distinct lentil-led identity.",
+    "confidence": "MID",
+    "confidence_reason": "Lentils at 0.33 plus WeHo's plant-forward, Mediterranean-leaning context (Crossroads, Open Sesame) supports the build, but lentils don't yet trend as a hero ingredient locally."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.69",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "A Roasted Cauliflower + Tahini bowl line \u2014 charred cauliflower florets with sumac, lemon herb tahini, and pickled onion; unlocks a true plant-forward hero protein beyond falafel for WeHo's vegan-leaning crowd.",
+    "operational_lift": "Cauliflower roasts in the same oven cycle as current roasted veg \u2014 one SKU, no new equipment, drop-in to the hot well.",
+    "comp_context": "Crossroads Kitchen and Open Sesame both run charred-cauliflower mezze that consistently land on best-of WeHo lists; CAVA's current 'roasted vegetables' blend buries cauliflower instead of featuring it."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Kimchi Crunch Bowl",
+    "tagline": "Miso-glazed salmon, apple kimchi, and crispy rice over wild rice.",
+    "ingredients": [
+      "wild rice",
+      "miso glazed salmon",
+      "apple kimchi",
+      "shredded cabbage",
+      "cucumbers",
+      "crispy rice",
+      "nori sesame seasoning",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.81",
+    "signal_rank_note": "Miso is a top-tier signal in WeHo \u2014 strong demand and well-aligned with the neighborhood's Korean/Japanese openness.",
+    "novelty_check": "Distinct from Miso Glazed Salmon (which is power greens + spicy broccoli + ginger and skews green-forward) and Crispy Rice Bowl (chicken-led, no salmon, no kimchi) \u2014 this is a wild-rice, kimchi-anchored fermented-flavor build.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso 0.81 is the highest deliverable signal for Sweetgreen in WeHo; Moonbowls validates Korean-Japanese hybrid demand and every component is on-line today."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "burrata",
+    "signal_score": "0.59",
+    "missing_skus": [
+      "burrata"
+    ],
+    "dish_potential": "A Burrata + Pesto Summer Plate \u2014 burrata over arugula with tomatoes, basil, pesto vinaigrette, and garlic breadcrumbs; opens a premium $18+ tier and a clear evening/date-night occasion Sweetgreen currently misses.",
+    "operational_lift": "Burrata is a portioned cold-line scoop (single ball per bowl) \u2014 no cook step, but requires tight cold-chain and short shelf life, so it's a moderate lift on waste management.",
+    "comp_context": "WeHo indies on Melrose and Santa Monica Blvd (Jon & Vinny's nearby, plus countless Italian-leaning cafes) have made burrata-on-greens a default expectation; Sweetgreen has no creamy cheese answer beyond feta and goat."
+  }
+]

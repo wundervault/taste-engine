@@ -1,0 +1,374 @@
+[
+  {
+    "dish_name": "WRAPS HIT DIFFERENT",
+    "ingredients_text": "Meet the newest way to Sweetgreen. Bold flavors and simple ingredients, wrapped in a warm tortilla.",
+    "ingredients": [
+      "Meet the newest way to Sweetgreen. Bold flavors and simple ingredients",
+      "wrapped in a warm tortilla."
+    ]
+  },
+  {
+    "dish_name": "Classic Chicken Caesar",
+    "ingredients_text": "Antibiotic-free roasted chicken, chopped romaine, garlic breadcrumbs, parmesan crisps, shaved parmesan, caesar dressing and lemon squeeze, wrapped in our new olive oil tortilla",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "chopped romaine",
+      "garlic breadcrumbs",
+      "parmesan crisps",
+      "shaved parmesan",
+      "caesar dressing and lemon squeeze",
+      "wrapped in our new olive oil tortilla"
+    ]
+  },
+  {
+    "dish_name": "Cali Chicken Club",
+    "ingredients_text": "Antibiotic-free roasted chicken, chopped romaine, crumbled bacon, garlic breadcrumbs, tomatoes, avocado and garlic aioli, wrapped in our new olive oil tortilla",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "chopped romaine",
+      "crumbled bacon",
+      "garlic breadcrumbs",
+      "tomatoes",
+      "avocado and garlic aioli",
+      "wrapped in our new olive oil tortilla"
+    ]
+  },
+  {
+    "dish_name": "Chicken Jalape\u00f1o Ranch",
+    "ingredients_text": "Antibiotic-free blackened chicken, white rice, white cheddar, corn salsa, pickled onions, shredded cabbage and charred jalape\u00f1o ranch, wrapped in our new olive oil tortilla",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "white rice",
+      "white cheddar",
+      "corn salsa",
+      "pickled onions",
+      "shredded cabbage and charred jalape\u00f1o ranch",
+      "wrapped in our new olive oil tortilla"
+    ]
+  },
+  {
+    "dish_name": "Saucy KBBQ Chicken",
+    "ingredients_text": "Antibiotic-free roasted chicken, white rice, napa cabbage slaw, raw carrots, crispy onions, apple kimchi sauce, kbbq dressing and garlic aioli, wrapped in our new olive oil tortilla",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "white rice",
+      "napa cabbage slaw",
+      "raw carrots",
+      "crispy onions",
+      "apple kimchi sauce",
+      "kbbq dressing and garlic aioli",
+      "wrapped in our new olive oil tortilla"
+    ]
+  },
+  {
+    "dish_name": "Caramelized Garlic Steak",
+    "ingredients_text": "Antibiotic-free grass-fed caramelized garlic steak, warm roasted sweet potatoes, spicy broccoli, tomatoes, wild rice and pesto vinaigrette",
+    "ingredients": [
+      "Antibiotic-free grass-fed caramelized garlic steak",
+      "warm roasted sweet potatoes",
+      "spicy broccoli",
+      "tomatoes",
+      "wild rice and pesto vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Miso Glazed Salmon",
+    "ingredients_text": "Antibiotic-free miso glazed salmon, avocado, cucumbers, pickled onions, crispy onions, white rice, nori sesame seasoning and spicy cashew",
+    "ingredients": [
+      "Antibiotic-free miso glazed salmon",
+      "avocado",
+      "cucumbers",
+      "pickled onions",
+      "crispy onions",
+      "white rice",
+      "nori sesame seasoning and spicy cashew"
+    ]
+  },
+  {
+    "dish_name": "Hot Honey Chicken",
+    "ingredients_text": "Antibiotic-free blackened chicken, warm roasted sweet potatoes, napa cabbage slaw, crispy onions, golden quinoa and hot honey mustard sauce",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "warm roasted sweet potatoes",
+      "napa cabbage slaw",
+      "crispy onions",
+      "golden quinoa and hot honey mustard sauce"
+    ]
+  },
+  {
+    "dish_name": "Steak Mezze",
+    "ingredients_text": "Antibiotic-free grass-fed caramelized garlic steak, hummus, tomatoes, cucumbers, crispy onions, pickled onions, white rice, lime cilantro jalape\u00f1o sauce",
+    "ingredients": [
+      "Antibiotic-free grass-fed caramelized garlic steak",
+      "hummus",
+      "tomatoes",
+      "cucumbers",
+      "crispy onions",
+      "pickled onions",
+      "white rice",
+      "lime cilantro jalape\u00f1o sauce"
+    ]
+  },
+  {
+    "dish_name": "Harvest Bowl",
+    "ingredients_text": "Antibiotic-free roasted chicken, roasted sweet potatoes, apples, goat cheese, roasted almonds, wild rice, organic shredded kale and balsamic vinaigrette",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "roasted sweet potatoes",
+      "apples",
+      "goat cheese",
+      "roasted almonds",
+      "wild rice",
+      "organic shredded kale and balsamic vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Crispy Rice Bowl",
+    "ingredients_text": "Antibiotic-free blackened chicken, shredded carrots, shredded cabbage, cucumbers, cilantro, roasted almonds, crispy rice, wild rice, organic arugula, lime squeeze and spicy cashew",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "shredded carrots",
+      "shredded cabbage",
+      "cucumbers",
+      "cilantro",
+      "roasted almonds",
+      "crispy rice",
+      "wild rice",
+      "organic arugula",
+      "lime squeeze and spicy cashew"
+    ]
+  },
+  {
+    "dish_name": "Chicken Pesto Parm",
+    "ingredients_text": "Antibiotic-free roasted chicken, spicy broccoli, tomatoes, shaved parmesan, garlic breadcrumbs, golden quinoa, organic baby spinach, Sweetgreen hot sauce and pesto vinaigrette",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "spicy broccoli",
+      "tomatoes",
+      "shaved parmesan",
+      "garlic breadcrumbs",
+      "golden quinoa",
+      "organic baby spinach",
+      "Sweetgreen hot sauce and pesto vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Chicken Avocado Ranch",
+    "ingredients_text": "Antibiotic-free blackened chicken, avocado, pickled onions, apples, tortilla chips, white rice, chopped romaine and seed oil-free green goddess ranch",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "avocado",
+      "pickled onions",
+      "apples",
+      "tortilla chips",
+      "white rice",
+      "chopped romaine and seed oil-free green goddess ranch"
+    ]
+  },
+  {
+    "dish_name": "Shroomami",
+    "ingredients_text": "Roasted tofu, warm portobello mix, cucumbers, basil, shredded cabbage, roasted almonds, wild",
+    "ingredients": [
+      "Roasted tofu",
+      "warm portobello mix",
+      "cucumbers",
+      "basil",
+      "shredded cabbage",
+      "roasted almonds",
+      "wild"
+    ]
+  },
+  {
+    "dish_name": "Fish Taco",
+    "ingredients_text": "Antibiotic-free miso glazed salmon, avocado, shredded cabbage, cilantro, tortilla chips, golden quinoa, arugula, sweetgreen hot sauce, lime cilantro jalape\u00f1o sauce",
+    "ingredients": [
+      "Antibiotic-free miso glazed salmon",
+      "avocado",
+      "shredded cabbage",
+      "cilantro",
+      "tortilla chips",
+      "golden quinoa",
+      "arugula",
+      "sweetgreen hot sauce",
+      "lime cilantro jalape\u00f1o sauce"
+    ]
+  },
+  {
+    "dish_name": "Steak Honey Crunch",
+    "ingredients_text": "Caramelized garlic steak, chopped romaine, golden quinoa, pickled onions, tomatoes, garlic breadcrumbs, hot honey mustard sauce",
+    "ingredients": [
+      "Caramelized garlic steak",
+      "chopped romaine",
+      "golden quinoa",
+      "pickled onions",
+      "tomatoes",
+      "garlic breadcrumbs",
+      "hot honey mustard sauce"
+    ]
+  },
+  {
+    "dish_name": "Chicken Sesame Crunch",
+    "ingredients_text": "Antibiotic-free roasted chicken, napa cabbage slaw, sesame crunch, crispy noodles, shredded cabbage, raw carrots, organic shredded kale, chopped romaine, citrus sesame vinaigrette",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "napa cabbage slaw",
+      "sesame crunch",
+      "crispy noodles",
+      "shredded cabbage",
+      "raw carrots",
+      "organic shredded kale",
+      "chopped romaine",
+      "citrus sesame vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Kale Caesar",
+    "ingredients_text": "Antibiotic-free roasted chicken, tomatoes, shaved parmesan, parmesan crisps, organic shredded kale, chopped romaine, lime squeeze and caesar",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "tomatoes",
+      "shaved parmesan",
+      "parmesan crisps",
+      "organic shredded kale",
+      "chopped romaine",
+      "lime squeeze and caesar"
+    ]
+  },
+  {
+    "dish_name": "Guacamole Greens",
+    "ingredients_text": "Antibiotic-free roasted chicken, avocado, tomatoes, pickled onions, shredded cabbage, tortilla chips, organic spring mix, chopped romaine, lime squeeze and lime cilantro jalape\u00f1o sauce",
+    "ingredients": [
+      "Antibiotic-free roasted chicken",
+      "avocado",
+      "tomatoes",
+      "pickled onions",
+      "shredded cabbage",
+      "tortilla chips",
+      "organic spring mix",
+      "chopped romaine",
+      "lime squeeze and lime cilantro jalape\u00f1o sauce"
+    ]
+  },
+  {
+    "dish_name": "Super Green Goddess",
+    "ingredients_text": "Chickpeas, roasted sweet potatoes, shredded carrots, spicy broccoli, shredded cabbage, roasted almonds, baby spinach, shredded kale, green goddess ranch",
+    "ingredients": [
+      "Chickpeas",
+      "roasted sweet potatoes",
+      "shredded carrots",
+      "spicy broccoli",
+      "shredded cabbage",
+      "roasted almonds",
+      "baby spinach",
+      "shredded kale",
+      "green goddess ranch"
+    ]
+  },
+  {
+    "dish_name": "BBQ Chicken Salad",
+    "ingredients_text": "Antibiotic-free blackened chicken, shredded cabbage, pickled onions, tomatoes, apples, tortilla chips, chopped romaine, shredded kale, honey BBQ sauce, green goddess ranch",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "shredded cabbage",
+      "pickled onions",
+      "tomatoes",
+      "apples",
+      "tortilla chips",
+      "chopped romaine",
+      "shredded kale",
+      "honey BBQ sauce",
+      "green goddess ranch"
+    ]
+  },
+  {
+    "dish_name": "Hummus Crunch",
+    "ingredients_text": "Hummus, feta crumble, chickpeas, tomatoes, cucumbers, shredded cabbage, napa cabbage slaw, basil, garlic breadcrumbs, chopped romaine, shredded kale, pesto vinaigrette",
+    "ingredients": [
+      "Hummus",
+      "feta crumble",
+      "chickpeas",
+      "tomatoes",
+      "cucumbers",
+      "shredded cabbage",
+      "napa cabbage slaw",
+      "basil",
+      "garlic breadcrumbs",
+      "chopped romaine",
+      "shredded kale",
+      "pesto vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Buffalo Chicken",
+    "ingredients_text": "Antibiotic-free blackened chicken, pickled onions, tomatoes, shredded carrots, cilantro, feta crumble, garlic breadcrumbs, shredded kale, chopped romaine, Sweetgreen hot sauce, caesar",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "pickled onions",
+      "tomatoes",
+      "shredded carrots",
+      "cilantro",
+      "feta crumble",
+      "garlic breadcrumbs",
+      "shredded kale",
+      "chopped romaine",
+      "Sweetgreen hot sauce",
+      "caesar"
+    ]
+  },
+  {
+    "dish_name": "RANCHY CHICKEN + RICE",
+    "ingredients_text": "Roasted chicken, cucumbers, parmesan crisps, wild rice, green goddess ranch",
+    "ingredients": [
+      "Roasted chicken",
+      "cucumbers",
+      "parmesan crisps",
+      "wild rice",
+      "green goddess ranch"
+    ]
+  },
+  {
+    "dish_name": "LITTLE HARVEST",
+    "ingredients_text": "Roasted chicken, warm roasted sweet potatoes, apples, balsamic vinaigrette",
+    "ingredients": [
+      "Roasted chicken",
+      "warm roasted sweet potatoes",
+      "apples",
+      "balsamic vinaigrette"
+    ]
+  },
+  {
+    "dish_name": "Mini Mezze",
+    "ingredients_text": "Roasted chicken, cucumbers, hummus, tortilla chips",
+    "ingredients": [
+      "Roasted chicken",
+      "cucumbers",
+      "hummus",
+      "tortilla chips"
+    ]
+  },
+  {
+    "dish_name": "Siete Sea Salt Potato Chips",
+    "ingredients_text": "Crafted with the best kind of basics: potatoes, avocado oil and sea salt.",
+    "ingredients": [
+      "Crafted with the best kind of basics: potatoes",
+      "avocado oil and sea salt."
+    ]
+  },
+  {
+    "dish_name": "Crispy Rice Treat",
+    "ingredients_text": "Crispy organic brown rice, quinoa, and puffed millet\u2014naturally sweetened with honey date caramel and just 6g of sugar.",
+    "ingredients": [
+      "Crispy organic brown rice",
+      "quinoa",
+      "and puffed millet\u2014naturally sweetened with honey date caramel and just 6g of sugar."
+    ]
+  },
+  {
+    "dish_name": "Legal",
+    "ingredients_text": "Sweetgreen\u00ae and the Hex Bowl\u2122 are trademarks of Sweetgreen,\n                    Inc.",
+    "ingredients": [
+      "Sweetgreen\u00ae and the Hex Bowl\u2122 are trademarks of Sweetgreen",
+      "Inc."
+    ]
+  }
+]

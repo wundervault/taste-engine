@@ -1,0 +1,116 @@
+[
+  {
+    "brand": "Chipotle",
+    "dish_name": "Mole Rojo Barbacoa Bowl",
+    "tagline": "Slow-braised barbacoa over cilantro-lime rice, drenched in our smoky red chili mole-style salsa with a cool queso finish.",
+    "ingredients": [
+      "cilantro-lime brown rice",
+      "black beans",
+      "barbacoa",
+      "tomatillo red chili salsa",
+      "fajita veggies",
+      "queso blanco",
+      "sour cream"
+    ],
+    "signal_term": "mole",
+    "signal_score": "0.88",
+    "novelty_check": "Chipotle has no mole-forward build; this leans the hot tomatillo red chili salsa into a mole register by pairing it with the deep cumin-chipotle barbacoa and creamy queso, a flavor profile not currently merchandised.",
+    "confidence": "HIGH",
+    "confidence_reason": "Mole is the top-ranked signal at 0.88 with strong dual trend + local Yelp pull, and WeHo's Gracias Madre / Mexican-fusion scene already primes guests for mole-style heat."
+  },
+  {
+    "brand": "Chipotle",
+    "dish_name": "Charred Cauliflower Pastor Taco Plate",
+    "tagline": "Pineapple-achiote chicken al pastor and smoky fajita veggies on crispy corn tacos with a bright corn-poblano salsa.",
+    "ingredients": [
+      "crispy corn tortilla (taco)",
+      "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "fajita veggies",
+      "corn salsa",
+      "guacamole",
+      "tomatillo green chili salsa"
+    ],
+    "signal_term": "cauliflower",
+    "signal_score": "0.69",
+    "novelty_check": "Chipotle doesn't currently merchandise a charred-veg-forward taco plate built on fajita veggies + al pastor on crispy corn shells \u2014 distinct from the typical burrito/bowl pastor build.",
+    "confidence": "MID",
+    "confidence_reason": "Cauliflower scores 0.69 with strong local mentions (47), and while Chipotle lacks literal cauliflower, the charred fajita veggies hit the same charred-cruciferous flavor cue West Hollywood guests seek."
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Miso-Style Salmon Greens Bowl",
+    "tagline": "Glazed salmon over super greens with sesame-bright strawberry dressing, avocado, and crunchy sumac chips.",
+    "ingredients": [
+      "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+      "glazed salmon",
+      "strawberry sesame",
+      "avocado",
+      "persian cucumber",
+      "pickled onions",
+      "sumac sour cream + onion chips"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.81",
+    "novelty_check": "CAVA has no miso/sesame-forward salmon build; this pulls the glazed salmon into a sesame-umami register via strawberry sesame dressing rather than the usual harissa or tahini route.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso scores 0.81 with near-balanced trend (62.3) and local (38 mentions) signal, and Moonbowls-style Korean/Japanese flavor crossover is established WeHo behavior."
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Pesto-Style Lamb Meatball Mezze",
+    "tagline": "Spicy lamb meatballs over saffron rice with herby lemon tahini, crazy feta, and a fresh tomato-cucumber crunch.",
+    "ingredients": [
+      "saffron basmati rice",
+      "spicy lamb meatballs (harissa, cilantro, spiced)",
+      "lemon herb tahini",
+      "crazy feta",
+      "tomato + cucumber",
+      "kalamata olives (Manolakos family, Greece)",
+      "pita crisps"
+    ],
+    "signal_term": "pesto",
+    "signal_score": "0.80",
+    "novelty_check": "CAVA's lamb meatballs are typically served harissa-forward; this reframes them with a green-herb lemon tahini + cilantro-driven 'pesto' angle and saffron rice, a build not currently on the line.",
+    "confidence": "MID",
+    "confidence_reason": "Pesto scores 0.80 with strong local mentions (38), and CAVA's lemon herb tahini + cilantro from the meatballs delivers a credible Mediterranean pesto register without inventing SKUs."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Kimchi Crunch Steak Bowl",
+    "tagline": "Grass-fed steak and apple kimchi over wild rice with napa slaw, crispy rice, and a KBBQ-sesame finish.",
+    "ingredients": [
+      "wild rice",
+      "grass-fed steak",
+      "apple kimchi",
+      "napa cabbage slaw",
+      "crispy rice",
+      "sesame crunch",
+      "cilantro",
+      "kbbq dressing"
+    ],
+    "signal_term": "kimchi",
+    "signal_score": "0.54",
+    "novelty_check": "Distinct from Saucy KBBQ Chicken (chicken, no kimchi) and Caramelized Garlic Steak / Steak Honey Crunch (no kimchi, no slaw) \u2014 this is the only kimchi-forward steak build.",
+    "confidence": "MID",
+    "confidence_reason": "Kimchi scores 0.54 with balanced trend (50.5) and local mentions (17), and Moonbowls-driven Korean bowl demand in WeHo supports a kimchi-steak crossover."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Truffled Portobello Parm Bowl",
+    "tagline": "Warm portobello and roasted sweet potato over kale with shaved parmesan, garlic breadcrumbs, and a silky pesto vinaigrette.",
+    "ingredients": [
+      "organic shredded kale",
+      "warm portobello mix",
+      "warm roasted sweet potatoes",
+      "shaved parmesan",
+      "parmesan crisps",
+      "garlic breadcrumbs",
+      "pesto vinaigrette"
+    ],
+    "signal_term": "truffle",
+    "signal_score": "0.72",
+    "novelty_check": "Shroomami uses portobello but with miso-sesame and wild rice; this is a parm-and-breadcrumb 'truffled mushroom' register on kale with pesto \u2014 a different flavor lane entirely.",
+    "confidence": "HIGH",
+    "confidence_reason": "Truffle scores 0.72 with massive local mention volume (188 across 158 reviews) \u2014 the strongest local signal in the table \u2014 and earthy-mushroom + parm is a proven WeHo upscale-casual cue."
+  }
+]

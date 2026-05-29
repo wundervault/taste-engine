@@ -1,0 +1,1326 @@
+{
+  "Chipotle": {
+    "adobo sauce": {
+      "deliverable": true,
+      "matched": [
+        "chipotle"
+      ],
+      "missing": [
+        "adobo"
+      ],
+      "min_matches": 1
+    },
+    "al pastor": {
+      "deliverable": true,
+      "matched": [
+        "al pastor"
+      ],
+      "missing": [
+        "achiote"
+      ],
+      "min_matches": 1
+    },
+    "bao bun": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "bao",
+        "steamed bun"
+      ],
+      "min_matches": 1
+    },
+    "birria": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "birria",
+        "consomm\u00e9",
+        "guajillo",
+        "ancho"
+      ],
+      "min_matches": 2
+    },
+    "bulgogi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "bulgogi",
+        "korean bbq",
+        "kbbq"
+      ],
+      "min_matches": 1
+    },
+    "burrata": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "burrata"
+      ],
+      "min_matches": 1
+    },
+    "calabrian chili": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "calabrian"
+      ],
+      "min_matches": 1
+    },
+    "cauliflower": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cauliflower"
+      ],
+      "min_matches": 1
+    },
+    "crispy chickpeas": {
+      "deliverable": false,
+      "matched": [
+        "crispy"
+      ],
+      "missing": [
+        "chickpea",
+        "falafel"
+      ],
+      "min_matches": 2
+    },
+    "curry goat": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "goat",
+        "curry"
+      ],
+      "min_matches": 2
+    },
+    "dashi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "dashi",
+        "kombu",
+        "bonito"
+      ],
+      "min_matches": 1
+    },
+    "elote": {
+      "deliverable": false,
+      "matched": [
+        "corn"
+      ],
+      "missing": [
+        "cotija",
+        "crema",
+        "tajin",
+        "taj\u00edn"
+      ],
+      "min_matches": 2
+    },
+    "farro": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "farro"
+      ],
+      "min_matches": 1
+    },
+    "freekeh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "freekeh"
+      ],
+      "min_matches": 1
+    },
+    "furikake": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "furikake",
+        "nori sesame"
+      ],
+      "min_matches": 1
+    },
+    "gochujang": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "gochujang",
+        "korean chili"
+      ],
+      "min_matches": 1
+    },
+    "harissa": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "harissa"
+      ],
+      "min_matches": 1
+    },
+    "jerk": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "jerk",
+        "allspice",
+        "scotch bonnet",
+        "thyme"
+      ],
+      "min_matches": 2
+    },
+    "karaage": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "karaage",
+        "japanese fried chicken"
+      ],
+      "min_matches": 1
+    },
+    "kimchi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "kimchi"
+      ],
+      "min_matches": 1
+    },
+    "lentils": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "lentil"
+      ],
+      "min_matches": 1
+    },
+    "miso": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "miso"
+      ],
+      "min_matches": 1
+    },
+    "mole": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "mole"
+      ],
+      "min_matches": 1
+    },
+    "nduja": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "nduja",
+        "'nduja"
+      ],
+      "min_matches": 1
+    },
+    "oxtail": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "oxtail"
+      ],
+      "min_matches": 1
+    },
+    "pesto": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "pesto"
+      ],
+      "min_matches": 1
+    },
+    "plantain": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "plantain"
+      ],
+      "min_matches": 1
+    },
+    "scotch bonnet": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "scotch bonnet"
+      ],
+      "min_matches": 1
+    },
+    "shakshuka": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shakshuka",
+        "soft-cooked egg",
+        "egg + tomato"
+      ],
+      "min_matches": 1
+    },
+    "sumac": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "sumac"
+      ],
+      "min_matches": 1
+    },
+    "tahini": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tahini"
+      ],
+      "min_matches": 1
+    },
+    "tonkotsu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tonkotsu",
+        "pork bone broth"
+      ],
+      "min_matches": 1
+    },
+    "truffle": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "truffle"
+      ],
+      "min_matches": 1
+    },
+    "yuzu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "yuzu"
+      ],
+      "min_matches": 1
+    },
+    "za'atar": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "za'atar",
+        "zaatar"
+      ],
+      "min_matches": 1
+    },
+    "cotija": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cotija"
+      ],
+      "min_matches": 1
+    },
+    "crema": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "crema",
+        "mexican crema"
+      ],
+      "min_matches": 1
+    },
+    "allspice": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "allspice"
+      ],
+      "min_matches": 1
+    },
+    "banchan": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "banchan"
+      ],
+      "min_matches": 1
+    },
+    "galbi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "galbi",
+        "kalbi",
+        "korean short rib"
+      ],
+      "min_matches": 1
+    },
+    "japchae": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "japchae",
+        "glass noodle"
+      ],
+      "min_matches": 1
+    },
+    "shawarma": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shawarma"
+      ],
+      "min_matches": 1
+    },
+    "labneh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "labneh"
+      ],
+      "min_matches": 1
+    },
+    "halloumi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "halloumi"
+      ],
+      "min_matches": 1
+    },
+    "guajillo": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "guajillo"
+      ],
+      "min_matches": 1
+    },
+    "ancho": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ancho"
+      ],
+      "min_matches": 1
+    },
+    "tofu": {
+      "deliverable": true,
+      "matched": [
+        "sofritas"
+      ],
+      "missing": [
+        "tofu"
+      ],
+      "min_matches": 1
+    },
+    "kabocha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "kabocha",
+        "japanese pumpkin"
+      ],
+      "min_matches": 1
+    },
+    "ube": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ube",
+        "purple yam"
+      ],
+      "min_matches": 1
+    },
+    "matcha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "matcha"
+      ],
+      "min_matches": 1
+    }
+  },
+  "CAVA": {
+    "adobo sauce": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "adobo",
+        "chipotle"
+      ],
+      "min_matches": 1
+    },
+    "al pastor": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "al pastor",
+        "achiote"
+      ],
+      "min_matches": 1
+    },
+    "bao bun": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "bao",
+        "steamed bun"
+      ],
+      "min_matches": 1
+    },
+    "birria": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "birria",
+        "consomm\u00e9",
+        "guajillo",
+        "ancho"
+      ],
+      "min_matches": 2
+    },
+    "bulgogi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "bulgogi",
+        "korean bbq",
+        "kbbq"
+      ],
+      "min_matches": 1
+    },
+    "burrata": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "burrata"
+      ],
+      "min_matches": 1
+    },
+    "calabrian chili": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "calabrian"
+      ],
+      "min_matches": 1
+    },
+    "cauliflower": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cauliflower"
+      ],
+      "min_matches": 1
+    },
+    "crispy chickpeas": {
+      "deliverable": false,
+      "matched": [
+        "falafel"
+      ],
+      "missing": [
+        "chickpea",
+        "crispy"
+      ],
+      "min_matches": 2
+    },
+    "curry goat": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "goat",
+        "curry"
+      ],
+      "min_matches": 2
+    },
+    "dashi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "dashi",
+        "kombu",
+        "bonito"
+      ],
+      "min_matches": 1
+    },
+    "elote": {
+      "deliverable": false,
+      "matched": [
+        "corn"
+      ],
+      "missing": [
+        "cotija",
+        "crema",
+        "tajin",
+        "taj\u00edn"
+      ],
+      "min_matches": 2
+    },
+    "farro": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "farro"
+      ],
+      "min_matches": 1
+    },
+    "freekeh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "freekeh"
+      ],
+      "min_matches": 1
+    },
+    "furikake": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "furikake",
+        "nori sesame"
+      ],
+      "min_matches": 1
+    },
+    "gochujang": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "gochujang",
+        "korean chili"
+      ],
+      "min_matches": 1
+    },
+    "harissa": {
+      "deliverable": true,
+      "matched": [
+        "harissa"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "jerk": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "jerk",
+        "allspice",
+        "scotch bonnet",
+        "thyme"
+      ],
+      "min_matches": 2
+    },
+    "karaage": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "karaage",
+        "japanese fried chicken"
+      ],
+      "min_matches": 1
+    },
+    "kimchi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "kimchi"
+      ],
+      "min_matches": 1
+    },
+    "lentils": {
+      "deliverable": true,
+      "matched": [
+        "lentil"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "miso": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "miso"
+      ],
+      "min_matches": 1
+    },
+    "mole": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "mole"
+      ],
+      "min_matches": 1
+    },
+    "nduja": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "nduja",
+        "'nduja"
+      ],
+      "min_matches": 1
+    },
+    "oxtail": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "oxtail"
+      ],
+      "min_matches": 1
+    },
+    "pesto": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "pesto"
+      ],
+      "min_matches": 1
+    },
+    "plantain": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "plantain"
+      ],
+      "min_matches": 1
+    },
+    "scotch bonnet": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "scotch bonnet"
+      ],
+      "min_matches": 1
+    },
+    "shakshuka": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shakshuka",
+        "soft-cooked egg",
+        "egg + tomato"
+      ],
+      "min_matches": 1
+    },
+    "sumac": {
+      "deliverable": true,
+      "matched": [
+        "sumac"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "tahini": {
+      "deliverable": true,
+      "matched": [
+        "tahini"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "tonkotsu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tonkotsu",
+        "pork bone broth"
+      ],
+      "min_matches": 1
+    },
+    "truffle": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "truffle"
+      ],
+      "min_matches": 1
+    },
+    "yuzu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "yuzu"
+      ],
+      "min_matches": 1
+    },
+    "za'atar": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "za'atar",
+        "zaatar"
+      ],
+      "min_matches": 1
+    },
+    "cotija": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cotija"
+      ],
+      "min_matches": 1
+    },
+    "crema": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "crema",
+        "mexican crema"
+      ],
+      "min_matches": 1
+    },
+    "allspice": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "allspice"
+      ],
+      "min_matches": 1
+    },
+    "banchan": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "banchan"
+      ],
+      "min_matches": 1
+    },
+    "galbi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "galbi",
+        "kalbi",
+        "korean short rib"
+      ],
+      "min_matches": 1
+    },
+    "japchae": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "japchae",
+        "glass noodle"
+      ],
+      "min_matches": 1
+    },
+    "shawarma": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shawarma"
+      ],
+      "min_matches": 1
+    },
+    "labneh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "labneh"
+      ],
+      "min_matches": 1
+    },
+    "halloumi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "halloumi"
+      ],
+      "min_matches": 1
+    },
+    "guajillo": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "guajillo"
+      ],
+      "min_matches": 1
+    },
+    "ancho": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ancho"
+      ],
+      "min_matches": 1
+    },
+    "tofu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tofu",
+        "sofritas"
+      ],
+      "min_matches": 1
+    },
+    "kabocha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "kabocha",
+        "japanese pumpkin"
+      ],
+      "min_matches": 1
+    },
+    "ube": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ube",
+        "purple yam"
+      ],
+      "min_matches": 1
+    },
+    "matcha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "matcha"
+      ],
+      "min_matches": 1
+    }
+  },
+  "Sweetgreen": {
+    "adobo sauce": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "adobo",
+        "chipotle"
+      ],
+      "min_matches": 1
+    },
+    "al pastor": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "al pastor",
+        "achiote"
+      ],
+      "min_matches": 1
+    },
+    "bao bun": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "bao",
+        "steamed bun"
+      ],
+      "min_matches": 1
+    },
+    "birria": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "birria",
+        "consomm\u00e9",
+        "guajillo",
+        "ancho"
+      ],
+      "min_matches": 2
+    },
+    "bulgogi": {
+      "deliverable": true,
+      "matched": [
+        "kbbq"
+      ],
+      "missing": [
+        "bulgogi",
+        "korean bbq"
+      ],
+      "min_matches": 1
+    },
+    "burrata": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "burrata"
+      ],
+      "min_matches": 1
+    },
+    "calabrian chili": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "calabrian"
+      ],
+      "min_matches": 1
+    },
+    "cauliflower": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cauliflower"
+      ],
+      "min_matches": 1
+    },
+    "crispy chickpeas": {
+      "deliverable": true,
+      "matched": [
+        "chickpea",
+        "crispy"
+      ],
+      "missing": [
+        "falafel"
+      ],
+      "min_matches": 2
+    },
+    "curry goat": {
+      "deliverable": false,
+      "matched": [
+        "goat"
+      ],
+      "missing": [
+        "curry"
+      ],
+      "min_matches": 2
+    },
+    "dashi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "dashi",
+        "kombu",
+        "bonito"
+      ],
+      "min_matches": 1
+    },
+    "elote": {
+      "deliverable": false,
+      "matched": [
+        "corn"
+      ],
+      "missing": [
+        "cotija",
+        "crema",
+        "tajin",
+        "taj\u00edn"
+      ],
+      "min_matches": 2
+    },
+    "farro": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "farro"
+      ],
+      "min_matches": 1
+    },
+    "freekeh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "freekeh"
+      ],
+      "min_matches": 1
+    },
+    "furikake": {
+      "deliverable": true,
+      "matched": [
+        "nori sesame"
+      ],
+      "missing": [
+        "furikake"
+      ],
+      "min_matches": 1
+    },
+    "gochujang": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "gochujang",
+        "korean chili"
+      ],
+      "min_matches": 1
+    },
+    "harissa": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "harissa"
+      ],
+      "min_matches": 1
+    },
+    "jerk": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "jerk",
+        "allspice",
+        "scotch bonnet",
+        "thyme"
+      ],
+      "min_matches": 2
+    },
+    "karaage": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "karaage",
+        "japanese fried chicken"
+      ],
+      "min_matches": 1
+    },
+    "kimchi": {
+      "deliverable": true,
+      "matched": [
+        "kimchi"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "lentils": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "lentil"
+      ],
+      "min_matches": 1
+    },
+    "miso": {
+      "deliverable": true,
+      "matched": [
+        "miso"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "mole": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "mole"
+      ],
+      "min_matches": 1
+    },
+    "nduja": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "nduja",
+        "'nduja"
+      ],
+      "min_matches": 1
+    },
+    "oxtail": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "oxtail"
+      ],
+      "min_matches": 1
+    },
+    "pesto": {
+      "deliverable": true,
+      "matched": [
+        "pesto"
+      ],
+      "missing": [],
+      "min_matches": 1
+    },
+    "plantain": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "plantain"
+      ],
+      "min_matches": 1
+    },
+    "scotch bonnet": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "scotch bonnet"
+      ],
+      "min_matches": 1
+    },
+    "shakshuka": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shakshuka",
+        "soft-cooked egg",
+        "egg + tomato"
+      ],
+      "min_matches": 1
+    },
+    "sumac": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "sumac"
+      ],
+      "min_matches": 1
+    },
+    "tahini": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tahini"
+      ],
+      "min_matches": 1
+    },
+    "tonkotsu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "tonkotsu",
+        "pork bone broth"
+      ],
+      "min_matches": 1
+    },
+    "truffle": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "truffle"
+      ],
+      "min_matches": 1
+    },
+    "yuzu": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "yuzu"
+      ],
+      "min_matches": 1
+    },
+    "za'atar": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "za'atar",
+        "zaatar"
+      ],
+      "min_matches": 1
+    },
+    "cotija": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "cotija"
+      ],
+      "min_matches": 1
+    },
+    "crema": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "crema",
+        "mexican crema"
+      ],
+      "min_matches": 1
+    },
+    "allspice": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "allspice"
+      ],
+      "min_matches": 1
+    },
+    "banchan": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "banchan"
+      ],
+      "min_matches": 1
+    },
+    "galbi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "galbi",
+        "kalbi",
+        "korean short rib"
+      ],
+      "min_matches": 1
+    },
+    "japchae": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "japchae",
+        "glass noodle"
+      ],
+      "min_matches": 1
+    },
+    "shawarma": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "shawarma"
+      ],
+      "min_matches": 1
+    },
+    "labneh": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "labneh"
+      ],
+      "min_matches": 1
+    },
+    "halloumi": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "halloumi"
+      ],
+      "min_matches": 1
+    },
+    "guajillo": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "guajillo"
+      ],
+      "min_matches": 1
+    },
+    "ancho": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ancho"
+      ],
+      "min_matches": 1
+    },
+    "tofu": {
+      "deliverable": true,
+      "matched": [
+        "tofu"
+      ],
+      "missing": [
+        "sofritas"
+      ],
+      "min_matches": 1
+    },
+    "kabocha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "kabocha",
+        "japanese pumpkin"
+      ],
+      "min_matches": 1
+    },
+    "ube": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "ube",
+        "purple yam"
+      ],
+      "min_matches": 1
+    },
+    "matcha": {
+      "deliverable": false,
+      "matched": [],
+      "missing": [
+        "matcha"
+      ],
+      "min_matches": 1
+    }
+  }
+}

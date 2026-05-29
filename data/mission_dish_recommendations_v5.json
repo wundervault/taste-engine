@@ -1,0 +1,107 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Pineapple Crunch Taco Plate",
+    "tagline": "Achiote-chipotle chicken, charred corn, and a smoky habanero kick \u2014 built on crispy corn shells.",
+    "ingredients": [
+      "crispy corn tortilla (taco)",
+      "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "cilantro-lime white rice",
+      "black beans",
+      "corn salsa (mild \u2014 corn, poblano, red onion, jalape\u00f1o, lime)",
+      "tomatillo red chili salsa extra hot (habanero)",
+      "guacamole (avocado, lime, cilantro, red onion, jalape\u00f1o)",
+      "shredded monterey jack cheese"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.58",
+    "signal_rank_note": "Al pastor is a strong signal in the Mission, but Chipotle's LTO version will always rank below El Farolito and taqueria-row competitors who do trompo al pastor daily.",
+    "novelty_check": "Chipotle has no fixed dish list; this leans into the al pastor LTO as a crispy-taco plate format rather than the default burrito/bowl assembly, pairing it with the extra-hot habanero salsa for a Mission-calibrated heat profile.",
+    "confidence": "MID",
+    "confidence_reason": "Al pastor scores 0.58 (strong) and is already in pantry, but the Mission's taqueria density caps how much credit a chain version earns \u2014 honest deliverable, capped ceiling."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": "0.86",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A Mole Bowl or Mole Burrito line \u2014 barbacoa or chicken finished in real mole poblano over cilantro-lime rice, with queso blanco and pickled onion. Could also support a seasonal Mole Enchilada-style burrito tied to D\u00eda de los Muertos.",
+    "operational_lift": "Mole ships as a heat-and-hold sauce in the existing steam-table well \u2014 line-friendly with no new station, but sourcing a credible mole (not a chili gravy) is the real lift.",
+    "comp_context": "Nopalito and La Oaxaque\u00f1a on Mission St are the local benchmarks \u2014 La Oaxaque\u00f1a's mole negro is the reference point a Chipotle version would be measured against."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Black Lentil + Sumac Crunch Bowl",
+    "tagline": "Earthy black lentils, harissa-honey chicken, and bright sumac slaw over saffron rice.",
+    "ingredients": [
+      "saffron basmati rice",
+      "black lentils",
+      "harissa honey chicken",
+      "lemon herb tahini",
+      "sumac slaw",
+      "persian cucumber",
+      "pickled onions",
+      "crumbled feta",
+      "pita crisps"
+    ],
+    "signal_term": "lentils",
+    "signal_score": "0.33",
+    "signal_rank_note": "Lentils are a notable but not breakout signal in the Mission \u2014 this is a durable build, not a trend grab.",
+    "novelty_check": "CAVA is assembly-line with no fixed dish list; this build foregrounds black lentils as the hero (not a side ingredient) and pairs them with sumac slaw + tahini for a layered tart-earthy profile rather than the usual hummus-forward bowl.",
+    "confidence": "MID",
+    "confidence_reason": "All four ship-now signals (lentils, tahini, harissa, sumac) score below 0.35 in this neighborhood \u2014 honest but not high-ceiling. The dish ships cleanly from pantry with zero new SKUs."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.72",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "A Charred Cauliflower bowl or pita \u2014 harissa-roasted cauliflower as a standalone vegetable protein, paired with tahini, pickled onions, and crazy feta. Opens a credible vegan/vegetarian centerpiece beyond falafel.",
+    "operational_lift": "Cauliflower roasts on the same sheet pans as the existing roasted vegetables \u2014 minimal line complexity, just a new prep SKU and a hold position.",
+    "comp_context": "Souvla and Tawla are winning charred/whole-roasted cauliflower in SF right now; Lazy Bear has run cauliflower as a center-of-plate vegetable course that the Mission audience already knows."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Pesto Crunch Bowl",
+    "tagline": "Miso-glazed salmon, pesto-dressed greens, and crispy rice \u2014 umami meets basil meets crunch.",
+    "ingredients": [
+      "organic baby spinach",
+      "wild rice",
+      "miso glazed salmon",
+      "pesto vinaigrette",
+      "avocado",
+      "crispy rice",
+      "spicy broccoli",
+      "cucumbers",
+      "basil",
+      "sesame crunch"
+    ],
+    "signal_term": "pesto",
+    "signal_score": "0.85",
+    "signal_rank_note": "Pesto scores very high in the Mission and this build keeps it honest \u2014 real basil + pesto vinaigrette, not a green-gesture.",
+    "novelty_check": "Distinct from Chicken Pesto Parm (chicken/parm-led, Italian frame) and Miso Glazed Salmon (miso-led, no pesto). This bowl explicitly crosses pesto \u00d7 miso on the same plate with crispy rice texture \u2014 a combination not in the 27-dish list.",
+    "confidence": "HIGH",
+    "confidence_reason": "Two of Sweetgreen's highest-signal flavors (pesto 0.85, miso 0.83) both already in pantry, combined in a format the brand hasn't shipped. Mission audience is fusion-tolerant per local context."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "mole",
+    "signal_score": "0.86",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A Mole Chicken Bowl \u2014 roasted chicken finished in mole, over wild rice with corn salsa, avocado, pickled onions, and tortilla chips. Opens a Mexican-leaning line that Sweetgreen currently only gestures at via Fish Taco and corn salsa.",
+    "operational_lift": "Mole as a finishing sauce ladled at assembly \u2014 fits the existing line flow, but requires a hot-hold position and a credible mole supplier (not a generic chili sauce).",
+    "comp_context": "La Oaxaque\u00f1a and Nopalito anchor mole in the Mission; Tartine Manufactory has run mole-adjacent plates that Sweetgreen's craft-curious customer already buys into."
+  }
+]

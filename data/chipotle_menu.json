@@ -1,0 +1,41 @@
+{
+  "brand": "Chipotle",
+  "location": "8420 Beverly Blvd, Los Angeles, CA 90048",
+  "bases": [
+    "cilantro-lime white rice",
+    "cilantro-lime brown rice",
+    "black beans",
+    "pinto beans",
+    "romaine lettuce"
+  ],
+  "proteins": [
+    "chicken (adobo-marinated, grilled)",
+    "steak (adobo-marinated, grilled)",
+    "barbacoa (braised beef, chipotle, cumin)",
+    "carnitas (slow-roasted pork, juniper, thyme)",
+    "sofritas (organic braised tofu, chipotle, roasted poblano)",
+    "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)"
+  ],
+  "salsas": [
+    "fresh tomato salsa (mild \u2014 tomato, onion, cilantro, lemon, lime)",
+    "corn salsa (mild \u2014 corn, poblano, red onion, jalape\u00f1o, lime)",
+    "tomatillo green chili salsa (medium \u2014 tomatillo, jalape\u00f1o, cilantro)",
+    "tomatillo red chili salsa (hot \u2014 dried red chili, chipotle, tomato)",
+    "tomatillo red chili salsa extra hot (habanero)"
+  ],
+  "toppings": [
+    "fajita veggies (grilled bell peppers, onions)",
+    "guacamole (avocado, lime, cilantro, red onion, jalape\u00f1o)",
+    "queso blanco (white cheese, tomatillo, jalape\u00f1o, poblano)",
+    "sour cream",
+    "shredded monterey jack cheese",
+    "romaine lettuce (shredded)",
+    "chipotle honey vinaigrette"
+  ],
+  "vessels": [
+    "flour tortilla (burrito)",
+    "crispy corn tortilla (taco)",
+    "flour tortilla (soft taco)",
+    "burrito bowl (no vessel)"
+  ]
+}

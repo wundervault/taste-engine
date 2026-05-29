@@ -1,0 +1,492 @@
+{
+  "weho": [
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Miso Salmon Furikake Bowl",
+      "audit": {
+        "total_named": 1,
+        "verified_count": 0,
+        "external_count": 1,
+        "all_verifications": [
+          {
+            "name": "Moonbowls' WeHo",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "ALL_EXTERNAL"
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "total_named": 2,
+        "verified_count": 1,
+        "external_count": 1,
+        "all_verifications": [
+          {
+            "name": "Gracias Madre",
+            "status": "verified",
+            "matched_in_db": "Gracias Madre"
+          },
+          {
+            "name": "Madre",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Taco Plate",
+      "audit": {
+        "total_named": 3,
+        "verified_count": 2,
+        "external_count": 1,
+        "all_verifications": [
+          {
+            "name": "Gracias",
+            "status": "verified",
+            "matched_in_db": "Gracias Madre"
+          },
+          {
+            "name": "Gracias Madre",
+            "status": "verified",
+            "matched_in_db": "Gracias Madre"
+          },
+          {
+            "name": "Madre",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: burrata",
+      "audit": {
+        "total_named": 9,
+        "verified_count": 2,
+        "external_count": 7,
+        "all_verifications": [
+          {
+            "name": "Burrata",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Burrata Pesto Plate",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Burrata Tomato Bowl",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Chicken Pesto Parm",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Crossroads",
+            "status": "verified",
+            "matched_in_db": "Crossroads Kitchen"
+          },
+          {
+            "name": "Crossroads Kitchen",
+            "status": "verified",
+            "matched_in_db": "Crossroads Kitchen"
+          },
+          {
+            "name": "Crossroads Kitchen's",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Independent Italian",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Kitchen's",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "total_named": 1,
+        "verified_count": 1,
+        "external_count": 0,
+        "all_verifications": [
+          {
+            "name": "Crossroads Kitchen",
+            "status": "verified",
+            "matched_in_db": "Crossroads Kitchen"
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Black Lentil + Harissa Bowl",
+      "audit": {
+        "total_named": 1,
+        "verified_count": 1,
+        "external_count": 0,
+        "all_verifications": [
+          {
+            "name": "Open Sesame",
+            "status": "verified",
+            "matched_in_db": "Open Sesame"
+          }
+        ],
+        "verdict": "OK"
+      }
+    }
+  ],
+  "williamsburg": [
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Miso Salmon Crispy Rice Bowl",
+      "audit": {
+        "total_named": 0,
+        "verified_count": 0,
+        "external_count": 0,
+        "all_verifications": [],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "total_named": 0,
+        "verified_count": 0,
+        "external_count": 0,
+        "all_verifications": [],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Taco Plate",
+      "audit": {
+        "total_named": 0,
+        "verified_count": 0,
+        "external_count": 0,
+        "all_verifications": [],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "total_named": 0,
+        "verified_count": 0,
+        "external_count": 0,
+        "all_verifications": [],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Tahini Harissa Chicken Bowl",
+      "audit": {
+        "total_named": 3,
+        "verified_count": 2,
+        "external_count": 1,
+        "all_verifications": [
+          {
+            "name": "K'Far",
+            "status": "verified",
+            "matched_in_db": "K'Far"
+          },
+          {
+            "name": "Laser",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Laser Wolf",
+            "status": "verified",
+            "matched_in_db": "Laser Wolf"
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: plantain",
+      "audit": {
+        "total_named": 0,
+        "verified_count": 0,
+        "external_count": 0,
+        "all_verifications": [],
+        "verdict": "OK"
+      }
+    }
+  ],
+  "mission": [
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Guac Bowl",
+      "audit": {
+        "total_named": 2,
+        "verified_count": 0,
+        "external_count": 2,
+        "all_verifications": [
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "ALL_EXTERNAL"
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Miso Kimchi Crunch Bowl",
+      "audit": {
+        "total_named": 2,
+        "verified_count": 0,
+        "external_count": 2,
+        "all_verifications": [
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "ALL_EXTERNAL"
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "total_named": 6,
+        "verified_count": 1,
+        "external_count": 5,
+        "all_verifications": [
+          {
+            "name": "Californios",
+            "status": "verified",
+            "matched_in_db": "Californios"
+          },
+          {
+            "name": "Chimichurri",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Red Chimichurri",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Verified Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "total_named": 7,
+        "verified_count": 1,
+        "external_count": 6,
+        "all_verifications": [
+          {
+            "name": "Californios",
+            "status": "verified",
+            "matched_in_db": "Californios"
+          },
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Harvest",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Harvest Bowl",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Shroomami",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Verified Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Harissa Honey Lentil Bowl",
+      "audit": {
+        "total_named": 7,
+        "verified_count": 0,
+        "external_count": 7,
+        "all_verifications": [
+          {
+            "name": "CAVA's Jan",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Chips",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Cream",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Onion Chips",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Sumac Sour Cream",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "ALL_EXTERNAL"
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: pesto",
+      "audit": {
+        "total_named": 7,
+        "verified_count": 2,
+        "external_count": 5,
+        "all_verifications": [
+          {
+            "name": "CAVA's Jan",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Delfina",
+            "status": "verified",
+            "matched_in_db": "Delfina Restaurant"
+          },
+          {
+            "name": "District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Greek",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Lazy Bear",
+            "status": "verified",
+            "matched_in_db": "Lazy Bear"
+          },
+          {
+            "name": "Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          },
+          {
+            "name": "Verified Mission District",
+            "status": "external_reference",
+            "matched_in_db": null
+          }
+        ],
+        "verdict": "OK"
+      }
+    }
+  ]
+}

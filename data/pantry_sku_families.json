@@ -1,0 +1,808 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "description": "Cuisine family tag per pantry SKU. 'universal' pairs with any family (rice, beans, lettuce, etc.). 'unclassified' need hand review. Tagged via two passes: vocab flavor substring + keyword heuristic.",
+    "total_skus": 158,
+    "by_family_count": {
+      "french": 1,
+      "korean": 3,
+      "universal": 59,
+      "plant_forward": 20,
+      "mediterranean": 27,
+      "mexican": 26,
+      "italian": 4,
+      "levantine": 6,
+      "north_african": 5,
+      "unclassified": 2,
+      "japanese": 3,
+      "pan_asian": 2
+    }
+  },
+  "skus": {
+    "greek vinaigrette (oregano, garlic, dijon)": {
+      "primary": "french",
+      "secondary": [],
+      "source": "keyword:dijon"
+    },
+    "apple kimchi": {
+      "primary": "korean",
+      "secondary": [],
+      "source": "vocab:kimchi"
+    },
+    "apple kimchi sauce": {
+      "primary": "korean",
+      "secondary": [],
+      "source": "vocab:kimchi"
+    },
+    "apples": {
+      "primary": "universal",
+      "source": "universal:apples"
+    },
+    "arugula": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:arugula"
+    },
+    "avocado": {
+      "primary": "universal",
+      "source": "universal:avocado"
+    },
+    "avocado oil": {
+      "primary": "universal",
+      "source": "universal:avocado"
+    },
+    "baby spinach": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:spinach"
+    },
+    "balsamic date vinaigrette": {
+      "primary": "mediterranean",
+      "secondary": [
+        "italian"
+      ],
+      "source": "keyword:balsamic"
+    },
+    "balsamic vinaigrette": {
+      "primary": "mediterranean",
+      "secondary": [
+        "italian"
+      ],
+      "source": "keyword:balsamic"
+    },
+    "balsamic vinegar": {
+      "primary": "mediterranean",
+      "secondary": [
+        "italian"
+      ],
+      "source": "keyword:balsamic"
+    },
+    "barbacoa (braised beef, chipotle, cumin)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:barbacoa"
+    },
+    "basil": {
+      "primary": "italian",
+      "secondary": [],
+      "source": "keyword:basil"
+    },
+    "black beans": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:black beans"
+    },
+    "black lentils": {
+      "primary": "mediterranean",
+      "secondary": [
+        "levantine",
+        "indian",
+        "plant_forward"
+      ],
+      "source": "vocab:lentils"
+    },
+    "blackened chicken": {
+      "primary": "universal",
+      "source": "universal:chicken"
+    },
+    "braised lamb (garlic, onion, turmeric, chili powder)": {
+      "primary": "levantine",
+      "secondary": [],
+      "source": "keyword:lamb"
+    },
+    "bread": {
+      "primary": "universal",
+      "source": "universal:bread"
+    },
+    "brown rice": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:brown rice"
+    },
+    "burrito bowl (no vessel)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:burrito"
+    },
+    "caesar": {
+      "primary": "universal",
+      "source": "universal:caesar"
+    },
+    "caesar dressing": {
+      "primary": "universal",
+      "source": "universal:dressing"
+    },
+    "caramelized garlic steak": {
+      "primary": "universal",
+      "source": "universal:garlic"
+    },
+    "carnitas (slow-roasted pork, juniper, thyme)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:carnitas"
+    },
+    "charred jalape\u00f1o ranch": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:jalape\u00f1o"
+    },
+    "chicken (adobo-marinated, grilled)": {
+      "primary": "universal",
+      "source": "universal:chicken"
+    },
+    "chicken al pastor (lto \u2014 pineapple, achiote, chipotle)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "vocab:al pastor"
+    },
+    "chickpeas": {
+      "primary": "levantine",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "keyword:chickpeas"
+    },
+    "chipotle honey vinaigrette": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:chipotle"
+    },
+    "chopped romaine": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:romaine"
+    },
+    "cilantro": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:cilantro"
+    },
+    "cilantro-lime brown rice": {
+      "primary": "plant_forward",
+      "secondary": [
+        "mexican"
+      ],
+      "source": "keyword:brown rice"
+    },
+    "cilantro-lime white rice": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:cilantro"
+    },
+    "citrus sesame vinaigrette": {
+      "primary": "universal",
+      "source": "universal:vinaigrette"
+    },
+    "classic pita chips": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:pita"
+    },
+    "corn salsa": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:salsa"
+    },
+    "corn salsa (mild \u2014 corn, poblano, red onion, jalape\u00f1o, lime)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:jalape\u00f1o"
+    },
+    "crazy feta (whipped feta, jalape\u00f1o)": {
+      "primary": "mexican",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "keyword:jalape\u00f1o"
+    },
+    "crispy brown rice": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:brown rice"
+    },
+    "crispy corn tortilla (taco)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:tortilla"
+    },
+    "crispy noodles": {
+      "primary": "universal",
+      "source": "universal:crispy"
+    },
+    "crispy onions": {
+      "primary": "universal",
+      "source": "universal:onions"
+    },
+    "crispy rice": {
+      "primary": "universal",
+      "source": "universal:rice"
+    },
+    "crumbled bacon": {
+      "primary": "universal",
+      "source": "universal:crumbled"
+    },
+    "crumbled feta": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:feta"
+    },
+    "crushed red pepper": {
+      "primary": "universal",
+      "source": "universal:pepper"
+    },
+    "cucumbers": {
+      "primary": "universal",
+      "source": "universal:cucumbers"
+    },
+    "extra virgin olive oil": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:olive"
+    },
+    "fajita veggies (grilled bell peppers, onions)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:fajita"
+    },
+    "falafel (chickpea, herbs, fried)": {
+      "primary": "levantine",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "keyword:chickpea"
+    },
+    "feta crumble": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:feta"
+    },
+    "fiery broccoli": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:broccoli"
+    },
+    "fire-roasted corn": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "flour tortilla (burrito)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:tortilla"
+    },
+    "flour tortilla (soft taco)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:tortilla"
+    },
+    "free side pita": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:pita"
+    },
+    "fresh tomato salsa (mild \u2014 tomato, onion, cilantro, lemon, lime)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:cilantro"
+    },
+    "garlic aioli": {
+      "primary": "universal",
+      "source": "universal:garlic"
+    },
+    "garlic breadcrumbs": {
+      "primary": "universal",
+      "source": "universal:garlic"
+    },
+    "garlic dressing": {
+      "primary": "universal",
+      "source": "universal:dressing"
+    },
+    "glazed salmon": {
+      "primary": "universal",
+      "source": "universal:salmon"
+    },
+    "goat cheese": {
+      "primary": "universal",
+      "source": "universal:goat cheese"
+    },
+    "golden quinoa": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:quinoa"
+    },
+    "grass-fed steak": {
+      "primary": "universal",
+      "source": "universal:steak"
+    },
+    "green goddess ranch": {
+      "primary": "universal",
+      "source": "universal:ranch"
+    },
+    "grilled chicken (lemon juice, mediterranean spices)": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:mediterranean"
+    },
+    "grilled steak (sous vide, grilled, sun-dried tomato, mediterranean spices)": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:mediterranean"
+    },
+    "guacamole (avocado, lime, cilantro, red onion, jalape\u00f1o)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:guacamole"
+    },
+    "hard boiled egg": {
+      "primary": "universal",
+      "source": "universal:egg"
+    },
+    "harissa (north african chili paste)": {
+      "primary": "north_african",
+      "secondary": [
+        "mediterranean",
+        "levantine"
+      ],
+      "source": "vocab:harissa"
+    },
+    "harissa honey chicken": {
+      "primary": "north_african",
+      "secondary": [
+        "mediterranean",
+        "levantine"
+      ],
+      "source": "vocab:harissa"
+    },
+    "honey bbq sauce": {
+      "primary": "universal",
+      "source": "universal:honey"
+    },
+    "hot harissa vinaigrette": {
+      "primary": "north_african",
+      "secondary": [
+        "mediterranean",
+        "levantine"
+      ],
+      "source": "vocab:harissa"
+    },
+    "hot honey mustard sauce": {
+      "primary": "universal",
+      "source": "universal:honey"
+    },
+    "hummus": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:hummus"
+    },
+    "just 6g of sugar": {
+      "primary": "unclassified",
+      "source": "fallback"
+    },
+    "kalamata olives (manolakos family, greece)": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:olives"
+    },
+    "kbbq dressing": {
+      "primary": "korean",
+      "secondary": [],
+      "source": "keyword:kbbq"
+    },
+    "lemon herb tahini": {
+      "primary": "levantine",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "vocab:tahini"
+    },
+    "lemon squeeze": {
+      "primary": "universal",
+      "source": "universal:lemon"
+    },
+    "lime cilantro jalape\u00f1o sauce": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:cilantro"
+    },
+    "lime squeeze": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:lime"
+    },
+    "miso glazed salmon": {
+      "primary": "japanese",
+      "secondary": [],
+      "source": "vocab:miso"
+    },
+    "miso sesame ginger": {
+      "primary": "japanese",
+      "secondary": [],
+      "source": "vocab:miso"
+    },
+    "napa cabbage slaw": {
+      "primary": "universal",
+      "source": "universal:cabbage"
+    },
+    "nori sesame seasoning": {
+      "primary": "japanese",
+      "secondary": [],
+      "source": "keyword:nori"
+    },
+    "organic arugula": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:arugula"
+    },
+    "organic baby spinach": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:spinach"
+    },
+    "organic shredded kale": {
+      "primary": "mediterranean",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "keyword:kale"
+    },
+    "organic spring mix": {
+      "primary": "universal",
+      "source": "universal:spring mix"
+    },
+    "parmesan crisps": {
+      "primary": "italian",
+      "secondary": [],
+      "source": "keyword:parmesan"
+    },
+    "persian cucumber": {
+      "primary": "universal",
+      "source": "universal:cucumber"
+    },
+    "pesto vinaigrette": {
+      "primary": "italian",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "vocab:pesto"
+    },
+    "pickled onions": {
+      "primary": "universal",
+      "source": "universal:onions"
+    },
+    "pinto beans": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:pinto"
+    },
+    "pita crisps": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:pita"
+    },
+    "power greens (butter lettuce, baby kale, spinach, heritage greens)": {
+      "primary": "plant_forward",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "keyword:butter lettuce"
+    },
+    "puffed millet\u2014naturally sweetened with honey date caramel": {
+      "primary": "universal",
+      "source": "universal:honey"
+    },
+    "queso blanco (white cheese, tomatillo, jalape\u00f1o, poblano)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:jalape\u00f1o"
+    },
+    "raw carrots": {
+      "primary": "universal",
+      "source": "universal:carrots"
+    },
+    "red pepper hummus": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:hummus"
+    },
+    "roasted almonds": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "roasted chicken": {
+      "primary": "universal",
+      "source": "universal:chicken"
+    },
+    "roasted eggplant dip": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "roasted sweet potatoes": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "roasted tofu": {
+      "primary": "pan_asian",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "vocab:tofu"
+    },
+    "roasted vegetables (brussels sprouts, carrots, cauliflower)": {
+      "primary": "plant_forward",
+      "secondary": [
+        "mediterranean",
+        "indian"
+      ],
+      "source": "vocab:cauliflower"
+    },
+    "romaine": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:romaine"
+    },
+    "romaine lettuce": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:romaine"
+    },
+    "romaine lettuce (shredded)": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:romaine"
+    },
+    "saffron basmati rice": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:saffron"
+    },
+    "salt-brined pickles": {
+      "primary": "universal",
+      "source": "universal:salt"
+    },
+    "sea salt": {
+      "primary": "universal",
+      "source": "universal:salt"
+    },
+    "sesame crunch": {
+      "primary": "universal",
+      "source": "universal:crunch"
+    },
+    "shaved parmesan": {
+      "primary": "italian",
+      "secondary": [],
+      "source": "keyword:parmesan"
+    },
+    "shredded cabbage": {
+      "primary": "universal",
+      "source": "universal:cabbage"
+    },
+    "shredded carrots": {
+      "primary": "universal",
+      "source": "universal:carrots"
+    },
+    "shredded kale": {
+      "primary": "mediterranean",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "keyword:kale"
+    },
+    "shredded monterey jack cheese": {
+      "primary": "universal",
+      "source": "universal:shredded"
+    },
+    "shredded romaine": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:romaine"
+    },
+    "side crazy feta": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:feta"
+    },
+    "side harissa": {
+      "primary": "north_african",
+      "secondary": [
+        "mediterranean",
+        "levantine"
+      ],
+      "source": "vocab:harissa"
+    },
+    "side hummus": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:hummus"
+    },
+    "side pita": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:pita"
+    },
+    "side red pepper hummus": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:hummus"
+    },
+    "side roasted eggplant": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "side tzatziki": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:tzatziki"
+    },
+    "skhug (yemeni green hot sauce)": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:skhug"
+    },
+    "sofritas (organic braised tofu, chipotle, roasted poblano)": {
+      "primary": "pan_asian",
+      "secondary": [
+        "plant_forward"
+      ],
+      "source": "vocab:tofu"
+    },
+    "sour cream": {
+      "primary": "universal",
+      "source": "universal:sour cream"
+    },
+    "spicy broccoli": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:broccoli"
+    },
+    "spicy cashew": {
+      "primary": "universal",
+      "source": "universal:spicy cashew"
+    },
+    "spicy lamb meatballs (harissa, cilantro, spiced)": {
+      "primary": "north_african",
+      "secondary": [
+        "mediterranean",
+        "levantine"
+      ],
+      "source": "vocab:harissa"
+    },
+    "spinach": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:spinach"
+    },
+    "spring mix": {
+      "primary": "universal",
+      "source": "universal:spring mix"
+    },
+    "steak (adobo-marinated, grilled)": {
+      "primary": "universal",
+      "source": "universal:steak"
+    },
+    "strawberry sesame": {
+      "primary": "universal",
+      "source": "universal:strawberry sesame"
+    },
+    "sumac slaw": {
+      "primary": "levantine",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "vocab:sumac"
+    },
+    "sumac sour cream + onion chips": {
+      "primary": "levantine",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "vocab:sumac"
+    },
+    "super greens (raw cabbage, chicory, brussels, broccoli, kale)": {
+      "primary": "plant_forward",
+      "secondary": [
+        "mediterranean"
+      ],
+      "source": "keyword:broccoli"
+    },
+    "sweetgreen hot sauce": {
+      "primary": "universal",
+      "source": "universal:hot sauce"
+    },
+    "tomatillo green chili salsa (medium \u2014 tomatillo, jalape\u00f1o, cilantro)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:cilantro"
+    },
+    "tomatillo red chili salsa (hot \u2014 dried red chili, chipotle, tomato)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:chipotle"
+    },
+    "tomatillo red chili salsa extra hot (habanero)": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:habanero"
+    },
+    "tomato + cucumber": {
+      "primary": "universal",
+      "source": "universal:tomato"
+    },
+    "tomato + onion (with oregano)": {
+      "primary": "universal",
+      "source": "universal:tomato"
+    },
+    "tomatoes": {
+      "primary": "universal",
+      "source": "universal:tomatoes"
+    },
+    "tortilla chips": {
+      "primary": "mexican",
+      "secondary": [],
+      "source": "keyword:tortilla"
+    },
+    "traditional hummus": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:hummus"
+    },
+    "tzatziki (greek yogurt, cucumber, dill)": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:tzatziki"
+    },
+    "umami seasoning": {
+      "primary": "universal",
+      "source": "universal:seasoning"
+    },
+    "warm portobello mix": {
+      "primary": "universal",
+      "source": "universal:portobello"
+    },
+    "warm roasted sweet potatoes": {
+      "primary": "universal",
+      "source": "universal:roasted"
+    },
+    "white cheddar": {
+      "primary": "universal",
+      "source": "universal:white cheddar"
+    },
+    "white rice": {
+      "primary": "universal",
+      "source": "universal:rice"
+    },
+    "wild": {
+      "primary": "unclassified",
+      "source": "fallback"
+    },
+    "wild rice": {
+      "primary": "plant_forward",
+      "secondary": [],
+      "source": "keyword:wild rice"
+    },
+    "yogurt dill": {
+      "primary": "mediterranean",
+      "secondary": [],
+      "source": "keyword:yogurt dill"
+    }
+  }
+}

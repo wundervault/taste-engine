@@ -1,0 +1,1072 @@
+{
+  "weho": [
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: truffle",
+      "audit": {
+        "audited": true,
+        "anchor": "truffle",
+        "anchor_families": [
+          "premium_universal",
+          "italian",
+          "french"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": []
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "kimchi",
+        "anchor_families": [
+          "korean"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "organic shredded kale",
+            "score": 0.95,
+            "families": [
+              "mediterranean",
+              "plant_forward"
+            ],
+            "best_pair": [
+              "korean",
+              "plant_forward"
+            ]
+          },
+          {
+            "ingredient": "miso glazed salmon",
+            "score": 0.85,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "korean",
+              "japanese"
+            ]
+          },
+          {
+            "ingredient": "apple kimchi",
+            "score": 1.0,
+            "families": [
+              "korean"
+            ],
+            "best_pair": [
+              "korean",
+              "korean"
+            ]
+          },
+          {
+            "ingredient": "nori sesame seasoning",
+            "score": 0.85,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "korean",
+              "japanese"
+            ]
+          },
+          {
+            "ingredient": "miso sesame ginger",
+            "score": 0.85,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "korean",
+              "japanese"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "audited": true,
+        "anchor": "mole",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "mole (sauce, shelf-stable per compute_lift_tier)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Honey-Chipotle Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "al pastor",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "cilantro-lime white rice",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "black beans",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "chicken al pastor (pineapple, achiote, chipotle)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "fajita veggies (grilled bell peppers, onions)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "fresh tomato salsa",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "corn salsa (poblano, red onion, jalape\u00f1o, lime)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "guacamole",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "chipotle honey vinaigrette drizzle",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "audited": true,
+        "anchor": "cauliflower",
+        "anchor_families": [
+          "plant_forward",
+          "mediterranean",
+          "indian"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "cauliflower (fresh produce per compute_lift_tier, kind=fresh_produce)",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mediterranean",
+              "indian"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Harissa Lentil Sumac Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "lentils",
+        "anchor_families": [
+          "mediterranean",
+          "levantine",
+          "indian",
+          "plant_forward"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "black lentils",
+            "score": 1.0,
+            "families": [
+              "mediterranean",
+              "levantine",
+              "indian",
+              "plant_forward"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "harissa honey chicken",
+            "score": 1.0,
+            "families": [
+              "north_african",
+              "mediterranean",
+              "levantine"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "crazy feta (whipped feta, jalape\u00f1o)",
+            "score": 1.0,
+            "families": [
+              "mexican",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "sumac slaw",
+            "score": 1.0,
+            "families": [
+              "levantine",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "hot harissa vinaigrette",
+            "score": 1.0,
+            "families": [
+              "north_african",
+              "mediterranean",
+              "levantine"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "williamsburg": [
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: jerk",
+      "audit": {
+        "audited": true,
+        "anchor": "jerk",
+        "anchor_families": [
+          "caribbean"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "thyme (spice_dried)",
+            "score": 0.8,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "caribbean",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "kimchi",
+        "anchor_families": [
+          "korean"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "organic shredded kale",
+            "score": 0.95,
+            "families": [
+              "mediterranean",
+              "plant_forward"
+            ],
+            "best_pair": [
+              "korean",
+              "plant_forward"
+            ]
+          },
+          {
+            "ingredient": "apple kimchi",
+            "score": 1.0,
+            "families": [
+              "korean"
+            ],
+            "best_pair": [
+              "korean",
+              "korean"
+            ]
+          },
+          {
+            "ingredient": "nori sesame seasoning",
+            "score": 0.85,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "korean",
+              "japanese"
+            ]
+          },
+          {
+            "ingredient": "miso sesame ginger",
+            "score": 0.85,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "korean",
+              "japanese"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: cauliflower",
+      "audit": {
+        "audited": true,
+        "anchor": "cauliflower",
+        "anchor_families": [
+          "plant_forward",
+          "mediterranean",
+          "indian"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "cauliflower (fresh produce \u2014 whole-roasted or florets)",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mediterranean",
+              "indian"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Honey Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "al pastor",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "cilantro-lime brown rice",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "black beans",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "chicken al pastor (pineapple, achiote, chipotle)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "fajita veggies (grilled bell peppers, onions)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "corn salsa",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "tomatillo green chili salsa",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "chipotle honey vinaigrette",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "guacamole",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Tahini Harissa Lamb Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "tahini",
+        "anchor_families": [
+          "levantine",
+          "mediterranean"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "saffron basmati rice",
+            "score": 1.0,
+            "families": [
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "braised lamb (garlic, onion, turmeric, chili powder)",
+            "score": 1.0,
+            "families": [
+              "levantine"
+            ],
+            "best_pair": [
+              "levantine",
+              "levantine"
+            ]
+          },
+          {
+            "ingredient": "harissa",
+            "score": 1.0,
+            "families": [
+              "north_african",
+              "mediterranean",
+              "levantine"
+            ],
+            "best_pair": [
+              "levantine",
+              "levantine"
+            ]
+          },
+          {
+            "ingredient": "lemon herb tahini",
+            "score": 1.0,
+            "families": [
+              "levantine",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "levantine",
+              "levantine"
+            ]
+          },
+          {
+            "ingredient": "crumbled feta",
+            "score": 1.0,
+            "families": [
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "sumac slaw",
+            "score": 1.0,
+            "families": [
+              "levantine",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "levantine",
+              "levantine"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: birria",
+      "audit": {
+        "audited": true,
+        "anchor": "birria",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": []
+      }
+    }
+  ],
+  "mission": [
+    {
+      "brand": "Chipotle",
+      "type": "ship_now",
+      "dish_name": "Al Pastor Guac Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "al pastor",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "cilantro-lime brown rice",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "black beans",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "chicken al pastor",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "fajita veggies",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "fresh tomato salsa",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "tomatillo green chili salsa",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          },
+          {
+            "ingredient": "guacamole",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "ship_now",
+      "dish_name": "Miso Kimchi Crunch Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "miso",
+        "anchor_families": [
+          "japanese"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "organic shredded kale",
+            "score": 0.95,
+            "families": [
+              "mediterranean",
+              "plant_forward"
+            ],
+            "best_pair": [
+              "japanese",
+              "plant_forward"
+            ]
+          },
+          {
+            "ingredient": "miso glazed salmon",
+            "score": 1.0,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "japanese",
+              "japanese"
+            ]
+          },
+          {
+            "ingredient": "apple kimchi",
+            "score": 0.85,
+            "families": [
+              "korean"
+            ],
+            "best_pair": [
+              "japanese",
+              "korean"
+            ]
+          },
+          {
+            "ingredient": "nori sesame seasoning",
+            "score": 1.0,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "japanese",
+              "japanese"
+            ]
+          },
+          {
+            "ingredient": "miso sesame ginger",
+            "score": 1.0,
+            "families": [
+              "japanese"
+            ],
+            "best_pair": [
+              "japanese",
+              "japanese"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "audited": true,
+        "anchor": "mole",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "mole (shelf-stable sauce SKU; could be mole negro or mole poblano base)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: mole",
+      "audit": {
+        "audited": true,
+        "anchor": "mole",
+        "anchor_families": [
+          "mexican"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "mole (shelf-stable sauce SKU; mole negro or mole poblano base)",
+            "score": 1.0,
+            "families": [
+              "mexican"
+            ],
+            "best_pair": [
+              "mexican",
+              "mexican"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "ship_now",
+      "dish_name": "Harissa Honey Lentil Bowl",
+      "audit": {
+        "audited": true,
+        "anchor": "lentils",
+        "anchor_families": [
+          "mediterranean",
+          "levantine",
+          "indian",
+          "plant_forward"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "black lentils",
+            "score": 1.0,
+            "families": [
+              "mediterranean",
+              "levantine",
+              "indian",
+              "plant_forward"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "super greens",
+            "score": 1.0,
+            "families": [
+              "plant_forward",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "harissa honey chicken",
+            "score": 1.0,
+            "families": [
+              "north_african",
+              "mediterranean",
+              "levantine"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "sumac slaw",
+            "score": 1.0,
+            "families": [
+              "levantine",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "crazy feta",
+            "score": 1.0,
+            "families": [
+              "mexican",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          },
+          {
+            "ingredient": "hot harissa vinaigrette",
+            "score": 1.0,
+            "families": [
+              "north_african",
+              "mediterranean",
+              "levantine"
+            ],
+            "best_pair": [
+              "mediterranean",
+              "mediterranean"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "type": "gap_fill",
+      "dish_name": "gap_fill: pesto",
+      "audit": {
+        "audited": true,
+        "anchor": "pesto",
+        "anchor_families": [
+          "italian",
+          "mediterranean"
+        ],
+        "incompatible_ingredients": [],
+        "borderline_ingredients": [],
+        "cross_family_justification_present": false,
+        "verdict": "OK",
+        "pair_log": [
+          {
+            "ingredient": "pesto (refrigerated or shelf-stable sauce SKU; basil/pine nut/parmesan/olive oil base)",
+            "score": 1.0,
+            "families": [
+              "italian",
+              "mediterranean"
+            ],
+            "best_pair": [
+              "italian",
+              "italian"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

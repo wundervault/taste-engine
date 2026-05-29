@@ -1,0 +1,18 @@
+# Tasteful warm palette designed to flatter Chipotle / CAVA / Sweetgreen aesthetics:
+# cream background, olive primary, terracotta accents. Food-warm, not SaaS-cool.
+
+[theme]
+base = "light"
+primaryColor = "#3D5A40"                 # deep olive — anchors links + active states
+backgroundColor = "#FAF7F2"              # warm cream
+secondaryBackgroundColor = "#F0EBE1"     # slightly darker cream for sidebar + cards
+textColor = "#2A2825"                    # warm charcoal
+font = "serif"
+
+[server]
+headless = true
+port = 8501
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false

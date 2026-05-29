@@ -1,0 +1,108 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Honey-Chipotle Bowl",
+    "tagline": "The relaunched hero, plated for WeHo: smoky-sweet chicken al pastor on cilantro-lime rice with fresh-tomato + corn salsa and a chipotle-honey vinaigrette drizzle.",
+    "ingredients": [
+      "cilantro-lime white rice",
+      "black beans",
+      "chicken al pastor (pineapple, achiote, chipotle)",
+      "fajita veggies (grilled bell peppers, onions)",
+      "fresh tomato salsa",
+      "corn salsa (poblano, red onion, jalape\u00f1o, lime)",
+      "guacamole",
+      "chipotle honey vinaigrette drizzle"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": 0.0,
+    "signal_rank_note": "Al pastor is not in the West Hollywood top-15 signal ranking; the local-evidence anchor here is the deliverable Chicken Al Pastor protein itself (7 competitive + 2 leading mentions in WeHo per get_evidence_counts) combined with Chipotle's own LTO equity. This is a pantry-anchored ship-now, not a top-of-signal play.",
+    "novelty_check": "Chipotle's existing_dishes list returned empty in get_brand_existing_dishes. Chicken Al Pastor is an active/recurring protein per LTO history (returned Feb 10, 2026 per Chipotle newsroom), but this specific bowl configuration with the chipotle-honey vinaigrette finish is a configuration, not a duplicate listed menu item.",
+    "confidence": 51,
+    "confidence_reason": "compute_confidence returned 51/100 for Chipotle \u00d7 al pastor \u00d7 West Hollywood. Components: trend 14.3, local 11.7, maturity 85 (Established), feasibility 100 (deliverable), recency 66.7, lto 100. Held back by modest WeHo trend and local density; propped up by max feasibility and a strong LTO record (newsroom.chipotle.com 2023-03-14 and 2026-01-27).",
+    "comp_context": "Mexican fine-casual in the WeHo trade area shows up in our scrape via Gracias Madre (verified via verify_restaurant_real). That gives a credible local reference point for smoke-and-citrus Mexican flavor profiles \u2014 useful as an aspirational ceiling, not a 1:1 comp."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": 0.881,
+    "missing_skus": [
+      "mole (sauce, shelf-stable per compute_lift_tier)"
+    ],
+    "dish_potential": "Mole is the #1 ranked flavor in West Hollywood per get_signal_ranking (signal 0.881, DMA trend 76.3, 31 indie mentions across 23 reviews) and has 19 competitive + 4 leading mentions locally per get_evidence_counts. A shelf-stable mole sauce SKU (added as a salsa-station drizzle, not a protein) would let Chipotle ship a 'Mole-Drizzled' build over existing barbacoa or chicken, addressing the highest WeHo signal without disturbing line ops. The brand has no mole LTO in its history (per get_brand_lto_history), so this is genuine white space \u2014 not a relaunch.",
+    "operational_lift": "Low per compute_lift_tier (1 missing SKU: mole, kind=sauce_shelf_stable, lift=low, portability=national). No fresh-cook or new-station requirements. Drizzle-format integration is the lowest-disruption way to introduce a new sauce in the Chipotle line.",
+    "comp_context": "Verified WeHo Mexican comp in our scrape: Gracias Madre (verified via verify_restaurant_real). Gracias Madre's plant-forward Mexican positioning is a useful adjacent reference for how mole reads to a WeHo audience \u2014 premium, ceremonial, Oaxaca-coded \u2014 even though Chipotle would deliver it at a very different price point."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Harissa Lentil Sumac Bowl",
+    "tagline": "Black lentils and harissa-honey chicken on super greens with crazy feta, sumac slaw, and a hot harissa vinaigrette finish \u2014 a Mediterranean protein-and-pulse build for the WeHo lunch crowd.",
+    "ingredients": [
+      "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+      "black lentils",
+      "harissa honey chicken",
+      "crazy feta (whipped feta, jalape\u00f1o)",
+      "sumac slaw",
+      "persian cucumber",
+      "pickled onions",
+      "hot harissa vinaigrette"
+    ],
+    "signal_term": "lentils",
+    "signal_score": 0.325,
+    "signal_rank_note": "Lentils sits at rank #14 in the West Hollywood top-15 (signal 0.325, DMA trend 41.6, 7 indie mentions per get_evidence_counts \u2014 3 competitive + 4 leading). Not a top-of-board signal but a real, deliverable Mediterranean anchor in a city where higher-ranked CAVA-compatible flavors (cauliflower, burrata, truffle) are not in the pantry. The build leans on harissa (deliverable, pantry-matched, pairing score 1.0 with lentils per get_pairing_score \u2014 same Mediterranean family) to add craveability.",
+    "novelty_check": "get_brand_existing_dishes returned an empty existing-dishes list for CAVA. Black lentils, harissa honey chicken, crazy feta and sumac slaw are all current pantry SKUs per get_brand_pantry; this configuration as a named bowl is not in the returned existing dishes.",
+    "confidence": 47,
+    "confidence_reason": "compute_confidence returned 47/100 for CAVA \u00d7 lentils \u00d7 West Hollywood. Components: trend 41.6, local 6.7 (the soft spot \u2014 lentils is real in WeHo but not loud), maturity 65 (Steady), feasibility 100 (deliverable), recency 71.4, lto 0. Score is honest about the local-density gap; lift_tier is low and the dish leans on harissa-honey chicken to carry craveability.",
+    "comp_context": "No verified WeHo Mediterranean comp surfaced in the restaurants I checked against verify_restaurant_real. The WeHo signal ranking itself (mole, miso, pesto, truffle dominating) tells us Mediterranean lentil dishes are an underserved adjacency rather than a crowded category here \u2014 which is the case for shipping it rather than a comp-driven one."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": 0.691,
+    "missing_skus": [
+      "cauliflower (fresh produce per compute_lift_tier, kind=fresh_produce)"
+    ],
+    "dish_potential": "Cauliflower is the #5 West Hollywood signal (signal 0.691, DMA trend 38.2, 47 indie mentions, 43 reviews per get_signal_ranking) and the only top-5 WeHo flavor that is unambiguously on-brand for CAVA's Mediterranean vegetable-forward identity. get_evidence_counts shows it deeply established locally: 14 competitive + 24 leading mentions across 38+ restaurants, recent_12mo_mentions 19. compute_confidence returns 62/100 \u2014 a respectable peer for the Steady/Rising tier. The play: roast a whole-floret cauliflower SKU (separate from the existing brussels/carrot/cauliflower roasted-veg mix, which currently buries it) and let it land as a hero with harissa, lemon herb tahini, sumac slaw and crazy feta \u2014 fully on-pantry around the missing piece.",
+    "operational_lift": "Medium per compute_lift_tier (1 missing SKU: cauliflower, kind=fresh_produce, lift=medium, portability=national). Fresh-produce additions carry more line burden than a sauce SKU, but CAVA already runs a roasted-vegetable station that includes a cauliflower component in the mix \u2014 the operational delta is spinning it off as its own portion rather than a wholly new prep stream.",
+    "comp_context": "No verified WeHo cauliflower-anchored Med spot surfaced in verify_restaurant_real. Crossroads Kitchen (verified) is the closest in-scrape reference \u2014 a high-profile WeHo plant-forward restaurant where vegetable-as-hero plating is the operating premise. It supports the read that WeHo diners will pay top-of-category prices for a cauliflower that's treated as the centerpiece, not a side."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Kimchi Crunch Bowl",
+    "tagline": "Apple kimchi and miso-glazed salmon over wild rice and shredded kale, finished with crispy rice, nori sesame, and a miso sesame ginger dressing \u2014 a Koreatown-adjacent build for WeHo.",
+    "ingredients": [
+      "wild rice",
+      "organic shredded kale",
+      "miso glazed salmon",
+      "apple kimchi",
+      "napa cabbage slaw",
+      "crispy rice",
+      "nori sesame seasoning",
+      "cucumbers",
+      "miso sesame ginger"
+    ],
+    "signal_term": "kimchi",
+    "signal_score": 0.536,
+    "signal_rank_note": "Kimchi is rank #8 in the West Hollywood top-15 (signal 0.536, DMA trend 50.5, 17 indie mentions per get_evidence_counts \u2014 16 competitive + 1 leading). The competitive-pool concentration (vs. just 1 leading mention) tells us kimchi is a working-class WeHo signal showing up in everyday Korean-adjacent spots more than at marquee venues \u2014 a good fit for a fast-casual price-point.",
+    "novelty_check": "Checked against Sweetgreen's existing_dishes list. Closest neighbors are Miso Glazed Salmon (a plate, not a bowl, and kimchi-free), Crispy Rice Bowl (no kimchi, no salmon as listed), and Saucy KBBQ Chicken (KBBQ-anchored, chicken protein, different sauce family). This build is differentiated by the apple kimchi + miso salmon pairing on a wild-rice + kale base, which doesn't match any listed dish by name or ingredient profile. Kimchi + miso pairing scored 0.85 (allowed, korean/japanese cross-family) per get_pairing_score.",
+    "confidence": 54,
+    "confidence_reason": "compute_confidence returned 54/100 for Sweetgreen \u00d7 kimchi \u00d7 West Hollywood. Components: trend 50.5, local 26.7, maturity 85 (Established), feasibility 100 (deliverable from current pantry), recency 29.4 (the weakness \u2014 only 5 of 17 mentions in last 12mo, suggesting kimchi has plateaued in WeHo indie reviews even as Google Trends stays warm), lto 0. Lift is low per compute_lift_tier.",
+    "comp_context": "No verified Koreatown-anchor WeHo restaurant surfaced via verify_restaurant_real in the names I checked (Genwa, Soban not in scrape). The local signal still reads as competitive-pool driven \u2014 16 of 17 mentions are competitive, meaning kimchi shows up at everyday spots that Sweetgreen's lunch customer is realistically substituting against, which is exactly the comp surface you want for a ship-now build."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "truffle",
+    "signal_score": 0.722,
+    "missing_skus": [
+      "truffle (specialty_premium per compute_lift_tier, kind=specialty_premium)"
+    ],
+    "dish_potential": "Truffle is the #4 West Hollywood signal (signal 0.722, DMA trend 44.3, 188 indie mentions across 158 reviews per get_signal_ranking) and produces the highest confidence score of any Sweetgreen gap-fill candidate I tested: 62/100 with a maximum local component (100), reflecting 74 competitive + 82 leading mentions across 38 restaurants and 85 recent-12mo mentions per get_evidence_counts. Maturity reads Peak \u2014 truffle is a saturated WeHo signifier and the question is whether Sweetgreen can monetize it at fast-casual price. The play: a truffle-oil-finished mushroom build over the existing warm portobello mix + shaved parmesan + parmesan crisps + garlic breadcrumbs SKUs, leaning on the existing Shroomami DNA but with a clear WeHo regional spin. Treated as a regional LTO (truffle is portability=regional per compute_lift_tier), not a national rollout.",
+    "operational_lift": "High per compute_lift_tier (1 missing SKU: truffle, kind=specialty_premium, lift=high, portability=regional). Specialty-premium SKUs carry meaningful cost, spoilage and training overhead; portability is regional, not national, which is why the recommendation explicitly frames this as a West Hollywood/LA-market LTO rather than a system play. compute_confidence was 62/100 \u2014 the strongest gap-fill score in this brief \u2014 which justifies the lift specifically here.",
+    "comp_context": "Verified WeHo truffle-heavy comps in our scrape: Cecconi's West Hollywood (verified) and The Henry (verified). Both are exactly the kind of higher-check-average venues where truffle is currently a core menu signifier in the neighborhood \u2014 they define the local taste reference Sweetgreen would be selling a fast-casual translation of. That positioning is opinion, not a verified brand-behavior claim."
+  }
+]

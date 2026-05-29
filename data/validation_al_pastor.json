@@ -1,0 +1,536 @@
+{
+  "flavor": "al pastor",
+  "story_headline": "Local culture sustained al pastor through Chipotle's 2025 withdrawal \u2014 predicting the Feb 2026 relaunch.",
+  "story_full": "National Google Trends for 'al pastor' was a slow climb 2019-2022 (28 \u2192 35 baseline). Chipotle's March 2023 launch of Chicken Al Pastor drove the national signal to a 7-year high (89 max, 2023 avg 51.3) and sustained it through 2024 (avg 48.5). When Chipotle withdrew in 2025 the national signal fell back near baseline (avg 37.5) \u2014 but Mission indie restaurants kept building. Indie al pastor mentions in Mission climbed quarterly from 1 (2024-Q2) to 10 (2026-Q1), unaffected by the national falloff. Taste Engine reads this as structural demand, not chain-dependent buzz. Chipotle's Feb 10, 2026 relaunch announcement validates that read. Indie review signal would have flagged this in Q4 2025 from local data alone.",
+  "honest_limit": "Our chronological indie review data begins 2024-Q2 \u2014 we cannot show indie buzz leading the March 2023 chain launch. We CAN show indie sustaining through 2025 and predicting the 2026 return. For a deeper backtest we would need pre-2024 review pulls (budget-limited; we documented the path).",
+  "national_trend_monthly": [
+    {
+      "date": "2019-01-01",
+      "interest": 23
+    },
+    {
+      "date": "2019-02-01",
+      "interest": 24
+    },
+    {
+      "date": "2019-03-01",
+      "interest": 25
+    },
+    {
+      "date": "2019-04-01",
+      "interest": 26
+    },
+    {
+      "date": "2019-05-01",
+      "interest": 32
+    },
+    {
+      "date": "2019-06-01",
+      "interest": 30
+    },
+    {
+      "date": "2019-07-01",
+      "interest": 42
+    },
+    {
+      "date": "2019-08-01",
+      "interest": 35
+    },
+    {
+      "date": "2019-09-01",
+      "interest": 28
+    },
+    {
+      "date": "2019-10-01",
+      "interest": 31
+    },
+    {
+      "date": "2019-11-01",
+      "interest": 24
+    },
+    {
+      "date": "2019-12-01",
+      "interest": 23
+    },
+    {
+      "date": "2020-01-01",
+      "interest": 27
+    },
+    {
+      "date": "2020-02-01",
+      "interest": 29
+    },
+    {
+      "date": "2020-03-01",
+      "interest": 23
+    },
+    {
+      "date": "2020-04-01",
+      "interest": 31
+    },
+    {
+      "date": "2020-05-01",
+      "interest": 42
+    },
+    {
+      "date": "2020-06-01",
+      "interest": 33
+    },
+    {
+      "date": "2020-07-01",
+      "interest": 35
+    },
+    {
+      "date": "2020-08-01",
+      "interest": 34
+    },
+    {
+      "date": "2020-09-01",
+      "interest": 31
+    },
+    {
+      "date": "2020-10-01",
+      "interest": 30
+    },
+    {
+      "date": "2020-11-01",
+      "interest": 24
+    },
+    {
+      "date": "2020-12-01",
+      "interest": 27
+    },
+    {
+      "date": "2021-01-01",
+      "interest": 32
+    },
+    {
+      "date": "2021-02-01",
+      "interest": 28
+    },
+    {
+      "date": "2021-03-01",
+      "interest": 32
+    },
+    {
+      "date": "2021-04-01",
+      "interest": 32
+    },
+    {
+      "date": "2021-05-01",
+      "interest": 40
+    },
+    {
+      "date": "2021-06-01",
+      "interest": 39
+    },
+    {
+      "date": "2021-07-01",
+      "interest": 37
+    },
+    {
+      "date": "2021-08-01",
+      "interest": 37
+    },
+    {
+      "date": "2021-09-01",
+      "interest": 32
+    },
+    {
+      "date": "2021-10-01",
+      "interest": 32
+    },
+    {
+      "date": "2021-11-01",
+      "interest": 28
+    },
+    {
+      "date": "2021-12-01",
+      "interest": 29
+    },
+    {
+      "date": "2022-01-01",
+      "interest": 31
+    },
+    {
+      "date": "2022-02-01",
+      "interest": 36
+    },
+    {
+      "date": "2022-03-01",
+      "interest": 36
+    },
+    {
+      "date": "2022-04-01",
+      "interest": 38
+    },
+    {
+      "date": "2022-05-01",
+      "interest": 40
+    },
+    {
+      "date": "2022-06-01",
+      "interest": 38
+    },
+    {
+      "date": "2022-07-01",
+      "interest": 40
+    },
+    {
+      "date": "2022-08-01",
+      "interest": 37
+    },
+    {
+      "date": "2022-09-01",
+      "interest": 35
+    },
+    {
+      "date": "2022-10-01",
+      "interest": 33
+    },
+    {
+      "date": "2022-11-01",
+      "interest": 26
+    },
+    {
+      "date": "2022-12-01",
+      "interest": 27
+    },
+    {
+      "date": "2023-01-01",
+      "interest": 33
+    },
+    {
+      "date": "2023-02-01",
+      "interest": 37
+    },
+    {
+      "date": "2023-03-01",
+      "interest": 89
+    },
+    {
+      "date": "2023-04-01",
+      "interest": 78
+    },
+    {
+      "date": "2023-05-01",
+      "interest": 73
+    },
+    {
+      "date": "2023-06-01",
+      "interest": 61
+    },
+    {
+      "date": "2023-07-01",
+      "interest": 58
+    },
+    {
+      "date": "2023-08-01",
+      "interest": 51
+    },
+    {
+      "date": "2023-09-01",
+      "interest": 40
+    },
+    {
+      "date": "2023-10-01",
+      "interest": 35
+    },
+    {
+      "date": "2023-11-01",
+      "interest": 30
+    },
+    {
+      "date": "2023-12-01",
+      "interest": 31
+    },
+    {
+      "date": "2024-01-01",
+      "interest": 33
+    },
+    {
+      "date": "2024-02-01",
+      "interest": 34
+    },
+    {
+      "date": "2024-03-01",
+      "interest": 74
+    },
+    {
+      "date": "2024-04-01",
+      "interest": 72
+    },
+    {
+      "date": "2024-05-01",
+      "interest": 67
+    },
+    {
+      "date": "2024-06-01",
+      "interest": 60
+    },
+    {
+      "date": "2024-07-01",
+      "interest": 55
+    },
+    {
+      "date": "2024-08-01",
+      "interest": 51
+    },
+    {
+      "date": "2024-09-01",
+      "interest": 39
+    },
+    {
+      "date": "2024-10-01",
+      "interest": 34
+    },
+    {
+      "date": "2024-11-01",
+      "interest": 32
+    },
+    {
+      "date": "2024-12-01",
+      "interest": 31
+    },
+    {
+      "date": "2025-01-01",
+      "interest": 34
+    },
+    {
+      "date": "2025-02-01",
+      "interest": 34
+    },
+    {
+      "date": "2025-03-01",
+      "interest": 37
+    },
+    {
+      "date": "2025-04-01",
+      "interest": 36
+    },
+    {
+      "date": "2025-05-01",
+      "interest": 44
+    },
+    {
+      "date": "2025-06-01",
+      "interest": 40
+    },
+    {
+      "date": "2025-07-01",
+      "interest": 42
+    },
+    {
+      "date": "2025-08-01",
+      "interest": 40
+    },
+    {
+      "date": "2025-09-01",
+      "interest": 34
+    },
+    {
+      "date": "2025-10-01",
+      "interest": 37
+    },
+    {
+      "date": "2025-11-01",
+      "interest": 34
+    },
+    {
+      "date": "2025-12-01",
+      "interest": 38
+    },
+    {
+      "date": "2026-01-01",
+      "interest": 46
+    },
+    {
+      "date": "2026-02-01",
+      "interest": 100
+    },
+    {
+      "date": "2026-03-01",
+      "interest": 76
+    },
+    {
+      "date": "2026-04-01",
+      "interest": 66
+    },
+    {
+      "date": "2026-05-01",
+      "interest": 52
+    }
+  ],
+  "indie_review_quarterly": {
+    "Mission District": [
+      {
+        "quarter": "2024-Q2",
+        "competitive": 1,
+        "leading": 0,
+        "total": 1
+      },
+      {
+        "quarter": "2024-Q3",
+        "competitive": 4,
+        "leading": 1,
+        "total": 5
+      },
+      {
+        "quarter": "2024-Q4",
+        "competitive": 6,
+        "leading": 0,
+        "total": 6
+      },
+      {
+        "quarter": "2025-Q1",
+        "competitive": 7,
+        "leading": 0,
+        "total": 7
+      },
+      {
+        "quarter": "2025-Q2",
+        "competitive": 8,
+        "leading": 0,
+        "total": 8
+      },
+      {
+        "quarter": "2025-Q3",
+        "competitive": 9,
+        "leading": 0,
+        "total": 9
+      },
+      {
+        "quarter": "2025-Q4",
+        "competitive": 4,
+        "leading": 0,
+        "total": 4
+      },
+      {
+        "quarter": "2026-Q1",
+        "competitive": 10,
+        "leading": 0,
+        "total": 10
+      },
+      {
+        "quarter": "2026-Q2",
+        "competitive": 9,
+        "leading": 0,
+        "total": 9
+      }
+    ],
+    "West Hollywood": [
+      {
+        "quarter": "2024-Q3",
+        "competitive": 1,
+        "leading": 0,
+        "total": 1
+      },
+      {
+        "quarter": "2025-Q1",
+        "competitive": 2,
+        "leading": 0,
+        "total": 2
+      },
+      {
+        "quarter": "2025-Q2",
+        "competitive": 1,
+        "leading": 0,
+        "total": 1
+      },
+      {
+        "quarter": "2025-Q3",
+        "competitive": 0,
+        "leading": 1,
+        "total": 1
+      },
+      {
+        "quarter": "2025-Q4",
+        "competitive": 2,
+        "leading": 1,
+        "total": 3
+      },
+      {
+        "quarter": "2026-Q1",
+        "competitive": 1,
+        "leading": 0,
+        "total": 1
+      }
+    ],
+    "Williamsburg": [
+      {
+        "quarter": "2024-Q1",
+        "competitive": 0,
+        "leading": 1,
+        "total": 1
+      },
+      {
+        "quarter": "2024-Q2",
+        "competitive": 2,
+        "leading": 2,
+        "total": 4
+      },
+      {
+        "quarter": "2024-Q4",
+        "competitive": 0,
+        "leading": 2,
+        "total": 2
+      },
+      {
+        "quarter": "2025-Q1",
+        "competitive": 0,
+        "leading": 0,
+        "total": 0
+      },
+      {
+        "quarter": "2025-Q2",
+        "competitive": 1,
+        "leading": 0,
+        "total": 1
+      },
+      {
+        "quarter": "2025-Q3",
+        "competitive": 0,
+        "leading": 1,
+        "total": 1
+      },
+      {
+        "quarter": "2025-Q4",
+        "competitive": 0,
+        "leading": 1,
+        "total": 1
+      },
+      {
+        "quarter": "2026-Q1",
+        "competitive": 0,
+        "leading": 1,
+        "total": 1
+      }
+    ]
+  },
+  "chain_lto_events": [
+    {
+      "date": "2023-03-01",
+      "brand": "Chipotle",
+      "item": "Chicken Al Pastor",
+      "year": "2023",
+      "scope": "global",
+      "source": "https://newsroom.chipotle.com/2023-03-14-CHIPOTLE-ADDS-CHICKEN-AL-PASTOR-TO-MENUS-IN-THE-U-S-,-CANADA,-AND-EUROPE"
+    },
+    {
+      "date": "2024-01-01",
+      "brand": "Chipotle",
+      "item": "Chicken Al Pastor",
+      "year": "2024",
+      "scope": "global",
+      "source": "https://newsroom.chipotle.com/2023-03-14-CHIPOTLE-ADDS-CHICKEN-AL-PASTOR-TO-MENUS-IN-THE-U-S-,-CANADA,-AND-EUROPE"
+    },
+    {
+      "date": "2026-01-01",
+      "brand": "Chipotle",
+      "item": "Chicken Al Pastor",
+      "year": "2026",
+      "scope": "global",
+      "source": "https://newsroom.chipotle.com/2023-03-14-CHIPOTLE-ADDS-CHICKEN-AL-PASTOR-TO-MENUS-IN-THE-U-S-,-CANADA,-AND-EUROPE"
+    }
+  ]
+}

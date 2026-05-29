@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "description": "Brand cuisine identity. A flavor is 'on-brand' if at least one of its cuisine families (excluding universal modifiers like premium_universal) appears in the brand's identity list. Off-brand flavors are NEVER recommended — they get filtered before the LLM picks an anchor. Sweetgreen has flexible=true because their identity is explicitly cross-cuisine.",
+    "long_shot_threshold": 50,
+    "note_on_threshold": "If the best on-brand candidate scores below 50 on the composite confidence scale, BOTH the ship_now and gap_fill recommendations are labeled 'long_shot' to be honest with the operator that the on-cuisine signal is weak this quarter.",
+    "note_on_modifiers": "premium_universal and plant_forward are 'modifiers' — they qualify a flavor as wellness or luxury, but they do NOT confer cuisine identity by themselves. A truffle (premium_universal + italian + french) is off-brand for Chipotle because none of italian/french appear in Chipotle's identity; the premium_universal modifier alone does not grant identity fit."
+  },
+  "brands": {
+    "Chipotle": {
+      "identity": ["mexican", "latin_american"],
+      "flexible": false,
+      "notes": "Mexican-American fast-casual. Recommendations stay in Mexican / Latin American cuisine. No Italian, French, East Asian, or Mediterranean suggestions — these read as off-brand extension asks, not quick wins."
+    },
+    "CAVA": {
+      "identity": ["mediterranean", "levantine", "north_african"],
+      "flexible": false,
+      "notes": "Mediterranean / Levantine fast-casual with North African (harissa, etc.) influences. Recommendations stay within this cuisine band."
+    },
+    "Sweetgreen": {
+      "identity": ["plant_forward", "mediterranean", "levantine", "mexican", "japanese", "korean", "italian", "american", "caribbean", "indian", "universal"],
+      "flexible": true,
+      "notes": "Cross-cuisine global bowls. Flexibility IS the identity. Has shipped miso glazed salmon (Japanese), pesto vinaigrette (Italian), apple kimchi (Korean), guac (Mexican), tahini dressings (Levantine), jerk (Caribbean) at various points. Effectively all flavors are potentially on-brand."
+    }
+  }
+}

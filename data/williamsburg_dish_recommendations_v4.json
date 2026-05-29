@@ -1,0 +1,121 @@
+[
+  {
+    "brand": "Chipotle",
+    "dish_name": "Jerk-Style Barbacoa Bowl",
+    "tagline": "Smoky braised beef meets island heat over cilantro-lime rice.",
+    "ingredients": [
+      "cilantro-lime brown rice",
+      "black beans",
+      "barbacoa",
+      "corn salsa",
+      "tomatillo red chili salsa",
+      "guacamole",
+      "romaine lettuce"
+    ],
+    "signal_term": "jerk",
+    "signal_score": "0.77",
+    "novelty_check": "Chipotle has no fixed dish list and currently offers no Caribbean-leaning build; this leverages the smoky chipotle/cumin barbacoa as a jerk analog with corn salsa for sweetness.",
+    "confidence": "HIGH",
+    "confidence_reason": "Jerk scored 0.77 \u2014 the highest signal on the board \u2014 with strong Williamsburg validation from Kokomo (21 local mentions across 18 reviews), and barbacoa's chipotle/cumin profile is the closest pantry match to jerk warmth."
+  },
+  {
+    "brand": "Chipotle",
+    "dish_name": "Birria-Style Carnitas Quesotaco",
+    "tagline": "Crispy cheese-laced tacos with slow-roasted pork and a hot red chili dip.",
+    "ingredients": [
+      "crispy corn tortilla (taco)",
+      "carnitas",
+      "queso blanco",
+      "shredded monterey jack cheese",
+      "tomatillo red chili salsa",
+      "fresh tomato salsa",
+      "cilantro-lime white rice"
+    ],
+    "signal_term": "birria",
+    "signal_score": "0.25",
+    "novelty_check": "Chipotle has no quesotaco or birria-style build on menu; this uses queso blanco + jack on a crispy corn tortilla with the hot red chili salsa as a consom\u00e9-style dip stand-in.",
+    "confidence": "MID",
+    "confidence_reason": "Birria's signal is modest at 0.25 but it has real local traction (4 mentions across 4 reviews near Ensenada's coastal Mexican audience) and birria-style tacos remain a viral national format."
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Charred Cauliflower + Tahini Bowl",
+    "tagline": "Fire-kissed roasted veg over saffron rice with lemon-herb tahini drizzle.",
+    "ingredients": [
+      "saffron basmati rice",
+      "roasted vegetables",
+      "fiery broccoli",
+      "lemon herb tahini",
+      "pickled onions",
+      "crumbled feta",
+      "persian cucumber",
+      "harissa"
+    ],
+    "signal_term": "cauliflower",
+    "signal_score": "0.50",
+    "novelty_check": "Centers cauliflower-forward roasted veg with tahini as the hero dressing \u2014 a distinct vegetable-led build versus CAVA's typical protein-anchored bowls.",
+    "confidence": "HIGH",
+    "confidence_reason": "Cauliflower scores 0.50 with strong local mentions (13 across 9 reviews) \u2014 Laser Wolf and K'Far have made charred cauliflower a Williamsburg Israeli signature, and tahini (0.28) reinforces it."
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Jerk-Spiced Harissa Honey Chicken Pita",
+    "tagline": "Caribbean heat meets North African sweet \u2014 wrapped and ready.",
+    "ingredients": [
+      "side pita",
+      "harissa honey chicken",
+      "sumac slaw",
+      "pickled onions",
+      "crazy feta",
+      "skhug",
+      "shredded romaine"
+    ],
+    "signal_term": "jerk",
+    "signal_score": "0.77",
+    "novelty_check": "CAVA has no Caribbean-leaning pita; harissa honey chicken + skhug + sumac slaw mimics jerk's sweet-spicy-herbal profile in a portable pita format.",
+    "confidence": "HIGH",
+    "confidence_reason": "Jerk is the #1 signal at 0.77 with 21 local mentions; harissa honey chicken's existing sweet-heat lane is the most natural pantry bridge to Kokomo-style jerk flavor."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Portobello Farro-Style Grain Bowl",
+    "tagline": "Umami-glazed mushrooms over wild rice with sesame crunch and crispy onions.",
+    "ingredients": [
+      "wild rice",
+      "warm portobello mix",
+      "miso sesame ginger",
+      "shredded cabbage",
+      "raw carrots",
+      "sesame crunch",
+      "crispy onions",
+      "nori sesame seasoning",
+      "umami seasoning"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.52",
+    "novelty_check": "Distinct from Shroomami (which uses kale/wasabi profile) and Miso Glazed Salmon \u2014 this is a wild-rice, portobello-led umami bowl with no salmon and a different base/topping architecture.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso scores 0.52 with consistent local mentions (13 across 12 reviews) and trends nationally at 60.8; the pantry already has miso sesame ginger dressing making this operationally trivial."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Kimchi Crunch Steak Bowl",
+    "tagline": "Apple kimchi, KBBQ steak, and crispy rice for max texture and tang.",
+    "ingredients": [
+      "white rice",
+      "grass-fed steak",
+      "apple kimchi",
+      "napa cabbage slaw",
+      "crispy rice",
+      "shredded cabbage",
+      "cilantro",
+      "kbbq dressing",
+      "sweetgreen hot sauce"
+    ],
+    "signal_term": "kimchi",
+    "signal_score": "0.42",
+    "novelty_check": "Saucy KBBQ Chicken uses chicken without kimchi as the hero; this is steak-led with apple kimchi front-and-center and a crispy-rice texture play that's not on any current menu item.",
+    "confidence": "MID",
+    "confidence_reason": "Kimchi scores 0.42 with 12 local mentions across 5 reviews showing concentrated Williamsburg enthusiasm; apple kimchi is already a premium SKU so operational lift is minimal."
+  }
+]

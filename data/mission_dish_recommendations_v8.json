@@ -1,0 +1,106 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Guac Bowl",
+    "tagline": "The hero LTO, anchored for a neighborhood where al pastor is everywhere.",
+    "ingredients": [
+      "cilantro-lime brown rice",
+      "black beans",
+      "chicken al pastor",
+      "fajita veggies",
+      "fresh tomato salsa",
+      "tomatillo green chili salsa",
+      "guacamole"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": 0.585,
+    "signal_rank_note": "Ranked #7 of 15 in Mission District signal ranking; 58 competitive mentions across 14 indie restaurants.",
+    "novelty_check": "Chipotle has no current menu dishes listed; this bowl configuration is not a duplicate. Chicken Al Pastor is in-pantry per LTO history (returned Feb 2026, sourced: newsroom.chipotle.com/2026-01-27).",
+    "confidence": 76,
+    "confidence_reason": "Composite 76/100: local=96.7, feasibility=100, lto=100, maturity=85 (Established). Lift tier: low \u2014 fully deliverable from current pantry; only achiote noted as adjacent SKU.",
+    "comp_context": "In the Mission, al pastor accumulates 59 total mentions across both competitive and leading indie pools. The flavor is mature/established in this DMA, so Chipotle's national al pastor program reads as on-trend rather than novel here \u2014 the play is to lean in with neighborhood-specific marketing rather than reformulation."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": 0.865,
+    "missing_skus": [
+      "mole (shelf-stable sauce SKU; could be mole negro or mole poblano base)"
+    ],
+    "dish_potential": "Mole is the #1 ranked signal in Mission District (signal_score 0.865, 132 reviews_hit, 92 competitive + 40 leading mentions across 12 indie restaurants). A 'Chicken Mole Bowl' or mole-drizzled burrito would slot naturally next to existing adobo chicken and steak proteins. Pairs cleanly with cilantro-lime rice, black beans, queso blanco, and fresh tomato salsa from current pantry. Verified comp: Californios (Mission District) serves mole on its tasting menu \u2014 a useful prestige reference point even though the price tier is very different.",
+    "operational_lift": "Low. compute_lift_tier returns lift=low, portability=national, with only one missing SKU (mole) classified as sauce_shelf_stable. Chipotle has a strong track record of adding single-SKU Mexican sauces as LTOs (Red Chimichurri launched Sept 2025 per newsroom.chipotle.com). No new equipment or station required \u2014 mole would deploy as a ladled sauce alongside existing salsas.",
+    "comp_context": "Verified Mission District comps with mole presence include Californios. 40 leading-pool mentions across 3 leading restaurants signal that mole is already a prestige flavor in the neighborhood, not an emerging one \u2014 Chipotle would be entering a mature category rather than seeding it."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Harissa Honey Lentil Bowl",
+    "tagline": "A black lentil base under harissa honey chicken and sumac slaw \u2014 Mediterranean depth, all in-pantry.",
+    "ingredients": [
+      "black lentils",
+      "super greens",
+      "harissa honey chicken",
+      "sumac slaw",
+      "pickled onions",
+      "crazy feta",
+      "hot harissa vinaigrette",
+      "persian cucumber"
+    ],
+    "signal_term": "lentils",
+    "signal_score": 0.353,
+    "signal_rank_note": "Lentils ranked #13 of 15 in Mission District signal ranking (signal_score 0.353, trend 46.0). Harissa pairs with lentils at score 1.0 (mediterranean/mediterranean) and harissa pairs with sumac at score 1.0 \u2014 a clean in-family stack.",
+    "novelty_check": "CAVA has no existing dishes listed by the brand API; this configuration combines black lentils (base) + harissa honey chicken (protein) + sumac slaw (new 2026 SKU) + crazy feta. All eight ingredients verified in CAVA pantry. No duplication of any known existing CAVA bowl.",
+    "confidence": 51,
+    "confidence_reason": "Composite 51/100 for lentils anchor: trend=46.0, feasibility=100, maturity=85 (Established), local=8.3. Honest read: local indie signal for 'lentils' specifically is modest (5 competitive + 1 leading mention), but the dish leverages two LTO-recent CAVA assets (Sumac Slaw + Harissa Honey Chicken, both from CAVA's Jan 2026 largest-menu-launch-ever per businesswire.com/news/home/20260105919368) which carry their own brand momentum independent of the lentils signal.",
+    "comp_context": "Mission District lentils evidence: 5 competitive mentions across 4 restaurants, 1 leading mention. The dish leans on CAVA's own 2026 menu launch (Sumac Slaw, Sumac Sour Cream + Onion Chips) as the freshness lever rather than on a dominant Mission flavor \u2014 honest positioning: this is a 'use what's new and pantry-deliverable' play, not a 'chase the #1 neighborhood signal' play."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "pesto",
+    "signal_score": 0.855,
+    "missing_skus": [
+      "pesto (refrigerated or shelf-stable sauce SKU; basil/pine nut/parmesan/olive oil base)"
+    ],
+    "dish_potential": "Pesto is the #2 ranked signal in Mission District (signal_score 0.855, trend 71.0, 35 total mentions split evenly 18 competitive / 17 leading across 7+7 restaurants \u2014 unusually balanced between mass-market and prestige pools). Pesto would slot natively into CAVA's Mediterranean frame, riding the same Greek/Italian/Levantine flexibility CAVA already exhibits with crazy feta, kalamata olives, and oregano-finished tomato + onion. Verified Mission District comps with pesto-adjacent menus include Delfina (Italian) and Lazy Bear \u2014 the latter as a high-end signal carrier. A 'Pesto Chicken Bowl' over arugula + saffron basmati would not duplicate any current CAVA dish.",
+    "operational_lift": "Low. compute_lift_tier returns lift=low, portability=national, with 1 missing SKU (pesto) classified as sauce_refrigerated_or_shelf. CAVA's Jan 2026 menu launch (businesswire.com/news/home/20260105919368) demonstrates the brand can execute multi-SKU additions; a single sauce add is well within demonstrated lift capacity.",
+    "comp_context": "Mission District pesto evidence: 18 competitive + 17 leading mentions, across 7 competitive and 7 leading restaurants \u2014 strong dual-pool coverage. Verified Mission District comps include Delfina (Italian-focused) and Lazy Bear. The signal_score 0.855 puts pesto second only to mole; for a Mediterranean-positioned brand, this is a higher-fit gap than mole would be."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Kimchi Crunch Bowl",
+    "tagline": "Miso-ginger over crispy rice with apple kimchi \u2014 a Mission-tuned remix of Sweetgreen's miso program.",
+    "ingredients": [
+      "wild rice",
+      "organic shredded kale",
+      "miso glazed salmon",
+      "apple kimchi",
+      "crispy rice",
+      "napa cabbage slaw",
+      "nori sesame seasoning",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": 0.828,
+    "signal_rank_note": "Miso ranked #3 of 15 in Mission District (signal_score 0.828, trend 65.5). Miso pairs with kimchi at score 0.85 (japanese/korean, allowed). Distinct from existing 'Miso Glazed Salmon' (plate format, no kimchi/crispy rice axis) and 'Crispy Rice Bowl' (no miso anchor).",
+    "novelty_check": "Cross-checked against Sweetgreen's existing dishes list (27 items). 'Miso Glazed Salmon' exists as a plate but does not include apple kimchi, crispy rice, miso sesame ginger dressing, or napa cabbage slaw in a unified bowl format. 'Crispy Rice Bowl' exists but is not miso-anchored. This dish stacks two Sweetgreen LTO-promoted assets (Miso Glazed Salmon, sourced businesswire.com/news/home/20231024385806; crispy rice from current pantry) into a new combination.",
+    "confidence": 68,
+    "confidence_reason": "Composite 68/100: trend=65.5, local=41.7, maturity=95 (Rising), feasibility=100, lto=100. Lift tier: low \u2014 every ingredient deliverable from current Sweetgreen pantry. The 95 maturity + 65.5 trend combination is the rare 'rising + already validated' profile.",
+    "comp_context": "Mission District miso evidence: 25 leading mentions across 5 leading restaurants (the highest leading-pool concentration of any flavor in the top 5 for this neighborhood) plus 10 competitive mentions across 4 restaurants. This skew toward leading-pool indicates miso reads as a prestige flavor in the Mission \u2014 favorable territory for Sweetgreen's positioning. Sweetgreen's own Oct 2023 dinner launch built the brand's miso credibility (Miso Glazed Salmon Plate, sourced businesswire); a Mission-tuned remix extends that equity."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "mole",
+    "signal_score": 0.865,
+    "missing_skus": [
+      "mole (shelf-stable sauce SKU; mole negro or mole poblano base)"
+    ],
+    "dish_potential": "Mole is the #1 ranked signal in Mission District (signal_score 0.865, 132 reviews_hit, 92 competitive + 40 leading mentions across 12 indie restaurants \u2014 the strongest combined signal in the dataset). A mole-glazed chicken or mole-drizzled roasted sweet potato bowl would slot into Sweetgreen's existing warm-bowl architecture (Harvest Bowl, Shroomami precedent) without disrupting the cold-line. Verified Mission District comp: Californios carries mole on its tasting menu \u2014 prestige validation. Pairs cleanly with wild rice, shredded kale, roasted sweet potatoes, pickled onions, and goat cheese from current Sweetgreen pantry.",
+    "operational_lift": "Low. compute_lift_tier returns lift=low, portability=national, with 1 missing SKU (mole) classified as sauce_shelf_stable. Sweetgreen has demonstrated capacity to add sauce-led dinner items (Miso Glazed Salmon Plate, Oct 2023, sourced businesswire.com/news/home/20231024385806) without new station builds.",
+    "comp_context": "Mission District mole evidence: 92 competitive mentions across 9 restaurants + 40 leading mentions across 3 restaurants (132 total reviews_hit). Verified Mission District comp Californios uses mole at the prestige end. The dual-pool depth (mass + leading) means mole reads simultaneously as a neighborhood staple and a prestige flavor \u2014 unusual coverage for a single ingredient and the strongest gap-fill case in this dataset."
+  }
+]

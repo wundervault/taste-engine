@@ -1,0 +1,103 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Taco Plate",
+    "tagline": "Achiote-pineapple marinated chicken al pastor, crispy corn shells, charred corn salsa, and a cool crema finish.",
+    "ingredients": [
+      "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "crispy corn tortilla (taco)",
+      "corn salsa",
+      "guacamole",
+      "sour cream",
+      "cilantro-lime white rice",
+      "black beans"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.29",
+    "signal_rank_note": "Al pastor is an emerging-tier signal in WeHo (0.29) \u2014 not the city's loudest Mexican flavor, but Chipotle has shipped Chicken Al Pastor as an LTO in 2023, 2024, and 2026, so the supply chain and ops playbook are warm. This is relaunch timing intelligence, not a cold start.",
+    "novelty_check": "Builds a dedicated taco plate format around the active al pastor LTO with corn salsa as the headline elote-adjacent element and sour cream standing in for crema \u2014 distinct from the standard burrito/bowl assembly default.",
+    "confidence": "MID",
+    "confidence_reason": "Local signal is modest (0.29) but the LTO has been re-shipped four times including 2026, meaning demand has been validated nationally. WeHo's Mexican-fusion openness (Gracias Madre nearby) supports the plate format."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": "0.88",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A Mole Chicken Bowl or Mole Burrito built on the existing adobo chicken and cilantro-lime rice base \u2014 opens a premium-sauce LTO line that finally lets Chipotle deliver an honest mole instead of routing customers to the tomatillo red chili salsa as a stand-in.",
+    "operational_lift": "Mole is a single ladled sauce SKU on the line \u2014 same dispense motion as queso blanco, no new prep station required.",
+    "comp_context": "Gracias Madre on Melrose is the WeHo benchmark \u2014 their mole-forward plant-based plates pull a health-conscious crowd that would convert on a Chipotle mole bowl built over sofritas or chicken."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Black Lentil + Harissa Bowl",
+    "tagline": "Black lentils over saffron basmati with harissa honey chicken, fiery broccoli, and a lemon herb tahini finish.",
+    "ingredients": [
+      "black lentils",
+      "saffron basmati rice",
+      "harissa honey chicken",
+      "fiery broccoli",
+      "pickled onions",
+      "persian cucumber",
+      "lemon herb tahini",
+      "side harissa"
+    ],
+    "signal_term": "lentils",
+    "signal_score": "0.33",
+    "signal_rank_note": "Lentils sit in the notable band (0.33) in WeHo \u2014 not a chart-topper, but it's the strongest in-pantry anchor CAVA has and pairs cleanly with the harissa and tahini infrastructure already on the line.",
+    "novelty_check": "CAVA's assembly line allows infinite combos; this specific build foregrounds black lentils as the carb-anchor (not just a topping) layered with harissa honey chicken \u2014 a composition CAVA hasn't merchandised as a named bowl.",
+    "confidence": "MID",
+    "confidence_reason": "Three compatible high-confidence pantry pulls (lentils, harissa, tahini) all appear in the deliverable list. Mediterranean-leaning WeHo crowd (Open Sesame lineage) responds to lentil-forward plates."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.69",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "A Roasted Cauliflower + Harissa Bowl and a Cauliflower Shawarma pita \u2014 cauliflower slots cleanly next to the existing roasted vegetables station and unlocks a plant-forward headline protein alternative to falafel, which is the single biggest WeHo-vegan gap in CAVA's lineup.",
+    "operational_lift": "Cauliflower roasts on the same sheet-pan cycle as the existing brussels/carrots mix \u2014 one new SKU, zero new equipment, drop-in to the roasted vegetables prep flow.",
+    "comp_context": "Crossroads Kitchen on Melrose anchors the WeHo vegan-Mediterranean category with cauliflower-forward plates; a CAVA cauliflower bowl would close that gap at fast-casual price points."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Salmon Furikake Bowl",
+    "tagline": "Miso glazed salmon over wild rice with nori sesame seasoning, crispy rice, shredded cabbage, and miso sesame ginger.",
+    "ingredients": [
+      "wild rice",
+      "miso glazed salmon",
+      "nori sesame seasoning",
+      "crispy rice",
+      "shredded cabbage",
+      "cucumbers",
+      "avocado",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.81",
+    "signal_rank_note": "Miso is a top-tier WeHo signal (0.81) and Sweetgreen has shipped the Miso Glazed Salmon Plate since 2023 \u2014 this is a furikake-forward repositioning of a proven LTO rather than a cold start, leaning into the nori sesame seasoning that's already on the topping line.",
+    "novelty_check": "Distinct from the existing Miso Glazed Salmon plate by anchoring nori sesame (furikake) as a named headline element on wild rice with crispy rice texture \u2014 a different bowl architecture than the current miso salmon plate.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso scores 0.81 locally, the salmon LTO is active and proven since 2023, and every ingredient is already on the BYO line. Moonbowls' WeHo presence confirms appetite for Japanese-leaning rice bowls."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "burrata",
+    "signal_score": "0.59",
+    "missing_skus": [
+      "burrata"
+    ],
+    "dish_potential": "A Burrata Pesto Plate and Burrata Tomato Bowl \u2014 pairs with the existing pesto vinaigrette and tomatoes to open a premium Italian-leaning line that complements the Chicken Pesto Parm without cannibalizing it, and gives Sweetgreen a true craveable cheese moment beyond feta crumble and parmesan.",
+    "operational_lift": "Burrata is a cold premium-protein SKU \u2014 same handling as the feta crumble / goat cheese stations, portioned per bowl, no cook step.",
+    "comp_context": "Independent Italian-Mediterranean spots in WeHo (and Crossroads Kitchen's vegan burrata moment) have normalized burrata as the premium cheese signal in this DMA \u2014 Sweetgreen is the only fast-casual that can ship it with pesto already in pantry."
+  }
+]

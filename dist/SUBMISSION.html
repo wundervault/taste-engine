@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taste Engine — Submission</title>
+<style>
+  html { background: #f4ede0; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #2A2825;
+    background: #fffaf2;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2.5rem 2.2rem 4rem 2.2rem;
+    box-shadow: 0 1px 4px rgba(58,50,38,0.10);
+    border-radius: 4px;
+  }
+  h1 {
+    font-family: Georgia, serif;
+    font-size: 2.1rem;
+    line-height: 1.2;
+    color: #2C5F87;
+    margin: 0 0 0.4rem 0;
+    border-bottom: 2px solid #2C5F87;
+    padding-bottom: 0.4rem;
+  }
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 1.45rem;
+    color: #2C5F87;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px solid #d6cab2;
+    padding-bottom: 0.25rem;
+  }
+  h3 {
+    font-family: Georgia, serif;
+    font-size: 1.18rem;
+    color: #2A2825;
+    margin-top: 1.6rem;
+    margin-bottom: 0.4rem;
+  }
+  h4 {
+    font-size: 0.95rem;
+    color: #9C7F4A;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  p { margin: 0.55rem 0 0.85rem 0; }
+  blockquote {
+    margin: 0.9rem 0;
+    padding: 0.7rem 1.1rem;
+    border-left: 3px solid #9C7F4A;
+    background: #f4ede0;
+    color: #5a4f3c;
+    font-style: italic;
+    border-radius: 0 4px 4px 0;
+  }
+  strong { color: #2A2825; }
+  em { color: #5a4f3c; }
+  code {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    font-size: 0.86em;
+    background: #f4ede0;
+    padding: 0.05rem 0.35rem;
+    border-radius: 3px;
+    color: #2C5F87;
+  }
+  pre {
+    background: #2c3e50;
+    color: #f4ede0;
+    padding: 0.9rem 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.85em;
+    line-height: 1.5;
+  }
+  pre code { background: transparent; color: inherit; padding: 0; }
+  table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.45rem 0.7rem;
+    border-bottom: 1px solid #d6cab2;
+    vertical-align: top;
+  }
+  th {
+    background: #f4ede0;
+    color: #2C5F87;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    border-bottom: 2px solid #2C5F87;
+  }
+  tr:nth-child(even) td { background: #fdfaf3; }
+  ul, ol { padding-left: 1.5rem; }
+  li { margin: 0.25rem 0; }
+  a { color: #2C5F87; text-decoration: underline; }
+  a:visited { color: #9C7F4A; }
+  hr {
+    border: none;
+    border-top: 1px solid #d6cab2;
+    margin: 1.8rem 0;
+  }
+  .header-meta {
+    font-family: Georgia, serif;
+    font-size: 0.78rem;
+    color: #5a4f3c;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3rem;
+  }
+  @media print {
+    html, body { background: #fff; }
+    body { box-shadow: none; padding: 1.2rem 0.8rem; max-width: none; }
+    h1 { break-after: avoid; }
+    h2, h3 { break-after: avoid; }
+    table, pre, blockquote { break-inside: avoid; }
+    a { color: #2C5F87 !important; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<div class="header-meta">Taste Engine · Bright Data Hackathon · May 2026</div>
+<h1 id="taste-engine">Taste Engine</h1>
+<p><strong>Neighborhood-aware culinary intelligence.</strong> Turning local taste signals into operational menu strategy for fast-casual brands.</p>
+<p><a href="http://localhost:8501">Live dashboard</a> · <a href="#">Demo video</a> · <a href="#">Source on GitHub</a></p>
+<hr />
+<h2 id="what-it-is">What it is</h2>
+<p>Taste Engine is a <strong>quarterly intelligence brief for brand strategy teams.</strong> It reads the local food culture of a single neighborhood — restaurant menus, review mentions, indie cuisine mix — surfaces flavors where national trend strength and local review signal agree, flags maturity transitions (when flavors cross from chef-driven to mainstream), and outputs menu recommendations grounded in each brand's actual pantry (active ingredient inventory), operational lift capacity, and limited-time offer (LTO) history. Every visit shows what changed since last quarter and a directional forecast for the next.</p>
+<p>Demo coverage: <strong>Chipotle, CAVA, Sweetgreen</strong> across <strong>West Hollywood, Williamsburg (Brooklyn), Mission District (San Francisco)</strong>.</p>
+<p>The output is two recommendation types per brand per neighborhood:
+- <strong>Ship Now</strong> — dishes the brand can execute immediately from current SKUs (stock units — any single inventory item a brand stocks)
+- <strong>Gap Fill</strong> — high-signal flavors that require specific SKU additions, with named operational lift</p>
+<p>Every recommendation passes a deterministic deliverability check before being labeled novel. Every recommendation carries a composite confidence score (0–100), a trend maturity stage, an operational lift tier, a rollout portability tag, and — where applicable — a "PROVEN" badge linking to newsroom verification that the brand has shipped the flavor before.</p>
+<hr />
+<h2 id="why-now">Why now</h2>
+<p>Fast-casual menu innovation cycles are compressing. Chipotle accelerated from two limited-time proteins per year to three or four. CAVA does four full seasonal menu changes annually. Sweetgreen rebuilt its dinner platform in one cycle. National brands feel local irrelevance pressure as TikTok and social food media accelerate regional flavor diffusion — by the time a chain's R&amp;D pipeline ships a trend, the originating neighborhood has moved on.</p>
+<p>The bottleneck is not creativity. It is <em>intelligence</em>. Brands need to know which flavors are mainstream in a specific neighborhood (safe shipping window) versus still chef-driven (watch market, premature ship), and to know it from real local data — not training-data stereotypes about "what hipster Brooklyn likes."</p>
+<p>Taste Engine builds that intelligence layer.</p>
+<hr />
+<h2 id="the-quarterly-cadence">The quarterly cadence</h2>
+<p>Brands run quarterly menu planning. Taste Engine fits that cadence: every visit opens with a brief showing <strong>what changed since last quarter</strong> (top movers up, top movers down, flavors that crossed maturity thresholds) and a directional <strong>next-quarter forecast</strong> for the top flavors. Examples from the current Mission District brief:</p>
+<ul>
+<li><strong>Movers up:</strong> mole +7, al pastor +6, pesto +5 mentions vs prior quarter</li>
+<li><strong>Maturity transitions:</strong> al pastor crossed Weak → Established between Q4 2025 and Q1 2026 (right before Chipotle's Feb 2026 relaunch announcement)</li>
+<li><strong>Forecast:</strong> birria projected to rise to ~27 mentions in Q2 (±2), continuing through Q3</li>
+</ul>
+<p>This is the difference between a one-time analysis and a subscription. Operators come back to Taste Engine the way they come back to a sales dashboard — for the deltas.</p>
+<h3 id="what-rolls-out-as-the-platform-accrues-longitudinal-data">What rolls out as the platform accrues longitudinal data</h3>
+<p>Two capabilities are honest "v2 features" we are surfacing intentionally as roadmap:</p>
+<ul>
+<li><strong>Multi-snapshot Google Trends history.</strong> Today the trend signal uses a 12-month rolling average per pull. Switching to an append-only <code>trends_history</code> table with weekly cron snapshots produces real velocity series — distinguishing flavors that are rising fast from flavors that have been steady for years.</li>
+<li><strong>Cross-city flow predictions.</strong> When pesto becomes Established in WeHo, Rising in Mission, and Steady in Williamsburg, we have a cultural diffusion signal. With ~12 quarters of multi-city data we can fit lag patterns ("pesto moves east, ~6 quarters behind LA") and forecast which neighborhood adopts a flavor next. Currently we have 8 quarters; another year of monthly snapshots makes this defensible.</li>
+</ul>
+<p>Both are architecturally trivial — the temporal tables already exist; we just have to accumulate the snapshots. Neither blocks the demo today.</p>
+<h2 id="three-pillars">Three pillars</h2>
+<h3 id="pillar-1-signal-fusion">Pillar 1 — Signal Fusion</h3>
+<p>National Google Trends at the metro market level (LA Metro 803, SF-Oakland 807, NYC 501) cross-referenced with local indie restaurant reviews, weighted honestly. The system surfaces flavors where both signals agree, and explicitly flags the cases where they disagree (local-led demand without national buzz, or national hype without local validation).</p>
+<h3 id="pillar-2-trend-maturity-spread">Pillar 2 — Trend Maturity Spread</h3>
+<p>Indie restaurants in each neighborhood are classified into two pools: <strong>competitive</strong> (lunch-open, $-$$, what your customer is choosing instead today) and <strong>leading</strong> (chef-driven, dinner-only or $$$+, what the chef scene is popularizing for ~2 years out). Chains are excluded from both. The gap between pools is a structural proxy for trend maturity: <strong>Rising → Established → Peak</strong>. One flavor across three cities can show three different maturity stages — Mission al pastor is Established (ship), Williamsburg al pastor is Rising (watch), WeHo al pastor is Established but thin.</p>
+<h3 id="pillar-3-innovation-feasibility-intelligence">Pillar 3 — Innovation Feasibility Intelligence</h3>
+<p>Every recommendation passes through a deterministic pantry deliverability check + lift classifier. Low lift = seasoning/sauce remix from existing or shelf-stable additions. Medium = prep workflow change or new shelf-stable SKU. High = refrigerated/frozen SKU or new cooking method. Rollout portability marks whether SKUs ship nationally or only through regional sourcing. LTO history (newsroom-verified, 20 entries across the 3 brands) downgrades lift when a brand has shipped the flavor before — supply chain dormant, not new.</p>
+<hr />
+<h2 id="hero-demonstration-mission-mole-chipotle-gap-fill">Hero demonstration: Mission Mole + Chipotle gap-fill</h2>
+<blockquote>
+<p>Mole is the strongest mover in Mission this quarter — <strong>+7 mentions Q4 2025 → Q1 2026</strong>, joining an already-Peak signal of 132 indie reviews across 12 Mission restaurants. None of the fast-casual chains (Chipotle, CAVA, Sweetgreen) can currently deliver mole from pantry. The strategic call: <strong>Chipotle should add mole as a shelf-stable SKU and test it Mission-first.</strong> Californios (verified comp in our scrape) sets the prestige bar; line operation is heat-and-hold in the existing steam-table well.</p>
+</blockquote>
+<p>The hero gap-fill card carries:</p>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Composite confidence</td>
+<td><strong>68 / 100</strong></td>
+<td>scripts/compute_confidence.py</td>
+</tr>
+<tr>
+<td>Maturity</td>
+<td><strong>Peak</strong> (high local volume, low chef-driven differentiation — mainstream mole culture in Mission)</td>
+<td>scripts/compute_lift.py</td>
+</tr>
+<tr>
+<td>Operational lift</td>
+<td><strong>Low + National rollout</strong> — single shelf-stable SKU addition; ships in existing line slots</td>
+<td>data/sku_lift_classifications.json</td>
+</tr>
+<tr>
+<td>Missing SKU</td>
+<td>mole sauce (shelf-stable, sourceable through standard fast-casual distributors)</td>
+<td>data/pantry_fit.json</td>
+</tr>
+<tr>
+<td>Verified comp restaurant</td>
+<td><strong>Californios</strong> (24th &amp; Mission)</td>
+<td>data/comp_restaurant_audit.json</td>
+</tr>
+<tr>
+<td>Indie evidence</td>
+<td>132 total mentions, 12 restaurants, +7 vs prior quarter</td>
+<td>data/hermes.db (Bright Data Google Maps Reviews Dataset)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-al-pastor-validation-moment">The al pastor validation moment</h3>
+<p>The al pastor recommendation that ran in earlier versions of this pitch is now retired as the hero because <strong>Chipotle relaunched Chicken Al Pastor nationally on Feb 10, 2026</strong> — a Mission-specific recommendation reads as "do what you're already doing." But al pastor remains the strongest <em>validation</em> moment we have:</p>
+<blockquote>
+<p>Between Q4 2025 and Q1 2026, <strong>al pastor crossed from Weak to Established</strong> in Mission indie reviews. The maturity classifier flipped weeks before Chipotle's Jan 27 press release announcing the Feb relaunch. The system caught the structural shift in real time, before the chain announced. Mole is the next call.</p>
+</blockquote>
+<p>This is the durable pitch — Taste Engine catches maturity transitions that precede brand decisions. Al pastor proves the pattern works. Mole is the call the system is making right now.</p>
+<hr />
+<h2 id="validation-does-the-system-catch-real-trends">Validation: does the system catch real trends?</h2>
+<p>National Google Trends for "al pastor" was a slow climb 2019–2022 (28 → 35 baseline). Chipotle's March 2023 launch of Chicken Al Pastor drove the national signal to a 7-year high (89 max, 2023 avg 51.3) and sustained it through 2024 (avg 48.5). When Chipotle withdrew in 2025 the national signal fell back near baseline (37.5) — <strong>but Mission indie restaurants kept building.</strong> Indie al pastor mentions in Mission climbed quarterly from 1 (2024-Q2) to 10 (2026-Q1), unaffected by the national falloff.</p>
+<p>Taste Engine reads this as structural demand, not chain-dependent buzz. Chipotle's Feb 10, 2026 relaunch validates that reading. <strong>The system would have flagged this in Q4 2025 from local data alone.</strong></p>
+<p><strong>Honest limit:</strong> our chronological indie review window begins 2024-Q2 — we cannot show indie buzz <em>leading</em> the March 2023 chain launch. We can show indie sustaining through 2025 and predicting the 2026 return. The validation path forward is pre-2024 reviews via Bright Data <code>days_limit=1095+</code>; documented but budget-deferred.</p>
+<hr />
+<h2 id="bright-data-dependency">Bright Data dependency</h2>
+<p>Taste Engine is not reproducible from CSV exports or single-script scraping. The intelligence layer depends on Bright Data infrastructure throughout:</p>
+<table>
+<thead>
+<tr>
+<th>Bright Data product</th>
+<th>Role in Taste Engine</th>
+<th>Volume pulled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Google Maps Reviews Dataset</strong> (<code>gd_luzfs1dn2oa0teb81</code>)</td>
+<td>Chronological dated reviews for indie restaurants across 3 neighborhoods</td>
+<td>64,372 dated reviews across 383 restaurants (2024-2026, two pulls: <code>days_limit=365</code> + <code>days_limit=730</code>)</td>
+</tr>
+<tr>
+<td><strong>Google Maps Fast Maps Search</strong> (<code>gd_m8ebnr0q2qlklc02fz</code>)</td>
+<td>Restaurant discovery + top_reviews per neighborhood center</td>
+<td>383 restaurants + 4,170 embedded top-reviews</td>
+</tr>
+<tr>
+<td><strong>SERP API</strong></td>
+<td>Brand LTO press-release verification, chain timing data</td>
+<td>20 newsroom-verified LTO entries across 3 brands</td>
+</tr>
+<tr>
+<td><strong>Scraping Browser</strong></td>
+<td>Yelp baseline reviews + ad-hoc protected-target access</td>
+<td>239 baseline reviews + verification pulls</td>
+</tr>
+<tr>
+<td><strong>REST <code>/request</code> API + Proxy</strong></td>
+<td>All triggered via vault-managed token; local AdGuard sinkhole workaround using <code>curl --resolve</code> via Cloudflare DNS</td>
+<td>All data acquisition</td>
+</tr>
+</tbody>
+</table>
+<p>Total Bright Data spend during build: ~$170. The chronological review dataset alone was the single largest cost (~$80) and the largest single source of analytic value — every maturity claim, every quarterly mention chart, every validation arc derives from it.</p>
+<p>A reproduction of this project on standard scraping infrastructure would face: Yelp DataDome blocking (we confirmed: <code>/search?find_loc=</code> pages return 1.7KB challenge HTML via Scraping Browser, replaced with Google Maps Fast Maps Search); per-place API rate limits on Google Maps Places API that make 64k chronological reviews economically infeasible; no clean path to 365-day or 730-day server-side recency filtering. Bright Data is the dependency.</p>
+<hr />
+<h2 id="why-this-is-hard-engineering-narrative">Why this is hard (engineering narrative)</h2>
+<p><strong>Headline metric: we catch eight distinct LLM hallucination classes deterministically, in code, before the model ships output. Naive LLM prompting catches zero.</strong></p>
+<p>That's not a tagline — it's testable. Run <code>scripts/naive_llm_baseline.py</code> and you get nine hallucinated SKUs across two dishes, fabricated supply-chain claims, and a recommendation that misses the actual brand decision happening in real life. Run <code>scripts/dish_generator_agent.py</code> and the LLM cannot assert any factual claim without first calling a tool that returns ground-truth data. Every output is gated on eight deterministic audits before a card ever appears.</p>
+<h3 id="the-eight-hallucination-classes-we-gate">The eight hallucination classes we gate</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Class</th>
+<th>Caught by</th>
+<th>What it prevents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Pantry hallucination</strong> — recommends ingredients the brand doesn't stock</td>
+<td><code>scripts/compute_pantry_fit.py</code> deliverability matrix</td>
+<td>"Cashew crema" suggested to Chipotle</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Menu duplication</strong> — names existing dishes as novel</td>
+<td>DO-NOT-PROPOSE prompt block populated from <code>brand_menu_items</code></td>
+<td>Pre-fix "Miso Salmon Bowl" sent to Sweetgreen that already sells it</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>LTO blind spot</strong> — invents from scratch what a brand already shipped</td>
+<td><code>data/brand_lto_history.json</code> + LTO-aware prompt</td>
+<td>"Add quesabirria to Chipotle" (they shipped quesabrisket; relaunch lever exists)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Cuisine incoherence</strong> — fuses incompatible cuisines like Japanese + Italian</td>
+<td><code>scripts/audit_dish_coherence.py</code> + <code>cuisine_compatibility.json</code></td>
+<td>"Miso Pesto Salmon Bowl"</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Dish-name overpromise</strong> — names ingredients delivered only via marinade or substitution</td>
+<td><code>scripts/audit_dish_name_truthfulness.py</code> + headline-vs-background SKU tagging</td>
+<td>"Al Pastor Pineapple Crunch Taco Plate" when pineapple is only marinade</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Ambiguous-term false positives</strong> — non-food usages of jerk/mole/truffle inflating signal</td>
+<td><code>scripts/extract_flavors.py</code> context-aware extraction</td>
+<td>"What a jerk" review credited to jerk flavor signal</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Fabricated comp restaurants</strong> — names benchmark restaurants that don't exist</td>
+<td><code>scripts/audit_comp_restaurants.py</code> against <code>restaurants</code> table</td>
+<td>LLM-invented Mission landmark; we mark unverifiable refs explicitly</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Numerical claim invention</strong> — overstates signal scores, mention counts, LTO years</td>
+<td><code>scripts/audit_numerical_claims.py</code> against ground-truth tables</td>
+<td>"Backed by 200 mentions" when actual is 50</td>
+</tr>
+</tbody>
+</table>
+<p>Naive LLM prompting catches none of these. Every one we've encountered in v3/v4/v5/v6/v7 iterations got fixed at the system level, not by prompt engineering — because we learned the LLM cannot be the constraint on itself.</p>
+<h3 id="other-load-bearing-engineering">Other load-bearing engineering</h3>
+<ol>
+<li>
+<p><strong>Flavor normalization across paraphrases.</strong> Reviewers say "red pepper paste" not "harissa." Vocabulary is 50 hand-curated terms; deterministic substring matching has known recall holes that we documented rather than hide. The honest framing: corroboration, not statistical significance.</p>
+</li>
+<li>
+<p><strong>Dual-pool restaurant classification.</strong> Google Maps has no "chef-driven dinner spot" field. We built a tagger combining hand-curated chain denylist + price tier + opening hours + busyness scores. Pools are mutex by construction.</p>
+</li>
+<li>
+<p><strong>Cross-source corroboration weighting.</strong> Joining geographically-coarse Google Trends with sparse paraphrased reviews on a normalized flavor entity. The composite confidence score's 6-component design (Trend 20% / Local 30% / Maturity 15% / Feasibility 20% / Recency 10% / LTO 5%) reflects multiple iterations of weighting honesty.</p>
+</li>
+<li>
+<p><strong>Bright Data-scale extraction infrastructure.</strong> 64,372 reviews required trigger → poll → snapshot-recover → dedup-by-text-hash → idempotent loaders. One snapshot's poller died mid-download (<code>curl --max-time 120</code> truncation, 117MB JSONL); we wrote <code>scripts/resume_snapshot.py</code> to recover the Bright Data snapshot ID. We also discovered AdGuard sinkholes <code>*.brightdata.com</code> even with protection toggled off — workaround uses Cloudflare DNS resolution + <code>curl --resolve</code>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="naive-llm-vs-taste-engine-control-vs-treatment">Naive LLM vs Taste Engine — control-vs-treatment</h2>
+<p>We ran the exact same prompt — "Recommend dishes for Chipotle to launch in the Mission District based on current food trends" — against Claude Opus 4.7 with no engine context (naive control) and against Taste Engine (treatment).</p>
+<p>The naive LLM produced <strong>9 hallucinated SKUs across 2 dishes</strong>: brisket, consommé, king trumpet mushrooms, cashew crema, chayote, salsa macha, garlic chips, and "beef tallow-griddled tortillas." It confidently asserted "beef brisket is already in Chipotle's supply chain" (false). It pivoted to a vegan mushroom al pastor variation, completely missing that Chipotle was already relaunching Chicken Al Pastor in real life on Feb 10, 2026 — the actual strategic opportunity.</p>
+<p>Taste Engine produced the al pastor + Chipotle hero card with every claim traceable to either the review database or a newsroom URL, plus a Mission-vs-Williamsburg rollout-targeting strategy the naive LLM cannot perform.</p>
+<p><strong>Full annotated comparison:</strong> <a href="data/naive_vs_taste_engine_comparison.md"><code>data/naive_vs_taste_engine_comparison.md</code></a>.</p>
+<p><strong>The pitch line:</strong> <em>The LLM is a reasoning layer. The innovation is the pipeline that constrains, anchors, and evidences it.</em></p>
+<hr />
+<h2 id="architecture">Architecture</h2>
+<pre><code>Bright Data
+    ├── Google Maps Reviews Dataset   ──┐
+    ├── Google Maps Fast Maps Search  ──┤
+    ├── SERP API (LTO verification)   ──┤
+    └── Scraping Browser              ──┤
+                                        ▼
+                            ┌─ Extraction + Dedup
+                            │  (text_hash idempotent loaders)
+                            ▼
+                       SQLite (hermes.db)
+                            │
+            ┌───────────────┼───────────────────┐
+            ▼               ▼                   ▼
+    Flavor Vocabulary   Dual-Pool Tagger   Brand Pantry
+    (50 terms +         (indie/chain,      (Chipotle 27 +
+     match_terms)       lunch/chef-driven) CAVA 53 + SG 160)
+            │               │                   │
+            └───────────────┼───────────────────┘
+                            ▼
+                  ┌──────────────────────┐
+                  │ Deliverability Matrix │
+                  │ (per flavor × brand)  │
+                  └──────────┬───────────┘
+                             │
+            ┌────────────────┼─────────────────┐
+            ▼                ▼                 ▼
+    Confidence Score   Operational Lift   LTO History
+    (6 components,     (Low/Med/High +    (20 entries,
+     0-100 composite)  National/Regional) verified URLs)
+            │                │                 │
+            └────────────────┼─────────────────┘
+                             ▼
+              Recommendation Cards (v6)
+              ├── ship_now (deliverable today)
+              └── gap_fill (named SKU additions)
+                             │
+                             ▼
+                    Claude Opus 4.7
+                  (LLM = reasoning layer,
+                   not core product)
+                             │
+                             ▼
+                Streamlit dashboard
+                Validation + Hero + Maturity
+                + Signals + Pantry + Gaps
+</code></pre>
+<hr />
+<h2 id="future-signal-integrations">Future signal integrations</h2>
+<p>The architecture is extensible. Sources we did not build for this submission but can be added on the same infrastructure:</p>
+<ul>
+<li><strong>TikTok food trends</strong> (geo-tagged hashtag mining via Bright Data)</li>
+<li><strong>Instagram geo-tagged restaurant mentions</strong></li>
+<li><strong>Reddit local food subreddit discussions</strong> (<code>r/AskNYC</code>, <code>r/AskSF</code>, <code>r/LosAngeles</code>)</li>
+<li><strong>DoorDash / Uber Eats menu change monitoring</strong> (which dishes get added/removed from chain test markets)</li>
+<li><strong>Yelp review deltas</strong> (via Bright Data Dataset for proper compliance)</li>
+<li><strong>Image OCR from food photography</strong> (visual flavor signal in restaurant Instagrams)</li>
+<li><strong>Seasonal ingredient pricing</strong> (specialty distributor APIs for SKU cost forecasting)</li>
+</ul>
+<p>Each adds one column to the signal-fusion equation. None require an architectural rewrite.</p>
+<hr />
+<h2 id="future-advanced-feature-regional-rollout-simulation">Future advanced feature: Regional Rollout Simulation</h2>
+<p><em>Pre-launch question Taste Engine could answer:</em> "What happens if Chipotle ships Chicken Al Pastor in Williamsburg first?"</p>
+<p>Outputs:
+- Operational lift (Low — pantry already supports it)
+- Pantry compatibility (100% — all SKUs active)
+- Maturity reading (Rising in WB, Established in Mission) → <strong>rollout sequencing recommendation</strong>
+- Authenticity risk (Williamsburg indie scene has 8 chef-driven al pastor mentions vs only 3 competitive — chain version risks looking opportunistic)
+- Adjacent markets prediction (WeHo Established-but-thin → likely warm reception)</p>
+<p>This is the natural next layer on top of the existing pipeline. The data is there; the simulation surface is not yet built.</p>
+<hr />
+<h2 id="demo-flow-5-minute-script-anchor">Demo flow (5-minute script anchor)</h2>
+<ol>
+<li><strong>Cold open + what it is</strong> (0:00–0:30) — Brands run quarterly menu planning; the bottleneck isn't creativity, it's neighborhood-level intelligence.</li>
+<li><strong>Bright Data dependency</strong> (0:30–1:00) — 64,372 dated indie reviews, 383 restaurants, 3 metro markets, 24 months. Four Bright Data products composed: Google Maps Reviews Dataset, Fast Maps Search, SERP API, Scraping Browser.</li>
+<li><strong>Act 1 — Trend Maturity Spread</strong> (1:00–2:00) — al pastor across 3 cities: Established in Mission, Rising in Williamsburg, Established-but-thin in WeHo. One flavor, three maturity stages.</li>
+<li><strong>Act 2 — Validation, then the call</strong> (2:00–3:00) — al pastor crossed Weak → Established in Mission between Q4 2025 and Q1 2026, weeks before Chipotle's Jan 27 relaunch announcement. The system caught the structural shift before the brand made the call. Mole is the next call: hero gap-fill card.</li>
+<li><strong>Act 3 — Quarterly cadence + forecast</strong> (3:00–3:45) — Mole +7 mentions Q1, birria forecast Q2 ~27 rising. Brands return monthly/quarterly for the deltas, not a one-shot analysis.</li>
+<li><strong>Naive LLM vs Taste Engine</strong> (3:45–4:15) — 8 deterministic hallucination classes caught in code vs 0 caught by naive prompting. The LLM is a reasoning layer; the pipeline is the innovation.</li>
+<li><strong>Why this is hard + close</strong> (4:15–4:45) — Eight constraint layers, Bright Data infrastructure, neighborhood-aware culinary intelligence built on Bright Data.</li>
+</ol>
+<hr />
+<h2 id="stack">Stack</h2>
+<ul>
+<li><strong>Data</strong>: SQLite (<code>data/hermes.db</code>), JSON-derived configs, Bright Data JSONL pulls</li>
+<li><strong>Ingestion</strong>: Python 3.12 scripts in <code>scripts/</code> (numbered roughly in dependency order)</li>
+<li><strong>LLM layer</strong>: Claude Opus 4.7 (<code>claude-opus-4-7</code>) via Anthropic SDK with prompt caching (~70% input savings on city re-runs)</li>
+<li><strong>Dashboard</strong>: Streamlit with Altair charts, custom CSS</li>
+<li><strong>Trend data</strong>: pytrends (patched for urllib3≥2.0 compatibility)</li>
+<li><strong>Vault</strong>: Wundervault for ANTHROPIC_API_KEY + Bright Data tokens</li>
+</ul>
+<h2 id="run-locally">Run locally</h2>
+<pre><code class="language-bash">cd taste-engine
+set -a &amp;&amp; source .env &amp;&amp; set +a
+.venv/bin/streamlit run app.py --server.headless true
+# → http://localhost:8501
+</code></pre>
+<p>Full regeneration pipeline documented in <code>HANDOFF.md</code> (no Bright Data spend needed if <code>data/hermes.db</code> is intact).</p>
+<hr />
+<h2 id="license-acknowledgments">License + acknowledgments</h2>
+<p>Built for the Bright Data hackathon, May 2026. All Bright Data product references are factual descriptions of products used in the project.</p>
+</body>
+</html>

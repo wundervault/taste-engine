@@ -1,0 +1,217 @@
+{
+  "weho": [
+    {
+      "brand": "Sweetgreen",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "dish_name": "Kimchi Crunch Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "kimchi",
+            "kind": "flavor",
+            "delivered_by": "apple kimchi"
+          },
+          {
+            "token": "crunch",
+            "kind": "texture",
+            "delivered_by": "crispy/crunchy ingredient"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "dish_name": "Al Pastor Honey-Chipotle Bowl",
+      "audit": {
+        "dish_name": "Al Pastor Honey-Chipotle Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "al pastor",
+            "kind": "flavor",
+            "delivered_by": "chicken al pastor (pineapple, achiote, chipotle)"
+          },
+          {
+            "token": "honey",
+            "kind": "flavor",
+            "delivered_by": "chipotle honey vinaigrette drizzle"
+          },
+          {
+            "token": "chipotle",
+            "kind": "flavor",
+            "delivered_by": "chipotle honey vinaigrette drizzle"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "dish_name": "Harissa Lentil Sumac Bowl",
+      "audit": {
+        "dish_name": "Harissa Lentil Sumac Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "harissa",
+            "kind": "flavor",
+            "delivered_by": "harissa honey chicken"
+          },
+          {
+            "token": "lentil",
+            "kind": "flavor",
+            "delivered_by": "black lentils"
+          },
+          {
+            "token": "sumac",
+            "kind": "flavor",
+            "delivered_by": "sumac slaw"
+          }
+        ]
+      }
+    }
+  ],
+  "williamsburg": [
+    {
+      "brand": "Sweetgreen",
+      "dish_name": "Kimchi Crunch Bowl",
+      "audit": {
+        "dish_name": "Kimchi Crunch Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "kimchi",
+            "kind": "flavor",
+            "delivered_by": "apple kimchi"
+          },
+          {
+            "token": "crunch",
+            "kind": "texture",
+            "delivered_by": "crispy/crunchy ingredient"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Chipotle",
+      "dish_name": "Al Pastor Honey Bowl",
+      "audit": {
+        "dish_name": "Al Pastor Honey Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "al pastor",
+            "kind": "flavor",
+            "delivered_by": "chicken al pastor (pineapple, achiote, chipotle)"
+          },
+          {
+            "token": "honey",
+            "kind": "flavor",
+            "delivered_by": "chipotle honey vinaigrette"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "dish_name": "Tahini Harissa Lamb Bowl",
+      "audit": {
+        "dish_name": "Tahini Harissa Lamb Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "tahini",
+            "kind": "flavor",
+            "delivered_by": "lemon herb tahini"
+          },
+          {
+            "token": "harissa",
+            "kind": "flavor",
+            "delivered_by": "harissa"
+          },
+          {
+            "token": "lamb",
+            "kind": "flavor",
+            "delivered_by": "braised lamb (garlic, onion, turmeric, chili powder)"
+          }
+        ]
+      }
+    }
+  ],
+  "mission": [
+    {
+      "brand": "Chipotle",
+      "dish_name": "Al Pastor Guac Bowl",
+      "audit": {
+        "dish_name": "Al Pastor Guac Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "al pastor",
+            "kind": "flavor",
+            "delivered_by": "chicken al pastor"
+          },
+          {
+            "token": "guac",
+            "kind": "flavor",
+            "delivered_by": "guacamole"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "Sweetgreen",
+      "dish_name": "Miso Kimchi Crunch Bowl",
+      "audit": {
+        "dish_name": "Miso Kimchi Crunch Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "miso",
+            "kind": "flavor",
+            "delivered_by": "miso glazed salmon"
+          },
+          {
+            "token": "kimchi",
+            "kind": "flavor",
+            "delivered_by": "apple kimchi"
+          },
+          {
+            "token": "crunch",
+            "kind": "texture",
+            "delivered_by": "crispy/crunchy ingredient"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "CAVA",
+      "dish_name": "Harissa Honey Lentil Bowl",
+      "audit": {
+        "dish_name": "Harissa Honey Lentil Bowl",
+        "verdict": "OK",
+        "violations": [],
+        "confirmed": [
+          {
+            "token": "harissa honey",
+            "kind": "flavor",
+            "delivered_by": "harissa honey chicken"
+          },
+          {
+            "token": "lentil",
+            "kind": "flavor",
+            "delivered_by": "black lentils"
+          }
+        ]
+      }
+    }
+  ]
+}

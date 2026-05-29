@@ -1,0 +1,72 @@
+{
+  "brand": "CAVA",
+  "location": "6200 Sunset Blvd, Los Angeles, CA 90028",
+  "_note": "Updated 2026-05-27 from 9 BYO screenshots in data/cava_byo/. Canonical names verified against the CAVA Create-Your-Own flow.",
+  "bases": [
+    "saffron basmati rice",
+    "brown rice",
+    "black lentils",
+    "arugula",
+    "spinach",
+    "romaine",
+    "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+    "power greens (butter lettuce, baby kale, spinach, heritage greens)"
+  ],
+  "proteins": [
+    "falafel (chickpea, herbs, fried)",
+    "grilled chicken (lemon juice, Mediterranean spices)",
+    "harissa honey chicken",
+    "grilled steak (sous vide, grilled, sun-dried tomato, Mediterranean spices)",
+    "spicy lamb meatballs (harissa, cilantro, spiced)",
+    "braised lamb (garlic, onion, turmeric, chili powder)",
+    "glazed salmon",
+    "roasted vegetables (brussels sprouts, carrots, cauliflower)"
+  ],
+  "dips_spreads": [
+    "traditional hummus",
+    "red pepper hummus",
+    "tzatziki (Greek yogurt, cucumber, dill)",
+    "harissa (North African chili paste)",
+    "roasted eggplant dip",
+    "crazy feta (whipped feta, jalapeño)"
+  ],
+  "toppings": [
+    "fiery broccoli",
+    "pickled onions",
+    "fire-roasted corn",
+    "avocado",
+    "salt-brined pickles",
+    "tomato + onion (with oregano)",
+    "tomato + cucumber",
+    "sumac slaw",
+    "kalamata olives (Manolakos family, Greece)",
+    "persian cucumber",
+    "shredded romaine",
+    "crumbled feta",
+    "pita crisps"
+  ],
+  "dressings": [
+    "Greek vinaigrette (oregano, garlic, Dijon)",
+    "lemon herb tahini",
+    "strawberry sesame",
+    "yogurt dill",
+    "skhug (Yemeni green hot sauce)",
+    "balsamic date vinaigrette",
+    "garlic dressing",
+    "hot harissa vinaigrette"
+  ],
+  "vessels": [
+    "free side pita",
+    "side pita"
+  ],
+  "sides": [
+    "classic pita chips",
+    "sumac sour cream + onion chips",
+    "side hummus",
+    "side red pepper hummus",
+    "side tzatziki",
+    "side crazy feta",
+    "side roasted eggplant",
+    "side harissa"
+  ]
+}

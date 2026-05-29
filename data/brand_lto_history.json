@@ -1,0 +1,273 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "last_updated": "2026-05-28",
+    "sourcing_policy": "Every entry must have at least one verifiable press release or newsroom URL. No claims based on memory or unverified blogs.",
+    "fields": {
+      "item_name": "Canonical LTO name as used in brand marketing",
+      "flavor_tags": "Vocabulary flavor terms this LTO maps to (matches our 50-term vocab)",
+      "first_shipped": "ISO date of first national/test launch",
+      "shipped_years": "Years this item has appeared on menus (LTO runs)",
+      "scope": "national | regional_test | global",
+      "current_status": "active | dormant | discontinued",
+      "still_in_pantry": "true if brand-side supply chain is presumed still active (recent shipping or permanent menu add)",
+      "lift_downgrade": "Lift tier override for recommendations involving this flavor on this brand. low | medium | high",
+      "sources": "URLs for verification"
+    }
+  },
+  "chipotle": [
+    {
+      "item_name": "Sofritas",
+      "flavor_tags": ["tofu", "adobo"],
+      "first_shipped": "2014",
+      "shipped_years": ["2014-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://newsroom.chipotle.com/"],
+      "notes": "Originally LTO, became permanent. Currently the vegan protein."
+    },
+    {
+      "item_name": "Chorizo",
+      "flavor_tags": ["chorizo"],
+      "first_shipped": "2016-09",
+      "shipped_years": ["2016", "2020"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": false,
+      "lift_downgrade": "low",
+      "sources": ["https://www.restaurantbusinessonline.com/food/chipotle-launches-carne-asada-lto"],
+      "notes": "LTO in 2016, returned 2020. Not flavored in vocab — placeholder."
+    },
+    {
+      "item_name": "Queso",
+      "flavor_tags": ["queso"],
+      "first_shipped": "2017",
+      "shipped_years": ["2017-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.chipotle.com/queso-22"],
+      "notes": "Reformulated as Queso Blanco in 2020. Multiple iterations."
+    },
+    {
+      "item_name": "Carne Asada",
+      "flavor_tags": ["carne asada"],
+      "first_shipped": "2019-09-17",
+      "shipped_years": ["2019", "2020", "2023", "2025"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": [
+        "https://newsroom.chipotle.com/2019-09-17-Chipotle-Launches-Carne-Asada-Nationwide",
+        "https://www.restaurantbusinessonline.com/food/chipotle-returns-carne-asada-menu-limited-run"
+      ],
+      "notes": "Fastest-selling new protein launch ever; 10M+ people tried in first run. Recurring LTO. Returned Sept 2025."
+    },
+    {
+      "item_name": "Smoked Brisket",
+      "flavor_tags": ["brisket"],
+      "first_shipped": "2021-09",
+      "shipped_years": ["2021", "2025"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://newsroom.chipotle.com/"],
+      "notes": "Fall 2021 LTO ended early due to popularity. Returned 2025 as Quesabrisket."
+    },
+    {
+      "item_name": "Pollo Asado",
+      "flavor_tags": ["pollo asado"],
+      "first_shipped": "2022-03",
+      "shipped_years": ["2022"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": false,
+      "lift_downgrade": "low",
+      "sources": ["https://www.cnbc.com/2022/03/10/chipotle-mexican-grill-to-release-pollo-asado-as-latest-limited-time-menu-item.html"],
+      "notes": "First new chicken menu item in 29 years."
+    },
+    {
+      "item_name": "Garlic Guajillo Steak",
+      "flavor_tags": ["guajillo", "garlic"],
+      "first_shipped": "2022-05-03",
+      "shipped_years": ["2022"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": false,
+      "lift_downgrade": "medium",
+      "sources": [
+        "https://newsroom.chipotle.com/2022-05-02-CHIPOTLE-TESTS-GARLIC-GUAJILLO-STEAK-IN-SELECT-MARKETS",
+        "https://www.eatthis.com/chipotle-garlic-gaujillo-steak/"
+      ],
+      "notes": "Tested at 102 stores in Denver, Indianapolis, Orange County May 2022. National launch Sept 14, 2022."
+    },
+    {
+      "item_name": "Chicken Al Pastor",
+      "flavor_tags": ["al pastor"],
+      "first_shipped": "2023-03-16",
+      "shipped_years": ["2023", "2024", "2026"],
+      "scope": "global",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": [
+        "https://newsroom.chipotle.com/2023-03-14-CHIPOTLE-ADDS-CHICKEN-AL-PASTOR-TO-MENUS-IN-THE-U-S-,-CANADA,-AND-EUROPE",
+        "https://newsroom.chipotle.com/2026-01-27-CHIPOTLE-KICKS-OFF-2026-MENU-INNOVATION-WITH-THE-RETURN-OF-CHICKEN-AL-PASTOR,-ONE-OF-ITS-MOST-REQUESTED-ITEMS"
+      ],
+      "notes": "First global menu launch (US/Canada/UK/France/Germany simultaneously). 20% of transactions during first run. Most-celebrated LTO in Chipotle history per company comms. Brought back Feb 10, 2026 — THE HERO FLAVOR for current demo."
+    },
+    {
+      "item_name": "Chipotle Honey Chicken",
+      "flavor_tags": ["honey", "hot honey"],
+      "first_shipped": "2024",
+      "shipped_years": ["2024"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": false,
+      "lift_downgrade": "low",
+      "sources": ["https://newsroom.chipotle.com/"],
+      "notes": "Best-selling LTO in test markets per Chipotle public statements before systemwide rollout."
+    },
+    {
+      "item_name": "Quesabrisket",
+      "flavor_tags": ["brisket", "queso"],
+      "first_shipped": "2025-09",
+      "shipped_years": ["2025"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.restaurantbusinessonline.com/food/chipotle-creates-lto-mashup-two-recently-added-menu-items"],
+      "notes": "Brisket-quesadilla mashup. App/website only, through Halloween 2025. Mashup of existing Smoked Brisket + Quesadilla."
+    },
+    {
+      "item_name": "Red Chimichurri",
+      "flavor_tags": ["chimichurri"],
+      "first_shipped": "2025-09",
+      "shipped_years": ["2025"],
+      "scope": "national",
+      "current_status": "dormant",
+      "still_in_pantry": false,
+      "lift_downgrade": "low",
+      "sources": ["https://newsroom.chipotle.com/"],
+      "notes": "New sauce launched Sept 2025 alongside Carne Asada return."
+    }
+  ],
+  "cava": [
+    {
+      "item_name": "White Sweet Potatoes",
+      "flavor_tags": ["sweet potato"],
+      "first_shipped": "2021-12",
+      "shipped_years": ["2021", "2026"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.businesswire.com/news/home/20260105919368/en/You-Asked-CAVA-Listened-White-Sweet-Potatoes-are-Back-as-Part-of-CAVAs-Largest-Menu-Launch-Ever"],
+      "notes": "Winter 2021 seasonal, brought back Jan 2026 due to social media customer requests."
+    },
+    {
+      "item_name": "Grilled Steak",
+      "flavor_tags": ["steak"],
+      "first_shipped": "2024",
+      "shipped_years": ["2024-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.qsrmagazine.com/news/cava-announces-largest-menu-launch-in-company-history/"],
+      "notes": "First major protein subcategory addition. Now permanent."
+    },
+    {
+      "item_name": "Glazed Salmon (Strawberry Sesame Bowl + Yogurt Dill Bowl)",
+      "flavor_tags": ["salmon", "strawberry"],
+      "first_shipped": "2024",
+      "shipped_years": ["2024", "2025"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.restaurantdive.com/news/cava-adds-glazed-salmon-to-menu/817542/"],
+      "notes": "Chef Curation bowls. Glazed Salmon protein now permanent in CAVA pantry."
+    },
+    {
+      "item_name": "Sumac Sour Cream + Onion Pita Chips",
+      "flavor_tags": ["sumac"],
+      "first_shipped": "2026-01",
+      "shipped_years": ["2026"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.businesswire.com/news/home/20260105919368/en/You-Asked-CAVA-Listened-White-Sweet-Potatoes-are-Back-as-Part-of-CAVAs-Largest-Menu-Launch-Ever"],
+      "notes": "Part of CAVA's largest menu launch ever, Jan 2026."
+    },
+    {
+      "item_name": "Sumac Slaw",
+      "flavor_tags": ["sumac"],
+      "first_shipped": "2026-01",
+      "shipped_years": ["2026"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.qsrmagazine.com/news/cava-announces-largest-menu-launch-in-company-history/"],
+      "notes": "Cabbage with sumac, parsley, red wine vinegar."
+    },
+    {
+      "item_name": "Tangerine Aleppo (drink)",
+      "flavor_tags": ["tangerine", "aleppo"],
+      "first_shipped": "2026-01",
+      "shipped_years": ["2026"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.qsrmagazine.com/news/cava-announces-largest-menu-launch-in-company-history/"],
+      "notes": "Seasonal beverage."
+    }
+  ],
+  "sweetgreen": [
+    {
+      "item_name": "Miso Glazed Salmon Plate",
+      "flavor_tags": ["miso", "salmon"],
+      "first_shipped": "2023-10",
+      "shipped_years": ["2023-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.businesswire.com/news/home/20231024385806/en/Sweetgreen-Takes-on-Dinner-With-Bold-Flavors-Featuring-Miso-Glazed-Salmon-and-Herb-Roasted-Chicken"],
+      "notes": "Part of Oct 2023 dinner launch — first major entrée category expansion in three years. Inspired by deconstructed sushi roll."
+    },
+    {
+      "item_name": "Hot Honey Chicken Plate",
+      "flavor_tags": ["hot honey", "honey"],
+      "first_shipped": "pre-2023",
+      "shipped_years": ["pilot", "2023-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.businesswire.com/news/home/20231024385806/en/Sweetgreen-Takes-on-Dinner-With-Bold-Flavors-Featuring-Miso-Glazed-Salmon-and-Herb-Roasted-Chicken"],
+      "notes": "Originally a pilot, became permanent fan favorite. Returned Oct 2023 with dinner plates."
+    },
+    {
+      "item_name": "Southwest Chicken Fajita Plate",
+      "flavor_tags": ["fajita"],
+      "first_shipped": "2023-10",
+      "shipped_years": ["2023-present"],
+      "scope": "national",
+      "current_status": "active",
+      "still_in_pantry": true,
+      "lift_downgrade": "low",
+      "sources": ["https://www.businesswire.com/news/home/20231024385806/en/Sweetgreen-Takes-on-Dinner-With-Bold-Flavors-Featuring-Miso-Glazed-Salmon-and-Herb-Roasted-Chicken"],
+      "notes": "Oct 2023 dinner expansion."
+    }
+  ]
+}

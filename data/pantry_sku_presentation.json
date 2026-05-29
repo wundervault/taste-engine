@@ -1,0 +1,2189 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "description": "Per pantry SKU: headline_terms (visible/tasted as distinct elements) vs background_terms (marinade or embedded components named only in parentheticals). Used by dish-name truthfulness audit.",
+    "total_skus": 158,
+    "skus_with_background": 34
+  },
+  "skus": {
+    "greek vinaigrette (oregano, garlic, dijon)": {
+      "brand": "CAVA",
+      "raw": "Greek vinaigrette (oregano, garlic, Dijon)",
+      "headline_text": "Greek vinaigrette",
+      "headline_terms": [
+        "greek",
+        "greek vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [
+        "oregano",
+        "garlic",
+        "dijon"
+      ],
+      "presentation": "headline"
+    },
+    "arugula": {
+      "brand": "Sweetgreen",
+      "raw": "arugula",
+      "headline_text": "arugula",
+      "headline_terms": [
+        "arugula"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "avocado": {
+      "brand": "Sweetgreen",
+      "raw": "avocado",
+      "headline_text": "avocado",
+      "headline_terms": [
+        "avocado"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "balsamic date vinaigrette": {
+      "brand": "CAVA",
+      "raw": "balsamic date vinaigrette",
+      "headline_text": "balsamic date vinaigrette",
+      "headline_terms": [
+        "balsamic",
+        "balsamic date",
+        "balsamic date vinaigrette",
+        "date",
+        "date vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "black lentils": {
+      "brand": "CAVA",
+      "raw": "black lentils",
+      "headline_text": "black lentils",
+      "headline_terms": [
+        "black",
+        "black lentils",
+        "lentils"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "braised lamb (garlic, onion, turmeric, chili powder)": {
+      "brand": "CAVA",
+      "raw": "braised lamb (garlic, onion, turmeric, chili powder)",
+      "headline_text": "braised lamb",
+      "headline_terms": [
+        "braised",
+        "braised lamb",
+        "lamb"
+      ],
+      "background_terms": [
+        "garlic",
+        "onion",
+        "turmeric",
+        "chili powder"
+      ],
+      "presentation": "headline"
+    },
+    "brown rice": {
+      "brand": "CAVA",
+      "raw": "brown rice",
+      "headline_text": "brown rice",
+      "headline_terms": [
+        "brown",
+        "brown rice",
+        "rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "classic pita chips": {
+      "brand": "CAVA",
+      "raw": "classic pita chips",
+      "headline_text": "classic pita chips",
+      "headline_terms": [
+        "chips",
+        "classic",
+        "classic pita",
+        "classic pita chips",
+        "pita",
+        "pita chips"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crazy feta (whipped feta, jalape\u00f1o)": {
+      "brand": "CAVA",
+      "raw": "crazy feta (whipped feta, jalape\u00f1o)",
+      "headline_text": "crazy feta",
+      "headline_terms": [
+        "crazy",
+        "crazy feta",
+        "feta"
+      ],
+      "background_terms": [
+        "whipped feta",
+        "jalape\u00f1o"
+      ],
+      "presentation": "headline"
+    },
+    "crumbled feta": {
+      "brand": "CAVA",
+      "raw": "crumbled feta",
+      "headline_text": "crumbled feta",
+      "headline_terms": [
+        "crumbled",
+        "crumbled feta",
+        "feta"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "falafel (chickpea, herbs, fried)": {
+      "brand": "CAVA",
+      "raw": "falafel (chickpea, herbs, fried)",
+      "headline_text": "falafel",
+      "headline_terms": [
+        "falafel"
+      ],
+      "background_terms": [
+        "chickpea",
+        "herbs",
+        "fried"
+      ],
+      "presentation": "headline"
+    },
+    "fiery broccoli": {
+      "brand": "CAVA",
+      "raw": "fiery broccoli",
+      "headline_text": "fiery broccoli",
+      "headline_terms": [
+        "broccoli",
+        "fiery",
+        "fiery broccoli"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "fire-roasted corn": {
+      "brand": "CAVA",
+      "raw": "fire-roasted corn",
+      "headline_text": "fire-roasted corn",
+      "headline_terms": [
+        "corn",
+        "fire",
+        "fire roasted",
+        "fire roasted corn",
+        "fire-roasted corn",
+        "roasted",
+        "roasted corn"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "free side pita": {
+      "brand": "CAVA",
+      "raw": "free side pita",
+      "headline_text": "free side pita",
+      "headline_terms": [
+        "free side pita",
+        "pita",
+        "side",
+        "side pita"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "garlic dressing": {
+      "brand": "CAVA",
+      "raw": "garlic dressing",
+      "headline_text": "garlic dressing",
+      "headline_terms": [
+        "dressing",
+        "garlic",
+        "garlic dressing"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "glazed salmon": {
+      "brand": "CAVA",
+      "raw": "glazed salmon",
+      "headline_text": "glazed salmon",
+      "headline_terms": [
+        "glazed",
+        "glazed salmon",
+        "salmon"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "grilled chicken (lemon juice, mediterranean spices)": {
+      "brand": "CAVA",
+      "raw": "grilled chicken (lemon juice, Mediterranean spices)",
+      "headline_text": "grilled chicken",
+      "headline_terms": [
+        "chicken",
+        "grilled",
+        "grilled chicken"
+      ],
+      "background_terms": [
+        "lemon juice",
+        "mediterranean spices"
+      ],
+      "presentation": "headline"
+    },
+    "grilled steak (sous vide, grilled, sun-dried tomato, mediterranean spices)": {
+      "brand": "CAVA",
+      "raw": "grilled steak (sous vide, grilled, sun-dried tomato, Mediterranean spices)",
+      "headline_text": "grilled steak",
+      "headline_terms": [
+        "grilled",
+        "grilled steak",
+        "steak"
+      ],
+      "background_terms": [
+        "sous vide",
+        "grilled",
+        "sun",
+        "dried tomato",
+        "mediterranean spices"
+      ],
+      "presentation": "headline"
+    },
+    "harissa (north african chili paste)": {
+      "brand": "CAVA",
+      "raw": "harissa (North African chili paste)",
+      "headline_text": "harissa",
+      "headline_terms": [
+        "harissa"
+      ],
+      "background_terms": [
+        "north african chili paste"
+      ],
+      "presentation": "headline"
+    },
+    "harissa honey chicken": {
+      "brand": "CAVA",
+      "raw": "harissa honey chicken",
+      "headline_text": "harissa honey chicken",
+      "headline_terms": [
+        "chicken",
+        "harissa",
+        "harissa honey",
+        "harissa honey chicken",
+        "honey",
+        "honey chicken"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "hot harissa vinaigrette": {
+      "brand": "CAVA",
+      "raw": "hot harissa vinaigrette",
+      "headline_text": "hot harissa vinaigrette",
+      "headline_terms": [
+        "harissa",
+        "harissa vinaigrette",
+        "hot",
+        "hot harissa",
+        "hot harissa vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "kalamata olives (manolakos family, greece)": {
+      "brand": "CAVA",
+      "raw": "kalamata olives (Manolakos family, Greece)",
+      "headline_text": "kalamata olives",
+      "headline_terms": [
+        "kalamata",
+        "kalamata olives",
+        "olives"
+      ],
+      "background_terms": [
+        "manolakos family",
+        "greece"
+      ],
+      "presentation": "headline"
+    },
+    "lemon herb tahini": {
+      "brand": "CAVA",
+      "raw": "lemon herb tahini",
+      "headline_text": "lemon herb tahini",
+      "headline_terms": [
+        "herb",
+        "herb tahini",
+        "lemon",
+        "lemon herb",
+        "lemon herb tahini",
+        "tahini"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "persian cucumber": {
+      "brand": "CAVA",
+      "raw": "persian cucumber",
+      "headline_text": "persian cucumber",
+      "headline_terms": [
+        "cucumber",
+        "persian",
+        "persian cucumber"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "pickled onions": {
+      "brand": "Sweetgreen",
+      "raw": "pickled onions",
+      "headline_text": "pickled onions",
+      "headline_terms": [
+        "onions",
+        "pickled",
+        "pickled onions"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "pita crisps": {
+      "brand": "CAVA",
+      "raw": "pita crisps",
+      "headline_text": "pita crisps",
+      "headline_terms": [
+        "crisps",
+        "pita",
+        "pita crisps"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "power greens (butter lettuce, baby kale, spinach, heritage greens)": {
+      "brand": "CAVA",
+      "raw": "power greens (butter lettuce, baby kale, spinach, heritage greens)",
+      "headline_text": "power greens",
+      "headline_terms": [
+        "greens",
+        "power",
+        "power greens"
+      ],
+      "background_terms": [
+        "butter lettuce",
+        "baby kale",
+        "spinach",
+        "heritage greens"
+      ],
+      "presentation": "headline"
+    },
+    "red pepper hummus": {
+      "brand": "CAVA",
+      "raw": "red pepper hummus",
+      "headline_text": "red pepper hummus",
+      "headline_terms": [
+        "hummus",
+        "pepper",
+        "pepper hummus",
+        "red",
+        "red pepper",
+        "red pepper hummus"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted eggplant dip": {
+      "brand": "CAVA",
+      "raw": "roasted eggplant dip",
+      "headline_text": "roasted eggplant dip",
+      "headline_terms": [
+        "dip",
+        "eggplant",
+        "eggplant dip",
+        "roasted",
+        "roasted eggplant",
+        "roasted eggplant dip"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted vegetables (brussels sprouts, carrots, cauliflower)": {
+      "brand": "CAVA",
+      "raw": "roasted vegetables (brussels sprouts, carrots, cauliflower)",
+      "headline_text": "roasted vegetables",
+      "headline_terms": [
+        "roasted",
+        "roasted vegetables",
+        "vegetables"
+      ],
+      "background_terms": [
+        "brussels sprouts",
+        "carrots",
+        "cauliflower"
+      ],
+      "presentation": "headline"
+    },
+    "romaine": {
+      "brand": "CAVA",
+      "raw": "romaine",
+      "headline_text": "romaine",
+      "headline_terms": [
+        "romaine"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "saffron basmati rice": {
+      "brand": "CAVA",
+      "raw": "saffron basmati rice",
+      "headline_text": "saffron basmati rice",
+      "headline_terms": [
+        "basmati",
+        "basmati rice",
+        "rice",
+        "saffron",
+        "saffron basmati",
+        "saffron basmati rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "salt-brined pickles": {
+      "brand": "CAVA",
+      "raw": "salt-brined pickles",
+      "headline_text": "salt-brined pickles",
+      "headline_terms": [
+        "brined",
+        "brined pickles",
+        "pickles",
+        "salt",
+        "salt brined",
+        "salt brined pickles",
+        "salt-brined pickles"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "shredded romaine": {
+      "brand": "CAVA",
+      "raw": "shredded romaine",
+      "headline_text": "shredded romaine",
+      "headline_terms": [
+        "romaine",
+        "shredded",
+        "shredded romaine"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side crazy feta": {
+      "brand": "CAVA",
+      "raw": "side crazy feta",
+      "headline_text": "side crazy feta",
+      "headline_terms": [
+        "crazy",
+        "crazy feta",
+        "feta",
+        "side",
+        "side crazy",
+        "side crazy feta"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side harissa": {
+      "brand": "CAVA",
+      "raw": "side harissa",
+      "headline_text": "side harissa",
+      "headline_terms": [
+        "harissa",
+        "side",
+        "side harissa"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side hummus": {
+      "brand": "CAVA",
+      "raw": "side hummus",
+      "headline_text": "side hummus",
+      "headline_terms": [
+        "hummus",
+        "side",
+        "side hummus"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side pita": {
+      "brand": "CAVA",
+      "raw": "side pita",
+      "headline_text": "side pita",
+      "headline_terms": [
+        "pita",
+        "side",
+        "side pita"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side red pepper hummus": {
+      "brand": "CAVA",
+      "raw": "side red pepper hummus",
+      "headline_text": "side red pepper hummus",
+      "headline_terms": [
+        "hummus",
+        "pepper",
+        "pepper hummus",
+        "red",
+        "red pepper",
+        "side",
+        "side red",
+        "side red pepper hummus"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side roasted eggplant": {
+      "brand": "CAVA",
+      "raw": "side roasted eggplant",
+      "headline_text": "side roasted eggplant",
+      "headline_terms": [
+        "eggplant",
+        "roasted",
+        "roasted eggplant",
+        "side",
+        "side roasted",
+        "side roasted eggplant"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "side tzatziki": {
+      "brand": "CAVA",
+      "raw": "side tzatziki",
+      "headline_text": "side tzatziki",
+      "headline_terms": [
+        "side",
+        "side tzatziki",
+        "tzatziki",
+        "yogurt dill"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "skhug (yemeni green hot sauce)": {
+      "brand": "CAVA",
+      "raw": "skhug (Yemeni green hot sauce)",
+      "headline_text": "skhug",
+      "headline_terms": [
+        "schug",
+        "skhug",
+        "zhug"
+      ],
+      "background_terms": [
+        "yemeni green hot sauce"
+      ],
+      "presentation": "headline"
+    },
+    "spicy lamb meatballs (harissa, cilantro, spiced)": {
+      "brand": "CAVA",
+      "raw": "spicy lamb meatballs (harissa, cilantro, spiced)",
+      "headline_text": "spicy lamb meatballs",
+      "headline_terms": [
+        "lamb",
+        "lamb meatballs",
+        "meatballs",
+        "spicy",
+        "spicy lamb",
+        "spicy lamb meatballs"
+      ],
+      "background_terms": [
+        "harissa",
+        "cilantro",
+        "spiced"
+      ],
+      "presentation": "headline"
+    },
+    "spinach": {
+      "brand": "CAVA",
+      "raw": "spinach",
+      "headline_text": "spinach",
+      "headline_terms": [
+        "spinach"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "strawberry sesame": {
+      "brand": "CAVA",
+      "raw": "strawberry sesame",
+      "headline_text": "strawberry sesame",
+      "headline_terms": [
+        "sesame",
+        "strawberry",
+        "strawberry sesame"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sumac slaw": {
+      "brand": "CAVA",
+      "raw": "sumac slaw",
+      "headline_text": "sumac slaw",
+      "headline_terms": [
+        "slaw",
+        "sumac",
+        "sumac slaw"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sumac sour cream + onion chips": {
+      "brand": "CAVA",
+      "raw": "sumac sour cream + onion chips",
+      "headline_text": "sumac sour cream + onion chips",
+      "headline_terms": [
+        "chips",
+        "cream",
+        "cream onion",
+        "onion",
+        "onion chips",
+        "sour",
+        "sour cream",
+        "sumac",
+        "sumac sour",
+        "sumac sour cream + onion chips",
+        "sumac sour cream onion chips"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "super greens (raw cabbage, chicory, brussels, broccoli, kale)": {
+      "brand": "CAVA",
+      "raw": "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+      "headline_text": "super greens",
+      "headline_terms": [
+        "greens",
+        "super",
+        "super greens"
+      ],
+      "background_terms": [
+        "raw cabbage",
+        "chicory",
+        "brussels",
+        "broccoli",
+        "kale"
+      ],
+      "presentation": "headline"
+    },
+    "tomato + cucumber": {
+      "brand": "CAVA",
+      "raw": "tomato + cucumber",
+      "headline_text": "tomato + cucumber",
+      "headline_terms": [
+        "cucumber",
+        "tomato",
+        "tomato + cucumber",
+        "tomato cucumber"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "tomato + onion (with oregano)": {
+      "brand": "CAVA",
+      "raw": "tomato + onion (with oregano)",
+      "headline_text": "tomato + onion",
+      "headline_terms": [
+        "onion",
+        "tomato",
+        "tomato + onion",
+        "tomato onion"
+      ],
+      "background_terms": [
+        "with oregano"
+      ],
+      "presentation": "headline"
+    },
+    "traditional hummus": {
+      "brand": "CAVA",
+      "raw": "traditional hummus",
+      "headline_text": "traditional hummus",
+      "headline_terms": [
+        "hummus",
+        "traditional",
+        "traditional hummus"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "tzatziki (greek yogurt, cucumber, dill)": {
+      "brand": "CAVA",
+      "raw": "tzatziki (Greek yogurt, cucumber, dill)",
+      "headline_text": "tzatziki",
+      "headline_terms": [
+        "tzatziki",
+        "yogurt dill"
+      ],
+      "background_terms": [
+        "greek yogurt",
+        "cucumber",
+        "dill"
+      ],
+      "presentation": "headline"
+    },
+    "yogurt dill": {
+      "brand": "CAVA",
+      "raw": "yogurt dill",
+      "headline_text": "yogurt dill",
+      "headline_terms": [
+        "dill",
+        "tzatziki",
+        "yogurt",
+        "yogurt dill"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "barbacoa (braised beef, chipotle, cumin)": {
+      "brand": "Chipotle",
+      "raw": "barbacoa (braised beef, chipotle, cumin)",
+      "headline_text": "barbacoa",
+      "headline_terms": [
+        "barbacoa"
+      ],
+      "background_terms": [
+        "braised beef",
+        "chipotle",
+        "cumin"
+      ],
+      "presentation": "headline"
+    },
+    "black beans": {
+      "brand": "Chipotle",
+      "raw": "black beans",
+      "headline_text": "black beans",
+      "headline_terms": [
+        "beans",
+        "black",
+        "black beans"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "burrito bowl (no vessel)": {
+      "brand": "Chipotle",
+      "raw": "burrito bowl (no vessel)",
+      "headline_text": "burrito bowl",
+      "headline_terms": [
+        "bowl",
+        "burrito",
+        "burrito bowl"
+      ],
+      "background_terms": [
+        "no vessel"
+      ],
+      "presentation": "headline"
+    },
+    "carnitas (slow-roasted pork, juniper, thyme)": {
+      "brand": "Chipotle",
+      "raw": "carnitas (slow-roasted pork, juniper, thyme)",
+      "headline_text": "carnitas",
+      "headline_terms": [
+        "carnitas"
+      ],
+      "background_terms": [
+        "slow",
+        "roasted pork",
+        "juniper",
+        "thyme"
+      ],
+      "presentation": "headline"
+    },
+    "chicken (adobo-marinated, grilled)": {
+      "brand": "Chipotle",
+      "raw": "chicken (adobo-marinated, grilled)",
+      "headline_text": "chicken",
+      "headline_terms": [
+        "chicken"
+      ],
+      "background_terms": [
+        "adobo",
+        "marinated",
+        "grilled"
+      ],
+      "presentation": "headline"
+    },
+    "chicken al pastor (lto \u2014 pineapple, achiote, chipotle)": {
+      "brand": "Chipotle",
+      "raw": "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "headline_text": "chicken al pastor",
+      "headline_terms": [
+        "al",
+        "al pastor",
+        "chicken",
+        "chicken al",
+        "chicken al pastor",
+        "pastor"
+      ],
+      "background_terms": [
+        "pineapple",
+        "achiote",
+        "chipotle"
+      ],
+      "presentation": "headline"
+    },
+    "chipotle honey vinaigrette": {
+      "brand": "Chipotle",
+      "raw": "chipotle honey vinaigrette",
+      "headline_text": "chipotle honey vinaigrette",
+      "headline_terms": [
+        "chipotle",
+        "chipotle honey",
+        "chipotle honey vinaigrette",
+        "honey",
+        "honey vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "cilantro-lime brown rice": {
+      "brand": "Chipotle",
+      "raw": "cilantro-lime brown rice",
+      "headline_text": "cilantro-lime brown rice",
+      "headline_terms": [
+        "brown",
+        "brown rice",
+        "cilantro",
+        "cilantro lime",
+        "cilantro lime brown rice",
+        "cilantro-lime brown rice",
+        "lime",
+        "lime brown",
+        "rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "cilantro-lime white rice": {
+      "brand": "Chipotle",
+      "raw": "cilantro-lime white rice",
+      "headline_text": "cilantro-lime white rice",
+      "headline_terms": [
+        "cilantro",
+        "cilantro lime",
+        "cilantro lime white rice",
+        "cilantro-lime white rice",
+        "lime",
+        "lime white",
+        "rice",
+        "white",
+        "white rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "corn salsa (mild \u2014 corn, poblano, red onion, jalape\u00f1o, lime)": {
+      "brand": "Chipotle",
+      "raw": "corn salsa (mild \u2014 corn, poblano, red onion, jalape\u00f1o, lime)",
+      "headline_text": "corn salsa",
+      "headline_terms": [
+        "corn",
+        "corn salsa",
+        "salsa"
+      ],
+      "background_terms": [
+        "mild",
+        "corn",
+        "poblano",
+        "red onion",
+        "jalape\u00f1o",
+        "lime"
+      ],
+      "presentation": "headline"
+    },
+    "crispy corn tortilla (taco)": {
+      "brand": "Chipotle",
+      "raw": "crispy corn tortilla (taco)",
+      "headline_text": "crispy corn tortilla",
+      "headline_terms": [
+        "corn",
+        "corn tortilla",
+        "crispy",
+        "crispy corn",
+        "crispy corn tortilla",
+        "tortilla"
+      ],
+      "background_terms": [
+        "taco"
+      ],
+      "presentation": "headline"
+    },
+    "fajita veggies (grilled bell peppers, onions)": {
+      "brand": "Chipotle",
+      "raw": "fajita veggies (grilled bell peppers, onions)",
+      "headline_text": "fajita veggies",
+      "headline_terms": [
+        "fajita",
+        "fajita veggies",
+        "veggies"
+      ],
+      "background_terms": [
+        "grilled bell peppers",
+        "onions"
+      ],
+      "presentation": "headline"
+    },
+    "flour tortilla (burrito)": {
+      "brand": "Chipotle",
+      "raw": "flour tortilla (burrito)",
+      "headline_text": "flour tortilla",
+      "headline_terms": [
+        "flour",
+        "flour tortilla",
+        "tortilla"
+      ],
+      "background_terms": [
+        "burrito"
+      ],
+      "presentation": "headline"
+    },
+    "flour tortilla (soft taco)": {
+      "brand": "Chipotle",
+      "raw": "flour tortilla (soft taco)",
+      "headline_text": "flour tortilla",
+      "headline_terms": [
+        "flour",
+        "flour tortilla",
+        "tortilla"
+      ],
+      "background_terms": [
+        "soft taco"
+      ],
+      "presentation": "headline"
+    },
+    "fresh tomato salsa (mild \u2014 tomato, onion, cilantro, lemon, lime)": {
+      "brand": "Chipotle",
+      "raw": "fresh tomato salsa (mild \u2014 tomato, onion, cilantro, lemon, lime)",
+      "headline_text": "fresh tomato salsa",
+      "headline_terms": [
+        "fresh tomato salsa",
+        "salsa",
+        "tomato",
+        "tomato salsa"
+      ],
+      "background_terms": [
+        "mild",
+        "tomato",
+        "onion",
+        "cilantro",
+        "lemon",
+        "lime"
+      ],
+      "presentation": "headline"
+    },
+    "guacamole (avocado, lime, cilantro, red onion, jalape\u00f1o)": {
+      "brand": "Chipotle",
+      "raw": "guacamole (avocado, lime, cilantro, red onion, jalape\u00f1o)",
+      "headline_text": "guacamole",
+      "headline_terms": [
+        "guacamole"
+      ],
+      "background_terms": [
+        "avocado",
+        "lime",
+        "cilantro",
+        "red onion",
+        "jalape\u00f1o"
+      ],
+      "presentation": "headline"
+    },
+    "pinto beans": {
+      "brand": "Chipotle",
+      "raw": "pinto beans",
+      "headline_text": "pinto beans",
+      "headline_terms": [
+        "beans",
+        "pinto",
+        "pinto beans"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "queso blanco (white cheese, tomatillo, jalape\u00f1o, poblano)": {
+      "brand": "Chipotle",
+      "raw": "queso blanco (white cheese, tomatillo, jalape\u00f1o, poblano)",
+      "headline_text": "queso blanco",
+      "headline_terms": [
+        "blanco",
+        "queso",
+        "queso blanco"
+      ],
+      "background_terms": [
+        "white cheese",
+        "tomatillo",
+        "jalape\u00f1o",
+        "poblano"
+      ],
+      "presentation": "headline"
+    },
+    "romaine lettuce": {
+      "brand": "Chipotle",
+      "raw": "romaine lettuce",
+      "headline_text": "romaine lettuce",
+      "headline_terms": [
+        "lettuce",
+        "romaine",
+        "romaine lettuce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "romaine lettuce (shredded)": {
+      "brand": "Chipotle",
+      "raw": "romaine lettuce (shredded)",
+      "headline_text": "romaine lettuce",
+      "headline_terms": [
+        "lettuce",
+        "romaine",
+        "romaine lettuce"
+      ],
+      "background_terms": [
+        "shredded"
+      ],
+      "presentation": "headline"
+    },
+    "shredded monterey jack cheese": {
+      "brand": "Chipotle",
+      "raw": "shredded monterey jack cheese",
+      "headline_text": "shredded monterey jack cheese",
+      "headline_terms": [
+        "cheese",
+        "jack",
+        "jack cheese",
+        "monterey",
+        "monterey jack",
+        "shredded",
+        "shredded monterey",
+        "shredded monterey jack cheese"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sofritas (organic braised tofu, chipotle, roasted poblano)": {
+      "brand": "Chipotle",
+      "raw": "sofritas (organic braised tofu, chipotle, roasted poblano)",
+      "headline_text": "sofritas",
+      "headline_terms": [
+        "sofritas"
+      ],
+      "background_terms": [
+        "organic braised tofu",
+        "chipotle",
+        "roasted poblano"
+      ],
+      "presentation": "headline"
+    },
+    "sour cream": {
+      "brand": "Chipotle",
+      "raw": "sour cream",
+      "headline_text": "sour cream",
+      "headline_terms": [
+        "cream",
+        "sour",
+        "sour cream"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "steak (adobo-marinated, grilled)": {
+      "brand": "Chipotle",
+      "raw": "steak (adobo-marinated, grilled)",
+      "headline_text": "steak",
+      "headline_terms": [
+        "steak"
+      ],
+      "background_terms": [
+        "adobo",
+        "marinated",
+        "grilled"
+      ],
+      "presentation": "headline"
+    },
+    "tomatillo green chili salsa (medium \u2014 tomatillo, jalape\u00f1o, cilantro)": {
+      "brand": "Chipotle",
+      "raw": "tomatillo green chili salsa (medium \u2014 tomatillo, jalape\u00f1o, cilantro)",
+      "headline_text": "tomatillo green chili salsa",
+      "headline_terms": [
+        "chili",
+        "chili salsa",
+        "green",
+        "green chili",
+        "salsa",
+        "tomatillo",
+        "tomatillo green",
+        "tomatillo green chili salsa"
+      ],
+      "background_terms": [
+        "medium",
+        "tomatillo",
+        "jalape\u00f1o",
+        "cilantro"
+      ],
+      "presentation": "headline"
+    },
+    "tomatillo red chili salsa (hot \u2014 dried red chili, chipotle, tomato)": {
+      "brand": "Chipotle",
+      "raw": "tomatillo red chili salsa (hot \u2014 dried red chili, chipotle, tomato)",
+      "headline_text": "tomatillo red chili salsa",
+      "headline_terms": [
+        "chili",
+        "chili salsa",
+        "red",
+        "red chili",
+        "salsa",
+        "tomatillo",
+        "tomatillo red",
+        "tomatillo red chili salsa"
+      ],
+      "background_terms": [
+        "hot",
+        "dried red chili",
+        "chipotle",
+        "tomato"
+      ],
+      "presentation": "headline"
+    },
+    "tomatillo red chili salsa extra hot (habanero)": {
+      "brand": "Chipotle",
+      "raw": "tomatillo red chili salsa extra hot (habanero)",
+      "headline_text": "tomatillo red chili salsa extra hot",
+      "headline_terms": [
+        "chili",
+        "chili salsa",
+        "hot",
+        "red",
+        "red chili",
+        "salsa",
+        "salsa hot",
+        "tomatillo",
+        "tomatillo red",
+        "tomatillo red chili salsa extra hot",
+        "tomatillo red chili salsa hot"
+      ],
+      "background_terms": [
+        "habanero"
+      ],
+      "presentation": "headline"
+    },
+    "apple kimchi": {
+      "brand": "Sweetgreen",
+      "raw": "apple kimchi",
+      "headline_text": "apple kimchi",
+      "headline_terms": [
+        "apple",
+        "apple kimchi",
+        "kimchi"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "apple kimchi sauce": {
+      "brand": "Sweetgreen",
+      "raw": "apple kimchi sauce",
+      "headline_text": "apple kimchi sauce",
+      "headline_terms": [
+        "apple",
+        "apple kimchi",
+        "apple kimchi sauce",
+        "kimchi",
+        "kimchi sauce",
+        "sauce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "apples": {
+      "brand": "Sweetgreen",
+      "raw": "apples",
+      "headline_text": "apples",
+      "headline_terms": [
+        "apples"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "avocado oil": {
+      "brand": "Sweetgreen",
+      "raw": "avocado oil",
+      "headline_text": "avocado oil",
+      "headline_terms": [
+        "avocado",
+        "avocado oil",
+        "oil"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "baby spinach": {
+      "brand": "Sweetgreen",
+      "raw": "baby spinach",
+      "headline_text": "baby spinach",
+      "headline_terms": [
+        "baby",
+        "baby spinach",
+        "spinach"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "balsamic vinaigrette": {
+      "brand": "Sweetgreen",
+      "raw": "balsamic vinaigrette",
+      "headline_text": "balsamic vinaigrette",
+      "headline_terms": [
+        "balsamic",
+        "balsamic vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "balsamic vinegar": {
+      "brand": "Sweetgreen",
+      "raw": "balsamic vinegar",
+      "headline_text": "balsamic vinegar",
+      "headline_terms": [
+        "balsamic",
+        "balsamic vinegar",
+        "vinegar"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "basil": {
+      "brand": "Sweetgreen",
+      "raw": "basil",
+      "headline_text": "basil",
+      "headline_terms": [
+        "basil"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "blackened chicken": {
+      "brand": "Sweetgreen",
+      "raw": "blackened chicken",
+      "headline_text": "blackened chicken",
+      "headline_terms": [
+        "blackened",
+        "blackened chicken",
+        "chicken"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "bread": {
+      "brand": "Sweetgreen",
+      "raw": "bread",
+      "headline_text": "bread",
+      "headline_terms": [
+        "bread"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "caesar": {
+      "brand": "Sweetgreen",
+      "raw": "caesar",
+      "headline_text": "caesar",
+      "headline_terms": [
+        "caesar"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "caesar dressing": {
+      "brand": "Sweetgreen",
+      "raw": "caesar dressing",
+      "headline_text": "caesar dressing",
+      "headline_terms": [
+        "caesar",
+        "caesar dressing",
+        "dressing"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "caramelized garlic steak": {
+      "brand": "Sweetgreen",
+      "raw": "caramelized garlic steak",
+      "headline_text": "caramelized garlic steak",
+      "headline_terms": [
+        "caramelized",
+        "caramelized garlic",
+        "caramelized garlic steak",
+        "garlic",
+        "garlic steak",
+        "steak"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "charred jalape\u00f1o ranch": {
+      "brand": "Sweetgreen",
+      "raw": "charred jalape\u00f1o ranch",
+      "headline_text": "charred jalape\u00f1o ranch",
+      "headline_terms": [
+        "charred",
+        "charred jalape",
+        "charred jalape o ranch",
+        "charred jalape\u00f1o ranch",
+        "jalape",
+        "jalape o",
+        "o",
+        "o ranch",
+        "ranch"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "chickpeas": {
+      "brand": "Sweetgreen",
+      "raw": "chickpeas",
+      "headline_text": "chickpeas",
+      "headline_terms": [
+        "chickpeas"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "chopped romaine": {
+      "brand": "Sweetgreen",
+      "raw": "chopped romaine",
+      "headline_text": "chopped romaine",
+      "headline_terms": [
+        "chopped",
+        "chopped romaine",
+        "romaine"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "cilantro": {
+      "brand": "Sweetgreen",
+      "raw": "cilantro",
+      "headline_text": "cilantro",
+      "headline_terms": [
+        "cilantro"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "citrus sesame vinaigrette": {
+      "brand": "Sweetgreen",
+      "raw": "citrus sesame vinaigrette",
+      "headline_text": "citrus sesame vinaigrette",
+      "headline_terms": [
+        "citrus",
+        "citrus sesame",
+        "citrus sesame vinaigrette",
+        "sesame",
+        "sesame vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "corn salsa": {
+      "brand": "Sweetgreen",
+      "raw": "corn salsa",
+      "headline_text": "corn salsa",
+      "headline_terms": [
+        "corn",
+        "corn salsa",
+        "salsa"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crispy brown rice": {
+      "brand": "Sweetgreen",
+      "raw": "crispy brown rice",
+      "headline_text": "crispy brown rice",
+      "headline_terms": [
+        "brown",
+        "brown rice",
+        "crispy",
+        "crispy brown",
+        "crispy brown rice",
+        "rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crispy noodles": {
+      "brand": "Sweetgreen",
+      "raw": "crispy noodles",
+      "headline_text": "crispy noodles",
+      "headline_terms": [
+        "crispy",
+        "crispy noodles",
+        "noodles"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crispy onions": {
+      "brand": "Sweetgreen",
+      "raw": "crispy onions",
+      "headline_text": "crispy onions",
+      "headline_terms": [
+        "crispy",
+        "crispy onions",
+        "onions"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crispy rice": {
+      "brand": "Sweetgreen",
+      "raw": "crispy rice",
+      "headline_text": "crispy rice",
+      "headline_terms": [
+        "crispy",
+        "crispy rice",
+        "rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crumbled bacon": {
+      "brand": "Sweetgreen",
+      "raw": "crumbled bacon",
+      "headline_text": "crumbled bacon",
+      "headline_terms": [
+        "bacon",
+        "crumbled",
+        "crumbled bacon"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "crushed red pepper": {
+      "brand": "Sweetgreen",
+      "raw": "crushed red pepper",
+      "headline_text": "crushed red pepper",
+      "headline_terms": [
+        "crushed",
+        "crushed red",
+        "crushed red pepper",
+        "pepper",
+        "red",
+        "red pepper"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "cucumbers": {
+      "brand": "Sweetgreen",
+      "raw": "cucumbers",
+      "headline_text": "cucumbers",
+      "headline_terms": [
+        "cucumbers"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "extra virgin olive oil": {
+      "brand": "Sweetgreen",
+      "raw": "extra virgin olive oil",
+      "headline_text": "extra virgin olive oil",
+      "headline_terms": [
+        "extra virgin olive oil",
+        "oil",
+        "olive",
+        "olive oil",
+        "virgin",
+        "virgin olive",
+        "virgin olive oil"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "feta crumble": {
+      "brand": "Sweetgreen",
+      "raw": "feta crumble",
+      "headline_text": "feta crumble",
+      "headline_terms": [
+        "crumble",
+        "feta",
+        "feta crumble"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "garlic aioli": {
+      "brand": "Sweetgreen",
+      "raw": "garlic aioli",
+      "headline_text": "garlic aioli",
+      "headline_terms": [
+        "aioli",
+        "garlic",
+        "garlic aioli"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "garlic breadcrumbs": {
+      "brand": "Sweetgreen",
+      "raw": "garlic breadcrumbs",
+      "headline_text": "garlic breadcrumbs",
+      "headline_terms": [
+        "breadcrumbs",
+        "garlic",
+        "garlic breadcrumbs"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "goat cheese": {
+      "brand": "Sweetgreen",
+      "raw": "goat cheese",
+      "headline_text": "goat cheese",
+      "headline_terms": [
+        "cheese",
+        "goat",
+        "goat cheese"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "golden quinoa": {
+      "brand": "Sweetgreen",
+      "raw": "golden quinoa",
+      "headline_text": "golden quinoa",
+      "headline_terms": [
+        "golden",
+        "golden quinoa",
+        "quinoa"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "grass-fed steak": {
+      "brand": "Sweetgreen",
+      "raw": "grass-fed steak",
+      "headline_text": "grass-fed steak",
+      "headline_terms": [
+        "grass-fed steak",
+        "steak"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "green goddess ranch": {
+      "brand": "Sweetgreen",
+      "raw": "green goddess ranch",
+      "headline_text": "green goddess ranch",
+      "headline_terms": [
+        "goddess",
+        "goddess ranch",
+        "green",
+        "green goddess",
+        "green goddess ranch",
+        "ranch"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "hard boiled egg": {
+      "brand": "Sweetgreen",
+      "raw": "hard boiled egg",
+      "headline_text": "hard boiled egg",
+      "headline_terms": [
+        "boiled",
+        "boiled egg",
+        "egg",
+        "hard",
+        "hard boiled",
+        "hard boiled egg"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "honey bbq sauce": {
+      "brand": "Sweetgreen",
+      "raw": "honey bbq sauce",
+      "headline_text": "honey bbq sauce",
+      "headline_terms": [
+        "bbq",
+        "bbq sauce",
+        "honey",
+        "honey bbq",
+        "honey bbq sauce",
+        "sauce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "hot honey mustard sauce": {
+      "brand": "Sweetgreen",
+      "raw": "hot honey mustard sauce",
+      "headline_text": "hot honey mustard sauce",
+      "headline_terms": [
+        "honey",
+        "honey mustard",
+        "hot",
+        "hot honey",
+        "hot honey mustard sauce",
+        "mustard",
+        "mustard sauce",
+        "sauce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "hummus": {
+      "brand": "Sweetgreen",
+      "raw": "hummus",
+      "headline_text": "hummus",
+      "headline_terms": [
+        "hummus"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "just 6g of sugar": {
+      "brand": "Sweetgreen",
+      "raw": "just 6g of sugar",
+      "headline_text": "just 6g of sugar",
+      "headline_terms": [
+        "g",
+        "g sugar",
+        "just",
+        "just 6g of sugar",
+        "just g",
+        "just g sugar",
+        "sugar"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "kbbq dressing": {
+      "brand": "Sweetgreen",
+      "raw": "kbbq dressing",
+      "headline_text": "kbbq dressing",
+      "headline_terms": [
+        "dressing",
+        "kbbq",
+        "kbbq dressing"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "lemon squeeze": {
+      "brand": "Sweetgreen",
+      "raw": "lemon squeeze",
+      "headline_text": "lemon squeeze",
+      "headline_terms": [
+        "lemon",
+        "lemon squeeze",
+        "squeeze"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "lime cilantro jalape\u00f1o sauce": {
+      "brand": "Sweetgreen",
+      "raw": "lime cilantro jalape\u00f1o sauce",
+      "headline_text": "lime cilantro jalape\u00f1o sauce",
+      "headline_terms": [
+        "cilantro",
+        "cilantro jalape",
+        "jalape",
+        "jalape o",
+        "lime",
+        "lime cilantro",
+        "lime cilantro jalape o sauce",
+        "lime cilantro jalape\u00f1o sauce",
+        "o",
+        "o sauce",
+        "sauce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "lime squeeze": {
+      "brand": "Sweetgreen",
+      "raw": "lime squeeze",
+      "headline_text": "lime squeeze",
+      "headline_terms": [
+        "lime",
+        "lime squeeze",
+        "squeeze"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "miso glazed salmon": {
+      "brand": "Sweetgreen",
+      "raw": "miso glazed salmon",
+      "headline_text": "miso glazed salmon",
+      "headline_terms": [
+        "glazed",
+        "glazed salmon",
+        "miso",
+        "miso glazed",
+        "miso glazed salmon",
+        "salmon"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "miso sesame ginger": {
+      "brand": "Sweetgreen",
+      "raw": "miso sesame ginger",
+      "headline_text": "miso sesame ginger",
+      "headline_terms": [
+        "ginger",
+        "miso",
+        "miso dressing",
+        "miso sesame",
+        "miso sesame ginger",
+        "miso vinaigrette",
+        "sesame",
+        "sesame ginger"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "napa cabbage slaw": {
+      "brand": "Sweetgreen",
+      "raw": "napa cabbage slaw",
+      "headline_text": "napa cabbage slaw",
+      "headline_terms": [
+        "cabbage",
+        "cabbage slaw",
+        "napa",
+        "napa cabbage",
+        "napa cabbage slaw",
+        "slaw"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "nori sesame seasoning": {
+      "brand": "Sweetgreen",
+      "raw": "nori sesame seasoning",
+      "headline_text": "nori sesame seasoning",
+      "headline_terms": [
+        "furikake",
+        "nori",
+        "nori sesame",
+        "nori sesame seasoning",
+        "seasoning",
+        "sesame",
+        "sesame seasoning"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "organic arugula": {
+      "brand": "Sweetgreen",
+      "raw": "organic arugula",
+      "headline_text": "organic arugula",
+      "headline_terms": [
+        "arugula",
+        "organic arugula"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "organic baby spinach": {
+      "brand": "Sweetgreen",
+      "raw": "organic baby spinach",
+      "headline_text": "organic baby spinach",
+      "headline_terms": [
+        "baby",
+        "baby spinach",
+        "organic baby spinach",
+        "spinach"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "organic shredded kale": {
+      "brand": "Sweetgreen",
+      "raw": "organic shredded kale",
+      "headline_text": "organic shredded kale",
+      "headline_terms": [
+        "kale",
+        "organic shredded kale",
+        "shredded",
+        "shredded kale"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "organic spring mix": {
+      "brand": "Sweetgreen",
+      "raw": "organic spring mix",
+      "headline_text": "organic spring mix",
+      "headline_terms": [
+        "mix",
+        "organic spring mix",
+        "spring",
+        "spring mix"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "parmesan crisps": {
+      "brand": "Sweetgreen",
+      "raw": "parmesan crisps",
+      "headline_text": "parmesan crisps",
+      "headline_terms": [
+        "crisps",
+        "parmesan",
+        "parmesan crisps"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "pesto vinaigrette": {
+      "brand": "Sweetgreen",
+      "raw": "pesto vinaigrette",
+      "headline_text": "pesto vinaigrette",
+      "headline_terms": [
+        "pesto",
+        "pesto vinaigrette",
+        "vinaigrette"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "puffed millet\u2014naturally sweetened with honey date caramel": {
+      "brand": "Sweetgreen",
+      "raw": "puffed millet\u2014naturally sweetened with honey date caramel",
+      "headline_text": "puffed millet\u2014naturally sweetened with honey date caramel",
+      "headline_terms": [
+        "caramel",
+        "date",
+        "date caramel",
+        "honey",
+        "honey date",
+        "millet",
+        "millet sweetened",
+        "puffed",
+        "puffed millet",
+        "puffed millet sweetened honey date caramel",
+        "puffed millet\u2014naturally sweetened with honey date caramel",
+        "sweetened",
+        "sweetened honey"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "raw carrots": {
+      "brand": "Sweetgreen",
+      "raw": "raw carrots",
+      "headline_text": "raw carrots",
+      "headline_terms": [
+        "carrots",
+        "raw",
+        "raw carrots"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted almonds": {
+      "brand": "Sweetgreen",
+      "raw": "roasted almonds",
+      "headline_text": "roasted almonds",
+      "headline_terms": [
+        "almonds",
+        "roasted",
+        "roasted almonds"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted chicken": {
+      "brand": "Sweetgreen",
+      "raw": "roasted chicken",
+      "headline_text": "roasted chicken",
+      "headline_terms": [
+        "chicken",
+        "roasted",
+        "roasted chicken"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted sweet potatoes": {
+      "brand": "Sweetgreen",
+      "raw": "roasted sweet potatoes",
+      "headline_text": "roasted sweet potatoes",
+      "headline_terms": [
+        "potatoes",
+        "roasted",
+        "roasted sweet",
+        "roasted sweet potatoes",
+        "sweet",
+        "sweet potatoes"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "roasted tofu": {
+      "brand": "Sweetgreen",
+      "raw": "roasted tofu",
+      "headline_text": "roasted tofu",
+      "headline_terms": [
+        "roasted",
+        "roasted tofu",
+        "tofu"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sea salt": {
+      "brand": "Sweetgreen",
+      "raw": "sea salt",
+      "headline_text": "sea salt",
+      "headline_terms": [
+        "salt",
+        "sea",
+        "sea salt"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sesame crunch": {
+      "brand": "Sweetgreen",
+      "raw": "sesame crunch",
+      "headline_text": "sesame crunch",
+      "headline_terms": [
+        "crunch",
+        "sesame",
+        "sesame crunch"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "shaved parmesan": {
+      "brand": "Sweetgreen",
+      "raw": "shaved parmesan",
+      "headline_text": "shaved parmesan",
+      "headline_terms": [
+        "parmesan",
+        "shaved",
+        "shaved parmesan"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "shredded cabbage": {
+      "brand": "Sweetgreen",
+      "raw": "shredded cabbage",
+      "headline_text": "shredded cabbage",
+      "headline_terms": [
+        "cabbage",
+        "shredded",
+        "shredded cabbage"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "shredded carrots": {
+      "brand": "Sweetgreen",
+      "raw": "shredded carrots",
+      "headline_text": "shredded carrots",
+      "headline_terms": [
+        "carrots",
+        "shredded",
+        "shredded carrots"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "shredded kale": {
+      "brand": "Sweetgreen",
+      "raw": "shredded kale",
+      "headline_text": "shredded kale",
+      "headline_terms": [
+        "kale",
+        "shredded",
+        "shredded kale"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "spicy broccoli": {
+      "brand": "Sweetgreen",
+      "raw": "spicy broccoli",
+      "headline_text": "spicy broccoli",
+      "headline_terms": [
+        "broccoli",
+        "spicy",
+        "spicy broccoli"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "spicy cashew": {
+      "brand": "Sweetgreen",
+      "raw": "spicy cashew",
+      "headline_text": "spicy cashew",
+      "headline_terms": [
+        "cashew",
+        "cashew dressing",
+        "cashew sauce",
+        "spicy",
+        "spicy cashew"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "spring mix": {
+      "brand": "Sweetgreen",
+      "raw": "spring mix",
+      "headline_text": "spring mix",
+      "headline_terms": [
+        "mix",
+        "spring",
+        "spring mix"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "sweetgreen hot sauce": {
+      "brand": "Sweetgreen",
+      "raw": "sweetgreen hot sauce",
+      "headline_text": "sweetgreen hot sauce",
+      "headline_terms": [
+        "hot",
+        "hot sauce",
+        "sauce",
+        "sweetgreen",
+        "sweetgreen hot",
+        "sweetgreen hot sauce"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "tomatoes": {
+      "brand": "Sweetgreen",
+      "raw": "tomatoes",
+      "headline_text": "tomatoes",
+      "headline_terms": [
+        "tomatoes"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "tortilla chips": {
+      "brand": "Sweetgreen",
+      "raw": "tortilla chips",
+      "headline_text": "tortilla chips",
+      "headline_terms": [
+        "chips",
+        "tortilla",
+        "tortilla chips"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "umami seasoning": {
+      "brand": "Sweetgreen",
+      "raw": "umami seasoning",
+      "headline_text": "umami seasoning",
+      "headline_terms": [
+        "seasoning",
+        "umami",
+        "umami seasoning"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "warm portobello mix": {
+      "brand": "Sweetgreen",
+      "raw": "warm portobello mix",
+      "headline_text": "warm portobello mix",
+      "headline_terms": [
+        "mix",
+        "portobello",
+        "portobello mix",
+        "warm",
+        "warm portobello",
+        "warm portobello mix"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "warm roasted sweet potatoes": {
+      "brand": "Sweetgreen",
+      "raw": "warm roasted sweet potatoes",
+      "headline_text": "warm roasted sweet potatoes",
+      "headline_terms": [
+        "potatoes",
+        "roasted",
+        "roasted sweet",
+        "sweet",
+        "sweet potatoes",
+        "warm",
+        "warm roasted",
+        "warm roasted sweet potatoes"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "white cheddar": {
+      "brand": "Sweetgreen",
+      "raw": "white cheddar",
+      "headline_text": "white cheddar",
+      "headline_terms": [
+        "cheddar",
+        "white",
+        "white cheddar"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "white rice": {
+      "brand": "Sweetgreen",
+      "raw": "white rice",
+      "headline_text": "white rice",
+      "headline_terms": [
+        "rice",
+        "white",
+        "white rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "wild": {
+      "brand": "Sweetgreen",
+      "raw": "wild",
+      "headline_text": "wild",
+      "headline_terms": [
+        "wild"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    },
+    "wild rice": {
+      "brand": "Sweetgreen",
+      "raw": "wild rice",
+      "headline_text": "wild rice",
+      "headline_terms": [
+        "rice",
+        "wild rice"
+      ],
+      "background_terms": [],
+      "presentation": "headline"
+    }
+  }
+}

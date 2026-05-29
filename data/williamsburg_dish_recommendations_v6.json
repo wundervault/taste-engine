@@ -1,0 +1,352 @@
+[
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "jerk",
+    "signal_score": 0.917,
+    "missing_skus": [
+      "jerk (spice blend \u2014 allspice, scotch bonnet, thyme, garlic, ginger base)",
+      "allspice (spice_dried)",
+      "scotch bonnet (dried_or_fresh_pepper)",
+      "thyme (spice_dried)"
+    ],
+    "dish_potential": "A Jerk Chicken Plate or jerk-marinade chicken option as a Sweetgreen Plate-format entr\u00e9e \u2014 directly extending the Oct 2023 dinner expansion playbook that produced Miso Glazed Salmon, Hot Honey Chicken, and Southwest Chicken Fajita (per businesswire.com 20231024385806). Jerk is the #1 Williamsburg signal at 0.917 with 100 indie review hits \u2014 the largest single-flavor footprint in the city's top-15. Pairs naturally with the existing charred jalape\u00f1o ranch, lime cilantro jalape\u00f1o sauce, sweetgreen hot sauce, warm roasted sweet potatoes, and corn salsa pantry slots, so it lands in an existing flavor neighborhood for the brand.",
+    "operational_lift": "low. compute_lift_tier returned 'low' with national portability. All four missing SKUs are low-lift kinds: one spice_blend, two spice_dried, one dried_or_fresh_pepper. No new proteins, dressings, bases, or equipment required \u2014 it's a marinade/seasoning addition layered onto blackened chicken or roasted chicken proteins already in pantry.",
+    "comp_context": "Williamsburg evidence (get_evidence_counts): 59 leading-pool mentions across 3 leading restaurants and 33 competitive-pool mentions across 2 competitive restaurants \u2014 the heaviest concentrated-mention flavor in our Williamsburg sample. The narrow restaurant_count combined with extreme mention density signals a small number of category-defining specialists, which is the classic profile of a flavor a national chain can introduce to a much wider audience without direct head-to-head conflict.",
+    "confidence_score": 69,
+    "confidence_components": {
+      "trend": 83.5,
+      "local": 98.3,
+      "maturity": 95,
+      "feasibility": 20,
+      "recency": 50.0,
+      "lto": 0
+    },
+    "maturity_stage": "Rising",
+    "evidence_counts": {
+      "competitive_mentions": 33,
+      "leading_mentions": 59,
+      "total_mentions": 100,
+      "recent_12mo_mentions": 50,
+      "dma_trend": 83.5,
+      "deliverable": false,
+      "missing_skus": [
+        "jerk",
+        "allspice",
+        "scotch bonnet",
+        "thyme"
+      ]
+    },
+    "lift_tier": "low",
+    "rollout_portability": "national",
+    "lift_rationale": "4 missing SKU(s); ceiling set by jerk, allspice, scotch bonnet, thyme.",
+    "lift_breakdown": [
+      {
+        "sku": "jerk",
+        "lift": "low",
+        "portability": "national",
+        "kind": "spice_blend"
+      },
+      {
+        "sku": "allspice",
+        "lift": "low",
+        "portability": "national",
+        "kind": "spice_dried"
+      },
+      {
+        "sku": "scotch bonnet",
+        "lift": "low",
+        "portability": "national",
+        "kind": "dried_or_fresh_pepper"
+      },
+      {
+        "sku": "thyme",
+        "lift": "low",
+        "portability": "national",
+        "kind": "spice_dried"
+      }
+    ],
+    "lto_proven": null
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Kimchi Crunch Bowl",
+    "tagline": "Apple kimchi, miso-sesame ginger, crispy rice \u2014 a Williamsburg-tuned Korean bowl from pantry-only SKUs.",
+    "ingredients": [
+      "wild rice",
+      "organic shredded kale",
+      "blackened chicken",
+      "apple kimchi",
+      "napa cabbage slaw",
+      "spicy broccoli",
+      "crispy rice",
+      "sesame crunch",
+      "nori sesame seasoning",
+      "miso sesame ginger"
+    ],
+    "signal_term": "kimchi",
+    "signal_score": 0.723,
+    "signal_rank_note": "kimchi ranks #5 in Williamsburg's top-15 signal ranking at 0.723 (per get_signal_ranking). It is the highest-ranked Williamsburg signal Sweetgreen can deliver that does NOT collide with an existing menu item \u2014 miso (0.804) is already shipped as Miso Glazed Salmon and pesto (0.802) is already shipped as Chicken Pesto Parm (per get_brand_existing_dishes).",
+    "novelty_check": "Cross-checked against get_brand_existing_dishes for Sweetgreen \u2014 no current item is kimchi-led. Apple kimchi and napa cabbage slaw exist in pantry but are not the headline of any current bowl. The kimchi+miso pairing has a get_pairing_score of 0.85 (Korean/Japanese, allowed default).",
+    "confidence": 56,
+    "confidence_reason": "compute_confidence returned 56 for (Sweetgreen, Williamsburg, kimchi). Components: trend 44.6, local 35.0, maturity 65, feasibility 100, recency 64.5, lto 0. Recency is the standout \u2014 64.5 means kimchi mentions in Williamsburg are concentrated in the last 12 months. Maturity is 'Steady'.",
+    "comp_context": "Williamsburg indie review pool (get_evidence_counts): 10 leading-pool mentions across 4 leading restaurants and 21 competitive-pool mentions across 5 competitive restaurants \u2014 strong competitive-pool concentration suggests kimchi is mainstream in the neighborhood's mid-tier fast-casual set, not just on tasting menus.",
+    "confidence_score": 56,
+    "confidence_components": {
+      "trend": 44.6,
+      "local": 35.0,
+      "maturity": 65,
+      "feasibility": 100,
+      "recency": 64.5,
+      "lto": 0
+    },
+    "maturity_stage": "Steady",
+    "evidence_counts": {
+      "competitive_mentions": 21,
+      "leading_mentions": 10,
+      "total_mentions": 31,
+      "recent_12mo_mentions": 20,
+      "dma_trend": 44.6,
+      "deliverable": true,
+      "missing_skus": []
+    },
+    "lift_tier": "low",
+    "rollout_portability": "national",
+    "lift_rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+    "lift_breakdown": [],
+    "lto_proven": null
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": 0.78,
+    "missing_skus": [
+      "cauliflower (fresh produce \u2014 whole-roasted or florets)"
+    ],
+    "dish_potential": "A Harissa-Roasted Cauliflower bowl/topping that extends CAVA's existing roasted vegetables SKU (currently brussels sprouts, carrots, cauliflower-adjacent) with a true headline cauliflower component \u2014 whole-roasted with harissa honey glaze or charred florets with skhug. Cauliflower is the #4 Williamsburg signal at 0.78 and appears in 22 distinct local restaurants combined (15 competitive + 7 leading per get_evidence_counts), the broadest restaurant footprint of any top-10 signal. It also gives CAVA a vegan/vegetarian hero that isn't falafel \u2014 filling a clear gap in the protein roster.",
+    "operational_lift": "medium. compute_lift_tier returned 'medium' with national portability. Only one missing SKU (cauliflower, kind: fresh_produce). No new dressings, spice blends, or proteins required \u2014 it plugs into the existing roasted vegetables prep line and the existing harissa / harissa honey / skhug condiment set.",
+    "comp_context": "Williamsburg evidence (get_evidence_counts): 19 leading-pool mentions across 7 leading restaurants and 27 competitive-pool mentions across 15 competitive restaurants \u2014 the widest competitive distribution among any top-10 Williamsburg signal we measured. Maturity stage is 'Steady' per compute_confidence (composite 51), meaning broad adoption rather than a novelty trend.",
+    "confidence_score": 51,
+    "confidence_components": {
+      "trend": 56.0,
+      "local": 45.0,
+      "maturity": 65,
+      "feasibility": 60,
+      "recency": 47.1,
+      "lto": 0
+    },
+    "maturity_stage": "Steady",
+    "evidence_counts": {
+      "competitive_mentions": 27,
+      "leading_mentions": 19,
+      "total_mentions": 51,
+      "recent_12mo_mentions": 24,
+      "dma_trend": 56.0,
+      "deliverable": false,
+      "missing_skus": [
+        "cauliflower"
+      ]
+    },
+    "lift_tier": "medium",
+    "rollout_portability": "national",
+    "lift_rationale": "1 missing SKU(s); ceiling set by cauliflower.",
+    "lift_breakdown": [
+      {
+        "sku": "cauliflower",
+        "lift": "medium",
+        "portability": "national",
+        "kind": "fresh_produce"
+      }
+    ],
+    "lto_proven": null
+  },
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Honey Bowl",
+    "tagline": "The most-celebrated LTO returns, finished with chipotle-honey vinaigrette.",
+    "ingredients": [
+      "cilantro-lime brown rice",
+      "black beans",
+      "chicken al pastor (pineapple, achiote, chipotle)",
+      "fajita veggies (grilled bell peppers, onions)",
+      "corn salsa",
+      "tomatillo green chili salsa",
+      "chipotle honey vinaigrette",
+      "guacamole",
+      "shredded monterey jack cheese"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": 0.0,
+    "signal_rank_note": "al pastor is not in Williamsburg's top-15 signal ranking (top signal is jerk at 0.917). This dish is anchored on the brand's own proven LTO equity rather than a high local signal, because Chipotle's pantry cannot deliver any top-5 Williamsburg signal flavor (jerk, miso, pesto, cauliflower, kimchi all blocked per get_pantry_fit).",
+    "novelty_check": "Chipotle has no current menu dishes per get_brand_existing_dishes. Chicken Al Pastor returned Feb 10, 2026 per the brand's newsroom (newsroom.chipotle.com/2026-01-27-CHIPOTLE-KICKS-OFF-2026-MENU-INNOVATION). This bowl is a new build pairing it with the chipotle honey vinaigrette (from 2024 Chipotle Honey Chicken equity) \u2014 a combination not previously shipped.",
+    "confidence": 50,
+    "confidence_reason": "compute_confidence returned 50 for (Chipotle, Williamsburg, al pastor). Components: trend 13.2, local 13.3, maturity 95, feasibility 100, recency 38.5, lto 100. The high feasibility + lto components offset weak local Williamsburg signal \u2014 this is a brand-equity play, not a neighborhood-signal play.",
+    "comp_context": "Williamsburg's indie review pool shows 8 leading-pool mentions and 3 competitive-pool mentions of al pastor (get_evidence_counts), across 5 leading and 3 competitive restaurants. That's a modest but real local context. The much stronger play is brand-side: per newsroom.chipotle.com, the original 2023 Chicken Al Pastor launch hit 20% of transactions in its first run and is the brand's most-celebrated LTO.",
+    "confidence_score": 50,
+    "confidence_components": {
+      "trend": 13.2,
+      "local": 13.3,
+      "maturity": 95,
+      "feasibility": 100,
+      "recency": 38.5,
+      "lto": 100
+    },
+    "maturity_stage": "Rising",
+    "evidence_counts": {
+      "competitive_mentions": 3,
+      "leading_mentions": 8,
+      "total_mentions": 13,
+      "recent_12mo_mentions": 5,
+      "dma_trend": 13.2,
+      "deliverable": true,
+      "missing_skus": [
+        "achiote"
+      ]
+    },
+    "lift_tier": "low",
+    "rollout_portability": "national",
+    "lift_rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+    "lift_breakdown": [
+      {
+        "sku": "achiote",
+        "lift": "low",
+        "portability": "national",
+        "kind": "spice_dried"
+      }
+    ],
+    "lto_proven": {
+      "item_name": "Chicken Al Pastor",
+      "years": [
+        "2023",
+        "2024",
+        "2026"
+      ],
+      "current_status": "active",
+      "scope": "global",
+      "sources": [
+        "https://newsroom.chipotle.com/2023-03-14-CHIPOTLE-ADDS-CHICKEN-AL-PASTOR-TO-MENUS-IN-THE-U-S-,-CANADA,-AND-EUROPE",
+        "https://newsroom.chipotle.com/2026-01-27-CHIPOTLE-KICKS-OFF-2026-MENU-INNOVATION-WITH-THE-RETURN-OF-CHICKEN-AL-PASTOR,-ONE-OF-ITS-MOST-REQUESTED-ITEMS"
+      ]
+    }
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Tahini Harissa Lamb Bowl",
+    "tagline": "Lemon herb tahini meets harissa honey on braised lamb \u2014 every Williamsburg flavor hook, zero new SKUs.",
+    "ingredients": [
+      "saffron basmati rice",
+      "super greens (raw cabbage, chicory, brussels, broccoli, kale)",
+      "braised lamb (garlic, onion, turmeric, chili powder)",
+      "harissa",
+      "lemon herb tahini",
+      "pickled onions",
+      "persian cucumber",
+      "crumbled feta",
+      "sumac slaw"
+    ],
+    "signal_term": "tahini",
+    "signal_score": 0.63,
+    "signal_rank_note": "tahini ranks #8 in Williamsburg's top-15 signal ranking at 0.63 (per get_signal_ranking). It is the highest-ranked Williamsburg signal CAVA can deliver from current pantry \u2014 jerk (0.917), miso (0.804), pesto (0.802), cauliflower (0.78), and kimchi (0.723) all returned deliverable=false from get_pantry_fit.",
+    "novelty_check": "CAVA returned an empty existing_dishes list \u2014 no menu collisions. The build pairs lemon herb tahini dressing with harissa dip and the 2026 sumac slaw (per businesswire.com 2026-01-05 \u2014 CAVA's largest menu launch ever) on braised lamb, which is not a packaged CAVA bowl per the data we have.",
+    "confidence": 48,
+    "confidence_reason": "compute_confidence returned 48 for (CAVA, Williamsburg, tahini). Components: trend 26.0, local 28.3, maturity 65, feasibility 100, recency 47.2, lto 0. Maturity stage is 'Steady' (not Rising), which is the main drag. Upside: feasibility is 100 \u2014 zero new SKUs \u2014 and the dish doubles as a launch slot for the Jan 2026 sumac slaw.",
+    "comp_context": "Williamsburg indie review pool (get_evidence_counts): 15 leading-pool mentions across 3 leading restaurants and 17 competitive-pool mentions across 7 competitive restaurants \u2014 broader competitive presence than leading, consistent with a Steady-stage flavor.",
+    "confidence_score": 48,
+    "confidence_components": {
+      "trend": 26.0,
+      "local": 28.3,
+      "maturity": 65,
+      "feasibility": 100,
+      "recency": 47.2,
+      "lto": 0
+    },
+    "maturity_stage": "Steady",
+    "evidence_counts": {
+      "competitive_mentions": 17,
+      "leading_mentions": 15,
+      "total_mentions": 36,
+      "recent_12mo_mentions": 17,
+      "dma_trend": 26.0,
+      "deliverable": true,
+      "missing_skus": []
+    },
+    "lift_tier": "low",
+    "rollout_portability": "national",
+    "lift_rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+    "lift_breakdown": [],
+    "lto_proven": null
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "birria",
+    "signal_score": 0.682,
+    "missing_skus": [
+      "birria (slow-braised beef in chili-spiced broth)",
+      "consomm\u00e9 (dipping/jus side)",
+      "guajillo (dried pepper)",
+      "ancho (dried pepper)"
+    ],
+    "dish_potential": "A Birria Quesataco LTO: barbacoa-style beef rebuilt as proper birria served with a consomm\u00e9 dip cup, on the existing crispy corn tortilla or flour tortilla vessel, with queso blanco and tomatillo red chili salsa. Williamsburg signal ranks birria #7 at 0.682 with 53 indie review mentions across 9 restaurants. Brand fit is natural \u2014 it's a Mexican braise that extends the Smoked Brisket / Carne Asada LTO playbook (per newsroom.chipotle.com, those were the 2021 and 2019/2025 hero launches). Pairs with Quesabrisket's mashup logic from Sept 2025.",
+    "operational_lift": "high. compute_lift_tier returned 'high' with national portability. The ceiling SKUs are birria itself and consomm\u00e9 \u2014 both classified as braise_multi_step, the heaviest lift kind. Guajillo and ancho dried peppers are low-lift adds. The implication: this is feasible nationally but requires new prep-line braise capacity, similar in shape to the Smoked Brisket rollout (newsroom.chipotle.com, 2021; returned 2025).",
+    "comp_context": "Williamsburg evidence (get_evidence_counts): 36 leading-pool mentions across 4 leading-pool restaurants and 17 competitive-pool mentions across 5 competitive-pool restaurants. Birria is in 'Rising' maturity stage per compute_confidence \u2014 still expanding locally, not saturated.",
+    "confidence_score": 47,
+    "confidence_components": {
+      "trend": 36.4,
+      "local": 60.0,
+      "maturity": 95,
+      "feasibility": 20,
+      "recency": 37.7,
+      "lto": 0
+    },
+    "maturity_stage": "Rising",
+    "evidence_counts": {
+      "competitive_mentions": 17,
+      "leading_mentions": 36,
+      "total_mentions": 53,
+      "recent_12mo_mentions": 20,
+      "dma_trend": 36.4,
+      "deliverable": false,
+      "missing_skus": [
+        "birria",
+        "consomm\u00e9",
+        "guajillo",
+        "ancho"
+      ]
+    },
+    "lift_tier": "high",
+    "rollout_portability": "national",
+    "lift_rationale": "4 missing SKU(s); ceiling set by birria, consomm\u00e9.",
+    "lift_breakdown": [
+      {
+        "sku": "birria",
+        "lift": "high",
+        "portability": "national",
+        "kind": "braise_multi_step"
+      },
+      {
+        "sku": "consomm\u00e9",
+        "lift": "high",
+        "portability": "national",
+        "kind": "braise_multi_step"
+      },
+      {
+        "sku": "guajillo",
+        "lift": "low",
+        "portability": "national",
+        "kind": "dried_pepper"
+      },
+      {
+        "sku": "ancho",
+        "lift": "low",
+        "portability": "national",
+        "kind": "dried_pepper"
+      }
+    ],
+    "lto_proven": null
+  }
+]

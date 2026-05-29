@@ -1,0 +1,106 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Taco Plate",
+    "tagline": "Achiote-pineapple marinated chicken al pastor, corn salsa, queso blanco, and crispy corn tortillas.",
+    "ingredients": [
+      "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "cilantro-lime white rice",
+      "black beans",
+      "corn salsa",
+      "queso blanco",
+      "guacamole",
+      "crispy corn tortilla (taco)"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.28",
+    "signal_rank_note": "Al pastor is only an emerging signal in Williamsburg (0.28) \u2014 Caribbean and Israeli flavors dominate here \u2014 but Chicken Al Pastor is an active LTO (shipped 2023, 2024, 2026), so relaunch timing intelligence says the recipe, supply chain, and ops muscle memory are already in place for a low-friction repeat.",
+    "novelty_check": "Chipotle is assembly-line; this is a defined plate configuration anchoring the al pastor LTO with corn salsa + queso (elote-adjacent pairing from the compatible co-flavor list) rather than the default burrito build.",
+    "confidence": "MID",
+    "confidence_reason": "Active LTO with multi-year ship history de-risks ops, but the 0.28 local score means demand is modest in this DMA \u2014 best positioned as a relaunch window, not a hero."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": "0.62",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A true Mole Chicken Bowl line \u2014 mole negro as a separately-ladled sauce over adobo chicken, cilantro-lime rice, black beans, queso blanco, and crispy tortilla strips. Opens a 'sauce-forward' burrito bowl tier that Chipotle currently lacks, and it cleanly pairs with the existing al pastor LTO neighborhood (both rooted in central Mexican tradition).",
+    "operational_lift": "Low-to-medium \u2014 mole ships as a shelf-stable paste reconstituted at the line, similar in handling to the existing salsas; one new ladle station, no new cook step.",
+    "comp_context": "Ensenada (coastal Mexican, Williamsburg) leans ceviche-forward, but the broader Brooklyn Mexican indie scene treats mole as the prestige sauce \u2014 a Chipotle mole bowl would be the only fast-casual option in the neighborhood."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Tahini Harissa Chicken Bowl",
+    "tagline": "Harissa honey chicken over saffron rice with lemon herb tahini, fiery broccoli, and crazy feta.",
+    "ingredients": [
+      "saffron basmati rice",
+      "black lentils",
+      "harissa honey chicken",
+      "lemon herb tahini",
+      "side harissa",
+      "fiery broccoli",
+      "crazy feta",
+      "persian cucumber",
+      "pickled onions",
+      "pita crisps"
+    ],
+    "signal_term": "tahini",
+    "signal_score": "0.63",
+    "signal_rank_note": "Tahini is a strong signal (0.63) in Williamsburg \u2014 this is the neighborhood where K'Far and Laser Wolf have made tahini a luxury condiment, so a tahini-forward bowl reads as native, not as fast-casual imitation.",
+    "novelty_check": "Distinct from CAVA's default builds by anchoring on tahini-as-dressing + harissa-as-side-condiment with black lentils (compatible co-flavor) as the base layer rather than rice-only \u2014 a deliberate dip-stacking architecture.",
+    "confidence": "HIGH",
+    "confidence_reason": "Tahini 0.63 + harissa as compatible co-flavor + Israeli indie dominance in the DMA (K'Far, Laser Wolf) is the strongest cuisine-context match in this brief."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.78",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "Roasted cauliflower as a standalone topping/protein-adjacent SKU unlocks a Cauliflower Tahini Bowl, a Harissa Cauliflower side, and a vegetarian hero that's currently delegated to falafel only. Cauliflower is the compatible co-flavor under tahini, harissa, AND sumac anchors \u2014 one SKU, three menu lanes.",
+    "operational_lift": "Low \u2014 roast on the same sheet pan rotation as brussels/carrots/cauliflower already in the 'roasted vegetables' SKU; the work is breaking it out as its own scoopable component rather than blending it into the mixed roast.",
+    "comp_context": "K'Far's whole-roasted cauliflower with tahini is one of the most-photographed dishes in Williamsburg \u2014 CAVA's pantry is one SKU away from a fast-casual translation of exactly that plate."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Salmon Crispy Rice Bowl",
+    "tagline": "Miso glazed salmon over white rice with crispy rice, nori sesame, napa cabbage slaw, and miso sesame ginger.",
+    "ingredients": [
+      "white rice",
+      "miso glazed salmon",
+      "napa cabbage slaw",
+      "crispy rice",
+      "nori sesame seasoning",
+      "cucumbers",
+      "avocado",
+      "sesame crunch",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.80",
+    "signal_rank_note": "Miso is a top-tier signal (0.80) and Sweetgreen's Miso Glazed Salmon Plate has been active since 2023 \u2014 relaunch timing intelligence says the salmon + miso dressing + furikake-adjacent nori sesame supply chain is fully proven; this is a crispy-rice-forward sibling, not a replacement.",
+    "novelty_check": "Distinct from the existing Miso Glazed Salmon Plate (which leans warm-bowl Mediterranean-ish) and from the Crispy Rice Bowl (no salmon, different dressing) \u2014 this fuses the two with a furikake co-flavor (nori sesame) the existing dishes don't headline.",
+    "confidence": "HIGH",
+    "confidence_reason": "Highest possible signal score, every ingredient is an active SKU, and the cuisine family (Japanese) is internally consistent \u2014 miso + furikake + kabocha-adjacent crispy rice all sit cleanly in the compatible co-flavor set."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "plantain",
+    "signal_score": "0.62",
+    "missing_skus": [
+      "plantain"
+    ],
+    "dish_potential": "Sweet plantains (maduros) as a warm premium topping unlock a Caribbean lane Sweetgreen doesn't currently touch \u2014 think a jerk-adjacent blackened chicken bowl with plantains, black beans (would need separately), corn salsa, charred jalape\u00f1o ranch, and lime cilantro jalape\u00f1o sauce. Plantain is the single ingredient that lets Sweetgreen credibly enter the Williamsburg Caribbean conversation.",
+    "operational_lift": "Medium \u2014 plantains need a dedicated warm-hold station (par-fried or oven-finished) and ripeness QC; closer to sweet potato workflow than to a cold topping.",
+    "comp_context": "Kokomo (Caribbean, Williamsburg) is the defining indie identity here \u2014 their plantains-and-jerk plates set the local expectation, and no fast-casual chain in the neighborhood is competing in that lane."
+  }
+]

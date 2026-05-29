@@ -1,0 +1,14 @@
+{
+  "weho": {
+    "label": "West Hollywood",
+    "candidates": []
+  },
+  "williamsburg": {
+    "label": "Williamsburg",
+    "candidates": []
+  },
+  "mission": {
+    "label": "Mission District",
+    "candidates": []
+  }
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "brand": "Chipotle",
+    "city": "West Hollywood",
+    "location": "8420 Beverly Blvd",
+    "results": [
+      {
+        "type": "dish",
+        "brand": "Chipotle",
+        "city": "West Hollywood",
+        "dish_name": "Al Pastor Avocado Bowl",
+        "tagline": "Pineapple-kissed al pastor meets WeHo's avocado obsession — bright, smoky, California-true.",
+        "ingredients": [
+          "chicken al pastor (pineapple, achiote, chipotle — LTO)",
+          "cilantro-lime white rice",
+          "black beans",
+          "corn salsa (corn, poblano, red onion, jalapeño, lime)",
+          "guacamole (avocado, lime, cilantro, red onion, jalapeño)",
+          "tomatillo green chili salsa"
+        ],
+        "trend_signal": "al pastor rising — recent_4w 15.0, avg_12m 14.2 (US-CA)",
+        "gap_rationale": "Gracias Madre and street taco culture drive al pastor demand in WeHo; locals eating it nightly on Melrose. This is Chipotle's sharpest match against that craving — al pastor is already on the LTO menu.",
+        "confidence": "HIGH",
+        "confidence_reason": "All ingredients confirmed in pantry. Al pastor LTO is live. Corn salsa + guac deliver the bright, charred-sweetness profile locals expect. No pantry stretching required."
+      },
+      {
+        "type": "dish",
+        "brand": "Chipotle",
+        "city": "West Hollywood",
+        "dish_name": "Smoky Barbacoa Taco Trio",
+        "tagline": "Chipotle-braised beef, tomatillo heat, and corn salsa crunch — the WeHo late-night taco.",
+        "ingredients": [
+          "barbacoa (braised beef, chipotle, cumin)",
+          "crispy corn tortilla",
+          "corn salsa (corn, poblano, red onion, jalapeño, lime)",
+          "tomatillo red chili salsa (hot)",
+          "shredded monterey jack cheese",
+          "sour cream",
+          "romaine lettuce"
+        ],
+        "trend_signal": "birria rising — recent_4w 52.0, avg_12m 46.6 (US-CA); barbacoa captures similar braised-beef craving authentically",
+        "gap_rationale": "Birria demand is surging in WeHo but Chipotle can't do consommé-dipped birria (gap below). Barbacoa on crispy corn tortilla is the honest, authentic pivot that delivers deep braised beef flavor without faking the birria experience.",
+        "confidence": "MID",
+        "confidence_reason": "Pantry fully supports this. Confidence is MID (not HIGH) because barbacoa tacos are not a new concept at Chipotle — novelty is lower. The framing against rising birria interest is the unlock."
+      },
+      {
+        "type": "gap",
+        "brand": "Chipotle",
+        "city": "West Hollywood",
+        "trend": "birria",
+        "trend_strength": 52.0,
+        "missing_ingredients": [
+          "consommé (birria dipping broth — requires guajillo, ancho, cascabel dried chiles, beef bone broth reduction)",
+          "dried guajillo chile",
+          "dried ancho chile",
+          "Oaxacan cheese (quesillo) for birria quesatacos",
+          "birria-specific chile-rubbed braising liquid separate from barbacoa prep"
+        ],
+        "local_evidence": "Gracias Madre (5333 Yelp reviews, 8905 Melrose) runs plant-based Mexican with deep mole-adjacent sauces; the WeHo street food corridor means locals know what real birria consommé tastes like. Chipotle's barbacoa alone does not replicate the dip-and-fry quesataco experience driving birria demand.",
+        "solution": "Add a dried chile consommé sauce station (guajillo + ancho reduction) as a limited dipping broth SKU, plus Oaxacan quesillo. One sauce + one cheese = birria quesatacos unlocked.",
+        "opportunity_size": "HIGH"
+      },
+      {
+        "type": "gap",
+        "brand": "Chipotle",
+        "city": "West Hollywood",
+        "trend": "elote",
+        "trend_strength": 20.8,
+        "missing_ingredients": [
+          "cotija cheese (crumbled, salty, dry — Monterey Jack is a different profile entirely)",
+          "Mexican crema (sour cream is thinner and less rich)",
+          "chili powder / tajín for elote dusting",
+          "charred whole corn on cob (or fire-roasted loose corn specifically prepared elote-style)"
+        ],
+        "local_evidence": "Elote is a fixture at every WeHo food event and Melrose street food stand. Corn salsa exists in Chipotle's pantry but it's a fresh cold salsa — not the hot, creamy, charred, cotija-dusted elote experience locals are searching for at rising rates (recent_4w 20.8, up from 16.9 avg).",
+        "solution": "Add cotija crumble as a topping SKU and a crema sauce packet. Combined with existing corn salsa and tomatillo red chili salsa, this creates an elote bowl build without infrastructure changes.",
+        "opportunity_size": "HIGH"
+      },
+      {
+        "type": "gap",
+        "brand": "Chipotle",
+        "city": "West Hollywood",
+        "trend": "mole",
+        "trend_strength": 76.0,
+        "missing_ingredients": [
+          "chocolate (Mexican dark chocolate — mole negro requires 30%+ of flavor from chocolate)",
+          "toasted nuts (almonds, peanuts, pepitas — structural mole thickener)",
+          "30+ dried chile varieties (ancho, mulato, pasilla, chihuacle, guajillo at minimum)",
+          "raisins or dried fruit (mole sweetness base)",
+          "Mexican cinnamon, clove, black pepper blend",
+          "plantain or stale bread (mole body)"
+        ],
+        "local_evidence": "Mole is the #1 trending Mexican flavor in CA (recent_4w 76.0, peak 100). Gracias Madre's entire identity is built on complex plant-based sauces in this family. Chipotle's tomatillo red chili salsas are distant cousins — they cannot approximate mole's chocolate-nut-chile depth.",
+        "solution": "This is a 6–8 SKU addition minimum to do mole honestly. More realistic: partner with an established mole brand (e.g., Doña María or a premium co-packer) for a mole drizzle sauce — single SKU that unlocks the trend without building from scratch.",
+        "opportunity_size": "HIGH"
+      }
+    ]
+  },
+  {
+    "brand": "CAVA",
+    "city": "West Hollywood",
+    "location": "6200 Sunset Blvd",
+    "results": [
+      {
+        "type": "dish",
+        "brand": "CAVA",
+        "city": "West Hollywood",
+        "dish_name": "Harissa Lamb Lentil Power Bowl",
+        "tagline": "Spiced lamb, earthy beluga lentils, harissa heat — the WeHo Mediterranean bowl that earns its place next to Crossroads.",
+        "ingredients": [
+          "braised lamb (garlic, onion, turmeric, chili powder)",
+          "beluga lentils",
+          "harissa",
+          "roasted eggplant dip",
+          "sumac slaw",
+          "pickled onions",
+          "crumbled feta",
+          "lemon herb tahini"
+        ],
+        "trend_signal": "harissa rising — recent_4w 7.2, avg_12m 7.1 (US-CA); lentils rising — recent_4w 47.0, avg_12m 46.7",
+        "gap_rationale": "Crossroads Kitchen (3504 Yelp reviews, 8284 Melrose) serves vegan Mediterranean to a WeHo crowd hungry for complex plant-forward flavors. CAVA's braised lamb + lentil base + harissa + sumac slaw is the fast-casual answer — layered, spiced, and authentically in-pantry.",
+        "confidence": "HIGH",
+        "confidence_reason": "Every element confirmed in CAVA pantry. Harissa is a native CAVA ingredient. Beluga lentils are a menu base. Braised lamb is a protein option. Sumac slaw is a listed topping. No stretching."
+      },
+      {
+        "type": "dish",
+        "brand": "CAVA",
+        "city": "West Hollywood",
+        "dish_name": "Crazy Feta Roasted Veg Bowl",
+        "tagline": "Whipped jalapeño feta, charred vegetables, fire-roasted corn — CAVA's answer to WeHo's plant-forward obsession.",
+        "ingredients": [
+          "roasted vegetables (brussels sprouts, carrots, cauliflower)",
+          "crazy feta (whipped feta, jalapeño)",
+          "fire-roasted corn",
+          "fiery broccoli",
+          "beluga lentils",
+          "pickled onions",
+          "sumac slaw",
+          "green goddess dressing (jalapeño, herbs)"
+        ],
+        "trend_signal": "cauliflower rising — recent_4w 69.0 (US-CA); lentils rising — recent_4w 47.0",
+        "gap_rationale": "Open Sesame (1042 reviews, 7458 Beverly) and Crossroads show WeHo diners are comfortable with bold vegetable-forward builds. Crazy feta provides a spicy, creamy anchor that elevates CAVA's veggie plate above generic salad territory.",
+        "confidence": "HIGH",
+        "confidence_reason": "All confirmed pantry. Crazy feta is a signature CAVA item. Fire-roasted corn is listed. Roasted veg is a protein option. This is a zero-gap dish build."
+      },
+      {
+        "type": "gap",
+        "brand": "CAVA",
+        "city": "West Hollywood",
+        "trend": "gochujang / Korean",
+        "trend_strength": 14.8,
+        "missing_ingredients": [
+          "gochujang (fermented Korean chile paste — base of all Korean heat flavor)",
+          "sesame oil (toasted — mandatory Korean aromatic)",
+          "doenjang or miso (Korean/Japanese fermented soybean base)",
+          "kimchi (fermented napa cabbage — distinct from any CAVA pickle)",
+          "scallion / ginger as primary aromatics (not herbs)"
+        ],
+        "local_evidence": "Moonbowls (8320 W 3rd, 170 reviews but cult-dense) is doing Korean grain bowls directly in CAVA's format lane. Kimchi trending at recent_4w 54.8 in CA — the highest Korean signal in the market. CAVA's sesame citrus herb dressing contains sesame flavor notes but not the fermented heat backbone that defines gochujang-Korean food.",
+        "solution": "Add gochujang as a dip/spread SKU (parallels harissa structurally — both are chile pastes). Single SKU addition would immediately unlock Korean bowl builds using existing rice bases, roasted veg, and sesame dressing.",
+        "opportunity_size": "HIGH"
+      },
+      {
+        "type": "gap",
+        "brand": "CAVA",
+        "city": "West Hollywood",
+        "trend": "shakshuka",
+        "trend_strength": 7.0,
+        "missing_ingredients": [
+          "eggs (poached or baked — shakshuka is defined by eggs cooked in tomato-pepper sauce)",
+          "cumin + paprika in tomato sauce format (distinct from current tomato + onion topping)",
+          "bell pepper braised in spiced tomato (structured as sauce, not fresh topping)"
+        ],
+        "local_evidence": "Shakshuka is a rising search term (recent_4w 7.0, trend: rising) in CA. K'Far in Williamsburg proves the Israeli brunch format translates to fast-casual desire. In WeHo, Israeli-Mediterranean food drives traffic at multiple price points. CAVA's tomato + onion topping and harissa exist but there is no egg protein and no sauce-base format to build a true shakshuka.",
+        "solution": "Add a soft-cooked egg as a protein option (one SKU). Combined with harissa, tomato + onion, feta, and arugula — shakshuka bowl is unlocked without a sauce addition.",
+        "opportunity_size": "MID"
+      }
+    ]
+  },
+  {
+    "brand": "Sweetgreen",
+    "city": "West Hollywood",
+    "location": "8570 Sunset Blvd",
+    "results": [
+      {
+        "type": "dish",
+        "brand": "Sweetgreen",
+        "city": "West Hollywood",
+        "dish_name": "Miso Salmon Yuzu Crunch Bowl",
+        "tagline": "Miso-glazed salmon, yuzu-adjacent citrus brightness, sesame and nori — the WeHo umami bowl Moonbowls can't wrap.",
+        "ingredients": [
+          "miso glazed salmon",
+          "avocado",
+          "cucumbers",
+          "pickled onions",
+          "crispy onions",
+          "white rice",
+          "nori sesame seasoning",
+          "spicy cashew"
+        ],
+        "trend_signal": "yuzu rising — recent_4w 31.0, avg_12m 28.4 (US-CA); kimchi rising — recent_4w 54.8",
+        "gap_rationale": "Moonbowls (Korean bowls, 8320 W 3rd) and Japanese-adjacent dining in WeHo show strong umami-forward demand. Sweetgreen's Miso Glazed Salmon is already on the permanent menu — this frames it as the WeHo local response to the yuzu/umami trend wave, leaning into nori sesame seasoning as the trend-aligned element.",
+        "confidence": "HIGH",
+        "confidence_reason": "This is a confirmed existing Sweetgreen dish (Miso Glazed Salmon). All ingredients verified in sweetgreen_menu.json. Framing against local Korean bowl competition and rising yuzu signal is the LTO pitch angle, not a new build."
+      },
+      {
+        "type": "dish",
+        "brand": "Sweetgreen",
+        "city": "West Hollywood",
+        "dish_name": "Saucy KBBQ Chicken Wrap",
+        "tagline": "Apple kimchi sauce, KBBQ dressing, crispy onions — WeHo's Korean fusion craving, wrapped and ready.",
+        "ingredients": [
+          "roasted chicken",
+          "white rice",
+          "napa cabbage slaw",
+          "raw carrots",
+          "crispy onions",
+          "apple kimchi sauce",
+          "kbbq dressing",
+          "garlic aioli",
+          "olive oil tortilla"
+        ],
+        "trend_signal": "kimchi rising — recent_4w 54.8, avg_12m 53.4 (US-CA); bulgogi rising — recent_4w 22.5",
+        "gap_rationale": "Moonbowls is the direct local competitor here. Sweetgreen has a confirmed KBBQ wrap (Saucy KBBQ Chicken) with apple kimchi sauce and KBBQ dressing — this is their sharpest Korean-adjacent offering and it's already built. The WeHo opportunity is to lean into it aggressively given Moonbowls' limited scale (170 reviews).",
+        "confidence": "HIGH",
+        "confidence_reason": "Confirmed existing dish in sweetgreen_menu.json. Apple kimchi sauce and KBBQ dressing are verified pantry items. WeHo's Korean food culture (Moonbowls) validates the demand. No stretching."
+      },
+      {
+        "type": "gap",
+        "brand": "Sweetgreen",
+        "city": "West Hollywood",
+        "trend": "elote",
+        "trend_strength": 20.8,
+        "missing_ingredients": [
+          "cotija cheese (crumbled — parmesan is not a substitute)",
+          "Mexican crema (no equivalent in Sweetgreen pantry)",
+          "tajín or chili-lime seasoning",
+          "fire-roasted / charred corn (corn salsa exists in one wrap but not as a standalone elote preparation)"
+        ],
+        "local_evidence": "Elote is surging in WeHo (recent_4w 20.8, up from 16.9 avg). Gracias Madre and local taco stands set the expectation for authentic cotija + crema presentation. Sweetgreen has no cotija, no crema, and no chili-lime seasoning — three of the four defining elote elements are missing.",
+        "solution": "Add cotija crumble as a topping SKU. This single addition, paired with corn salsa (already in the Jalapeño Ranch wrap), lime squeeze, and charred jalapeño ranch, creates a credible elote bowl without a full rebuild.",
+        "opportunity_size": "HIGH"
+      },
+      {
+        "type": "gap",
+        "brand": "Sweetgreen",
+        "city": "West Hollywood",
+        "trend": "mole",
+        "trend_strength": 76.0,
+        "missing_ingredients": [
+          "Mexican dark chocolate",
+          "dried chile blend (ancho, guajillo, pasilla minimum)",
+          "toasted nuts (pepitas, almonds)",
+          "mole sauce base — no approximation exists in Sweetgreen pantry"
+        ],
+        "local_evidence": "Mole is the #1 trending Mexican flavor in CA (recent_4w 76.0). Gracias Madre's plant-based Mexican identity in WeHo makes this a neighborhood-level flavor expectation. Sweetgreen has no Mexican flavor infrastructure at all — no adobo, no chipotle, no dried chiles, no chocolate.",
+        "solution": "This requires a dedicated mole-inspired sauce SKU (licensed or co-developed). Sweetgreen's existing proteins (roasted chicken, blackened chicken) would be the carriers. Without the sauce, the trend is completely unreachable.",
+        "opportunity_size": "MID"
+      }
+    ]
+  }
+]

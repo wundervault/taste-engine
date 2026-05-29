@@ -1,0 +1,106 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Pineapple Crunch Bowl",
+    "tagline": "Achiote-chipotle pork over cilantro-lime rice with a corn-poblano crunch.",
+    "ingredients": [
+      "cilantro-lime white rice",
+      "black beans",
+      "chicken al pastor",
+      "corn salsa",
+      "tomatillo green chili salsa",
+      "guacamole",
+      "shredded monterey jack cheese",
+      "burrito bowl (no vessel)"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.28",
+    "signal_rank_note": "Al pastor is an emerging \u2014 not dominant \u2014 signal in Williamsburg; the neighborhood's Mexican gravity is coastal (Ensenada) more than taqueria, so this plays as a familiar comfort rather than a trend headline.",
+    "novelty_check": "Chipotle has no fixed dish list; this leans into the LTO al pastor protein as a composed bowl with pineapple-forward identity rather than the default chicken/steak builds.",
+    "confidence": "MID",
+    "confidence_reason": "Al pastor is already an LTO SKU so execution risk is zero, but the 0.28 score means it's a modest-pull dish, not a hero."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.78",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "Roasted cauliflower as a veg-forward protein alternative unlocks a 'Cauliflower Adobo Bowl' line \u2014 adobo-roasted florets over cilantro-lime rice with tomatillo red chili and queso blanco \u2014 plus a vegetarian taco that doesn't default to sofritas or fajita veggies.",
+    "operational_lift": "Roast-and-hold cauliflower fits the existing sheet-pan/fajita-veggie prep flow with no new equipment.",
+    "comp_context": "Kokomo runs charred cauliflower as a Caribbean-spiced shareable, and the format reads as 'healthy indulgence' to the Williamsburg lunch crowd."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Black Lentil Tahini Bowl",
+    "tagline": "Slow-braised lentils, lemon-herb tahini, sumac-bright crunch.",
+    "ingredients": [
+      "black lentils",
+      "saffron basmati rice",
+      "harissa honey chicken",
+      "lemon herb tahini",
+      "pickled onions",
+      "persian cucumber",
+      "tomato + onion (with oregano)",
+      "crumbled feta",
+      "side pita"
+    ],
+    "signal_term": "tahini",
+    "signal_score": "0.63",
+    "signal_rank_note": "Tahini is a genuinely strong signal in Williamsburg \u2014 K'Far and Laser Wolf have made it a default flavor reference, so CAVA is playing in-pocket here, not chasing.",
+    "novelty_check": "CAVA is assembly-line; this build foregrounds lentils + tahini as the headline pairing (rather than hummus or harissa-forward defaults) and uses saffron rice as a co-base for a more composed eating experience.",
+    "confidence": "HIGH",
+    "confidence_reason": "Tahini scores 0.63 with strong Israeli-indie reinforcement locally, and every ingredient is already on the line."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "pesto",
+    "signal_score": "0.80",
+    "missing_skus": [
+      "pesto"
+    ],
+    "dish_potential": "A pesto SKU opens a 'Greens + Pesto' line \u2014 pesto-dressed power greens with grilled chicken, kalamata, tomato + cucumber \u2014 bridging CAVA's Mediterranean identity into a Northern-Med / Ligurian register and giving the menu its first basil-forward dressing.",
+    "operational_lift": "Pesto is a cold-line scoop alongside existing dips/dressings \u2014 no new station, just an additional refrigerated well.",
+    "comp_context": "Williamsburg Italian-leaning spots (and the broader Brooklyn deli-counter scene) treat pesto as a default green sauce; CAVA currently cedes that whole flavor to competitors."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Kimchi Crunch Bowl",
+    "tagline": "Miso-glazed salmon, apple kimchi, crispy rice \u2014 sweet-heat-funk in one bowl.",
+    "ingredients": [
+      "wild rice",
+      "organic shredded kale",
+      "miso glazed salmon",
+      "apple kimchi",
+      "crispy rice",
+      "shredded cabbage",
+      "cucumbers",
+      "nori sesame seasoning",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.80",
+    "signal_rank_note": "Miso is a top-tier signal (0.80) in Williamsburg \u2014 this is squarely in-trend, not catching up.",
+    "novelty_check": "Distinct from Miso Glazed Salmon (which is greens-forward with herbs) and Crispy Rice Bowl (spicy cashew + steak frame) \u2014 this combines the salmon protein with apple kimchi and a miso-sesame dressing in a wild-rice base, a build none of the 27 existing dishes assembles.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso scores 0.80, every SKU is already on the line, and Williamsburg over-indexes on Japanese-leaning health-bowl formats."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "plantain",
+    "signal_score": "0.62",
+    "missing_skus": [
+      "plantain"
+    ],
+    "dish_potential": "Roasted or crispy plantain unlocks a Caribbean-leaning bowl \u2014 'Jerk Chicken Plantain Bowl' with blackened chicken, plantain, corn salsa, shredded cabbage, lime cilantro jalape\u00f1o sauce \u2014 and a sweet-savory topping that's currently absent from the entire topping rail.",
+    "operational_lift": "Plantain needs a roast-and-hold step similar to sweet potatoes, so it slots into existing warm-veg prep with minimal added complexity.",
+    "comp_context": "Kokomo's whole identity is plantain-forward Caribbean (jerk, curry, oxtail), and Williamsburg diners already pay premium for that flavor profile \u2014 Sweetgreen has zero answer to it today."
+  }
+]

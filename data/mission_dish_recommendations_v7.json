@@ -1,0 +1,104 @@
+[
+  {
+    "type": "ship_now",
+    "brand": "Chipotle",
+    "dish_name": "Al Pastor Taco Plate",
+    "tagline": "Achiote-pineapple marinated chicken, charred corn salsa, fresh crema-style cool-down on crispy corn tortillas.",
+    "ingredients": [
+      "chicken al pastor (LTO \u2014 pineapple, achiote, chipotle)",
+      "crispy corn tortilla (taco)",
+      "corn salsa",
+      "shredded monterey jack cheese",
+      "sour cream",
+      "guacamole",
+      "cilantro-lime white rice"
+    ],
+    "signal_term": "al pastor",
+    "signal_score": "0.58",
+    "signal_rank_note": "Al pastor is a strong but not top-tier signal in the Mission (0.58) \u2014 mole, pesto, and miso all outrank it citywide, but al pastor is the honest play given a Mission burrito crowd that will judge an al pastor build against El Farolito two blocks away.",
+    "novelty_check": "Chipotle's standard al pastor is sold as a burrito/bowl protein swap; positioning it as a taco plate with corn salsa + crema-style sour cream + guac as a composed three-taco set (not a build-your-own) is a distinct LTO format, not a near-duplicate of the assembly-line default.",
+    "confidence": "HIGH",
+    "confidence_reason": "Al pastor has been shipped in 2023, 2024, and 2026 \u2014 active pantry, proven supply chain, and the Mission's taqueria density means the audience already searches for and orders this flavor regularly."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Chipotle",
+    "target_flavor": "mole",
+    "signal_score": "0.86",
+    "missing_skus": [
+      "mole"
+    ],
+    "dish_potential": "A Mole Chicken Bowl / Mole Burrito line \u2014 mole as a finishing sauce ladled over adobo chicken or carnitas with black beans, cilantro-lime rice, queso blanco, and pickled onions (if added). Opens a fall/D\u00eda de los Muertos LTO window and gives Chipotle a credible answer to the Mission's mole-forward Oaxacan spots.",
+    "operational_lift": "Medium lift \u2014 mole ships as a shelf-stable paste or refrigerated pouch (similar SKU profile to existing salsas) and slots into the salsa/queso ladle station without new equipment.",
+    "comp_context": "Nopalito and La Urbana in/near the Mission have built loyal followings on mole negro and mole rojo plates; Californios elevates it at the high end. Mission diners already have a calibrated mole palate that Chipotle currently cannot meet."
+  },
+  {
+    "type": "ship_now",
+    "brand": "CAVA",
+    "dish_name": "Harissa Lentil + Sumac Slaw Bowl",
+    "tagline": "Black lentils, harissa honey chicken, sumac slaw, and lemon herb tahini over saffron rice.",
+    "ingredients": [
+      "saffron basmati rice",
+      "black lentils",
+      "harissa honey chicken",
+      "sumac slaw",
+      "tomato + cucumber",
+      "pickled onions",
+      "lemon herb tahini",
+      "side harissa"
+    ],
+    "signal_term": "lentils",
+    "signal_score": "0.33",
+    "signal_rank_note": "Lentils is a notable but not top-tier signal in the Mission (0.33) \u2014 Mediterranean/Levantine flavors index lower here than Mexican or East Asian, but this build leans into CAVA's strongest active LTOs (sumac slaw + sumac chips landed 2026) and stacks three on-pantry signals (lentils, tahini, harissa) inside one cuisine-coherent bowl.",
+    "novelty_check": "Distinct from a generic build-your-own \u2014 it's a composed signature pairing harissa honey chicken with black lentils as a co-base (not a protein swap), with the 2026 sumac slaw as the named crunch element.",
+    "confidence": "MID",
+    "confidence_reason": "All ingredients are active pantry; sumac slaw was shipped in 2026 so relaunch timing intelligence is current. Signal scores are modest in this neighborhood, so this is a loyalist-pleaser rather than a foot-traffic driver."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "CAVA",
+    "target_flavor": "cauliflower",
+    "signal_score": "0.72",
+    "missing_skus": [
+      "cauliflower"
+    ],
+    "dish_potential": "Roasted cauliflower as a standalone vegetable topping (currently bundled inside the 'roasted vegetables' mix) unlocks a Harissa Cauliflower Bowl, a Cauliflower + Tahini mezze plate, and a vegetarian hero that competes with Souvla and the Mission's plant-forward Mediterranean spots. Pairs cleanly with existing harissa, tahini, and sumac SKUs \u2014 all compatible co-flavors.",
+    "operational_lift": "Low lift \u2014 CAVA already roasts cauliflower as part of the roasted vegetables blend; separating it into its own pan is a prep-line change, not new equipment or supply chain.",
+    "comp_context": "Beit Rima and Tawla (Mission/nearby) have turned roasted/charred cauliflower with tahini and sumac into signature plates; the dish is a known winner with this exact customer."
+  },
+  {
+    "type": "ship_now",
+    "brand": "Sweetgreen",
+    "dish_name": "Miso Salmon + Crispy Rice Bowl",
+    "tagline": "Miso glazed salmon, crispy rice, nori sesame, napa cabbage slaw, and miso sesame ginger over wild rice.",
+    "ingredients": [
+      "wild rice",
+      "miso glazed salmon",
+      "crispy rice",
+      "napa cabbage slaw",
+      "nori sesame seasoning",
+      "cucumbers",
+      "sesame crunch",
+      "miso sesame ginger"
+    ],
+    "signal_term": "miso",
+    "signal_score": "0.83",
+    "signal_rank_note": "Miso is a top-tier signal in the Mission (0.83), second only to mole and pesto \u2014 and Sweetgreen has already proven the supply chain with the Miso Glazed Salmon Plate (active 2023-present), so this is a relaunch-adjacent format play, not net-new innovation.",
+    "novelty_check": "Distinct from the existing Miso Glazed Salmon plate (which is a composed mezze-style plate) and the existing Crispy Rice Bowl (which is not salmon-anchored) \u2014 this fuses the two assets into a single bowl with nori sesame + napa cabbage as the headline texture/cuisine signals, all within the Japanese family.",
+    "confidence": "HIGH",
+    "confidence_reason": "Miso glazed salmon has been on the menu since 2023, crispy rice is an established topping, and miso scores 0.83 locally. Every ingredient is active pantry and cuisine-coherent (all Japanese-family co-flavors)."
+  },
+  {
+    "type": "gap_fill",
+    "brand": "Sweetgreen",
+    "target_flavor": "al pastor",
+    "signal_score": "0.58",
+    "missing_skus": [
+      "al pastor",
+      "achiote"
+    ],
+    "dish_potential": "An achiote-marinated chicken al pastor bowl with white rice, corn salsa, charred jalape\u00f1o ranch (existing), avocado, pickled onions, and tortilla chips \u2014 Sweetgreen's first real Mexican-family entry and a direct play for Mission lunch traffic that currently routes to taquerias. Pairs naturally with existing apple kimchi only via the KBBQ-taco fusion lineage, so we'd keep this bowl cuisine-pure (Mexican).",
+    "operational_lift": "Medium lift \u2014 achiote paste is shelf-stable and the chicken marination program already exists (blackened, roasted, hot honey). Adding an al pastor marinade SKU is a recipe addition, not a new cookline.",
+    "comp_context": "El Farolito and La Taqueria define al pastor in the Mission; Tacos Cala and Californios have shown the flavor scales to a craft-casual price point. Sweetgreen is currently invisible in this lane and ceding 100% of the al pastor lunch dollar."
+  }
+]

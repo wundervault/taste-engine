@@ -1,0 +1,2755 @@
+{
+  "Chipotle": {
+    "adobo sauce": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "adobo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": "Sofritas"
+    },
+    "al pastor": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "achiote",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": "Chicken Al Pastor"
+    },
+    "bao bun": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by bao, steamed bun.",
+      "missing_skus": [
+        {
+          "sku": "bao",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        },
+        {
+          "sku": "steamed bun",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "birria": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by birria, consomm\u00e9.",
+      "missing_skus": [
+        {
+          "sku": "birria",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "consomm\u00e9",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        },
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "bulgogi": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by bulgogi.",
+      "missing_skus": [
+        {
+          "sku": "bulgogi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean bbq",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "kbbq",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "burrata": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by burrata.",
+      "missing_skus": [
+        {
+          "sku": "burrata",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "fresh_dairy"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "calabrian chili": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by calabrian.",
+      "missing_skus": [
+        {
+          "sku": "calabrian",
+          "lift": "low",
+          "portability": "national",
+          "kind": "chili_paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cauliflower": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cauliflower.",
+      "missing_skus": [
+        {
+          "sku": "cauliflower",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crispy chickpeas": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by falafel.",
+      "missing_skus": [
+        {
+          "sku": "chickpea",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_legume"
+        },
+        {
+          "sku": "falafel",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_protein"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "curry goat": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by goat.",
+      "missing_skus": [
+        {
+          "sku": "goat",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_protein_refrigerated"
+        },
+        {
+          "sku": "curry",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "dashi": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by dashi, kombu, bonito.",
+      "missing_skus": [
+        {
+          "sku": "dashi",
+          "lift": "low",
+          "portability": "national",
+          "kind": "broth_shelf_stable"
+        },
+        {
+          "sku": "kombu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seaweed"
+        },
+        {
+          "sku": "bonito",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seasoning"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "elote": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by cotija, crema.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        },
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "tajin",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "taj\u00edn",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "farro": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by farro.",
+      "missing_skus": [
+        {
+          "sku": "farro",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "freekeh": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by freekeh.",
+      "missing_skus": [
+        {
+          "sku": "freekeh",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "furikake": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by furikake, nori sesame.",
+      "missing_skus": [
+        {
+          "sku": "furikake",
+          "lift": "low",
+          "portability": "national",
+          "kind": "seasoning_blend"
+        },
+        {
+          "sku": "nori sesame",
+          "lift": "low",
+          "portability": "national",
+          "kind": "seasoning_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "gochujang": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by gochujang, korean chili.",
+      "missing_skus": [
+        {
+          "sku": "gochujang",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "korean chili",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "harissa": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by harissa.",
+      "missing_skus": [
+        {
+          "sku": "harissa",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "jerk": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by jerk, allspice, scotch bonnet, thyme.",
+      "missing_skus": [
+        {
+          "sku": "jerk",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        },
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        },
+        {
+          "sku": "thyme",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "karaage": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by karaage, japanese fried chicken.",
+      "missing_skus": [
+        {
+          "sku": "karaage",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        },
+        {
+          "sku": "japanese fried chicken",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "kimchi": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by kimchi.",
+      "missing_skus": [
+        {
+          "sku": "kimchi",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fermented_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "lentils": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by lentil.",
+      "missing_skus": [
+        {
+          "sku": "lentil",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_legume"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "miso": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by miso.",
+      "missing_skus": [
+        {
+          "sku": "miso",
+          "lift": "low",
+          "portability": "national",
+          "kind": "paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "mole": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by mole.",
+      "missing_skus": [
+        {
+          "sku": "mole",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "nduja": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by nduja, 'nduja.",
+      "missing_skus": [
+        {
+          "sku": "nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        },
+        {
+          "sku": "'nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "oxtail": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by oxtail.",
+      "missing_skus": [
+        {
+          "sku": "oxtail",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "pesto": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by pesto.",
+      "missing_skus": [
+        {
+          "sku": "pesto",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_refrigerated_or_shelf"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "plantain": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by plantain.",
+      "missing_skus": [
+        {
+          "sku": "plantain",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "scotch bonnet": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by scotch bonnet.",
+      "missing_skus": [
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shakshuka": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by shakshuka, soft-cooked egg, egg + tomato.",
+      "missing_skus": [
+        {
+          "sku": "shakshuka",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "soft-cooked egg",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prep_workflow"
+        },
+        {
+          "sku": "egg + tomato",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "sumac": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by sumac.",
+      "missing_skus": [
+        {
+          "sku": "sumac",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tahini": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by tahini.",
+      "missing_skus": [
+        {
+          "sku": "tahini",
+          "lift": "low",
+          "portability": "national",
+          "kind": "paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tonkotsu": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by tonkotsu, pork bone broth.",
+      "missing_skus": [
+        {
+          "sku": "tonkotsu",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_day"
+        },
+        {
+          "sku": "pork bone broth",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "truffle": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by truffle.",
+      "missing_skus": [
+        {
+          "sku": "truffle",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_premium"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "yuzu": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by yuzu.",
+      "missing_skus": [
+        {
+          "sku": "yuzu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "extract_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "za'atar": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by za'atar, zaatar.",
+      "missing_skus": [
+        {
+          "sku": "za'atar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "zaatar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cotija": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cotija.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crema": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by crema, mexican crema.",
+      "missing_skus": [
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "mexican crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "allspice": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by allspice.",
+      "missing_skus": [
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "banchan": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by banchan.",
+      "missing_skus": [
+        {
+          "sku": "banchan",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "prepared_side_assortment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "galbi": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by galbi, kalbi, korean short rib.",
+      "missing_skus": [
+        {
+          "sku": "galbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "kalbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean short rib",
+          "lift": "high",
+          "portability": "national",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "japchae": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by japchae.",
+      "missing_skus": [
+        {
+          "sku": "japchae",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "glass noodle",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_noodle"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shawarma": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by shawarma.",
+      "missing_skus": [
+        {
+          "sku": "shawarma",
+          "lift": "high",
+          "portability": "national",
+          "kind": "rotisserie_equipment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "labneh": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by labneh.",
+      "missing_skus": [
+        {
+          "sku": "labneh",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "halloumi": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by halloumi.",
+      "missing_skus": [
+        {
+          "sku": "halloumi",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "guajillo": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by guajillo.",
+      "missing_skus": [
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": "Garlic Guajillo Steak"
+    },
+    "ancho": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by ancho.",
+      "missing_skus": [
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tofu": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "tofu",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": "Sofritas"
+    },
+    "kabocha": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by kabocha, japanese pumpkin.",
+      "missing_skus": [
+        {
+          "sku": "kabocha",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        },
+        {
+          "sku": "japanese pumpkin",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "ube": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by ube, purple yam.",
+      "missing_skus": [
+        {
+          "sku": "ube",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        },
+        {
+          "sku": "purple yam",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "matcha": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by matcha.",
+      "missing_skus": [
+        {
+          "sku": "matcha",
+          "lift": "low",
+          "portability": "national",
+          "kind": "powder_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    }
+  },
+  "CAVA": {
+    "adobo sauce": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by adobo, chipotle.",
+      "missing_skus": [
+        {
+          "sku": "adobo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "chipotle",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "al pastor": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by al pastor.",
+      "missing_skus": [
+        {
+          "sku": "al pastor",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_prep"
+        },
+        {
+          "sku": "achiote",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "bao bun": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by bao, steamed bun.",
+      "missing_skus": [
+        {
+          "sku": "bao",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        },
+        {
+          "sku": "steamed bun",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "birria": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by birria, consomm\u00e9.",
+      "missing_skus": [
+        {
+          "sku": "birria",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "consomm\u00e9",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        },
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "bulgogi": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by bulgogi.",
+      "missing_skus": [
+        {
+          "sku": "bulgogi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean bbq",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "kbbq",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "burrata": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by burrata.",
+      "missing_skus": [
+        {
+          "sku": "burrata",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "fresh_dairy"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "calabrian chili": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by calabrian.",
+      "missing_skus": [
+        {
+          "sku": "calabrian",
+          "lift": "low",
+          "portability": "national",
+          "kind": "chili_paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cauliflower": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cauliflower.",
+      "missing_skus": [
+        {
+          "sku": "cauliflower",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crispy chickpeas": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by crispy.",
+      "missing_skus": [
+        {
+          "sku": "chickpea",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_legume"
+        },
+        {
+          "sku": "crispy",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cooking_method"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "curry goat": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by goat.",
+      "missing_skus": [
+        {
+          "sku": "goat",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_protein_refrigerated"
+        },
+        {
+          "sku": "curry",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "dashi": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by dashi, kombu, bonito.",
+      "missing_skus": [
+        {
+          "sku": "dashi",
+          "lift": "low",
+          "portability": "national",
+          "kind": "broth_shelf_stable"
+        },
+        {
+          "sku": "kombu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seaweed"
+        },
+        {
+          "sku": "bonito",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seasoning"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "elote": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by cotija, crema.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        },
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "tajin",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "taj\u00edn",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "farro": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by farro.",
+      "missing_skus": [
+        {
+          "sku": "farro",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "freekeh": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by freekeh.",
+      "missing_skus": [
+        {
+          "sku": "freekeh",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "furikake": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by furikake, nori sesame.",
+      "missing_skus": [
+        {
+          "sku": "furikake",
+          "lift": "low",
+          "portability": "national",
+          "kind": "seasoning_blend"
+        },
+        {
+          "sku": "nori sesame",
+          "lift": "low",
+          "portability": "national",
+          "kind": "seasoning_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "gochujang": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by gochujang, korean chili.",
+      "missing_skus": [
+        {
+          "sku": "gochujang",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "korean chili",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "harissa": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "jerk": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by jerk, allspice, scotch bonnet, thyme.",
+      "missing_skus": [
+        {
+          "sku": "jerk",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        },
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        },
+        {
+          "sku": "thyme",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "karaage": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by karaage, japanese fried chicken.",
+      "missing_skus": [
+        {
+          "sku": "karaage",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        },
+        {
+          "sku": "japanese fried chicken",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "kimchi": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by kimchi.",
+      "missing_skus": [
+        {
+          "sku": "kimchi",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fermented_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "lentils": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "miso": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by miso.",
+      "missing_skus": [
+        {
+          "sku": "miso",
+          "lift": "low",
+          "portability": "national",
+          "kind": "paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "mole": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by mole.",
+      "missing_skus": [
+        {
+          "sku": "mole",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "nduja": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by nduja, 'nduja.",
+      "missing_skus": [
+        {
+          "sku": "nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        },
+        {
+          "sku": "'nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "oxtail": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by oxtail.",
+      "missing_skus": [
+        {
+          "sku": "oxtail",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "pesto": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by pesto.",
+      "missing_skus": [
+        {
+          "sku": "pesto",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_refrigerated_or_shelf"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "plantain": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by plantain.",
+      "missing_skus": [
+        {
+          "sku": "plantain",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "scotch bonnet": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by scotch bonnet.",
+      "missing_skus": [
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shakshuka": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by shakshuka, soft-cooked egg, egg + tomato.",
+      "missing_skus": [
+        {
+          "sku": "shakshuka",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "soft-cooked egg",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prep_workflow"
+        },
+        {
+          "sku": "egg + tomato",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "sumac": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": "Sumac Sour Cream + Onion Pita Chips"
+    },
+    "tahini": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tonkotsu": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by tonkotsu, pork bone broth.",
+      "missing_skus": [
+        {
+          "sku": "tonkotsu",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_day"
+        },
+        {
+          "sku": "pork bone broth",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "truffle": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by truffle.",
+      "missing_skus": [
+        {
+          "sku": "truffle",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_premium"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "yuzu": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by yuzu.",
+      "missing_skus": [
+        {
+          "sku": "yuzu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "extract_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "za'atar": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by za'atar, zaatar.",
+      "missing_skus": [
+        {
+          "sku": "za'atar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "zaatar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cotija": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cotija.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crema": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by crema, mexican crema.",
+      "missing_skus": [
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "mexican crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "allspice": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by allspice.",
+      "missing_skus": [
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "banchan": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by banchan.",
+      "missing_skus": [
+        {
+          "sku": "banchan",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "prepared_side_assortment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "galbi": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by galbi, kalbi, korean short rib.",
+      "missing_skus": [
+        {
+          "sku": "galbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "kalbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean short rib",
+          "lift": "high",
+          "portability": "national",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "japchae": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by japchae.",
+      "missing_skus": [
+        {
+          "sku": "japchae",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "glass noodle",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_noodle"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shawarma": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by shawarma.",
+      "missing_skus": [
+        {
+          "sku": "shawarma",
+          "lift": "high",
+          "portability": "national",
+          "kind": "rotisserie_equipment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "labneh": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by labneh.",
+      "missing_skus": [
+        {
+          "sku": "labneh",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "halloumi": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by halloumi.",
+      "missing_skus": [
+        {
+          "sku": "halloumi",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "guajillo": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by guajillo.",
+      "missing_skus": [
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "ancho": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by ancho.",
+      "missing_skus": [
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tofu": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by sofritas.",
+      "missing_skus": [
+        {
+          "sku": "tofu",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "protein_refrigerated"
+        },
+        {
+          "sku": "sofritas",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "kabocha": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by kabocha, japanese pumpkin.",
+      "missing_skus": [
+        {
+          "sku": "kabocha",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        },
+        {
+          "sku": "japanese pumpkin",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "ube": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by ube, purple yam.",
+      "missing_skus": [
+        {
+          "sku": "ube",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        },
+        {
+          "sku": "purple yam",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "matcha": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by matcha.",
+      "missing_skus": [
+        {
+          "sku": "matcha",
+          "lift": "low",
+          "portability": "national",
+          "kind": "powder_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    }
+  },
+  "Sweetgreen": {
+    "adobo sauce": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by adobo, chipotle.",
+      "missing_skus": [
+        {
+          "sku": "adobo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "chipotle",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "al pastor": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by al pastor.",
+      "missing_skus": [
+        {
+          "sku": "al pastor",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_prep"
+        },
+        {
+          "sku": "achiote",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "bao bun": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by bao, steamed bun.",
+      "missing_skus": [
+        {
+          "sku": "bao",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        },
+        {
+          "sku": "steamed bun",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_bread"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "birria": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by birria, consomm\u00e9.",
+      "missing_skus": [
+        {
+          "sku": "birria",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "consomm\u00e9",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        },
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        },
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "bulgogi": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "bulgogi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean bbq",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "burrata": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by burrata.",
+      "missing_skus": [
+        {
+          "sku": "burrata",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "fresh_dairy"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "calabrian chili": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by calabrian.",
+      "missing_skus": [
+        {
+          "sku": "calabrian",
+          "lift": "low",
+          "portability": "national",
+          "kind": "chili_paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cauliflower": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cauliflower.",
+      "missing_skus": [
+        {
+          "sku": "cauliflower",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crispy chickpeas": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "falafel",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "frozen_protein"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "curry goat": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by curry.",
+      "missing_skus": [
+        {
+          "sku": "curry",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "dashi": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by dashi, kombu, bonito.",
+      "missing_skus": [
+        {
+          "sku": "dashi",
+          "lift": "low",
+          "portability": "national",
+          "kind": "broth_shelf_stable"
+        },
+        {
+          "sku": "kombu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seaweed"
+        },
+        {
+          "sku": "bonito",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_seasoning"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "elote": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by cotija, crema.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        },
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "tajin",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "taj\u00edn",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "farro": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by farro.",
+      "missing_skus": [
+        {
+          "sku": "farro",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "freekeh": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by freekeh.",
+      "missing_skus": [
+        {
+          "sku": "freekeh",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_grain"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "furikake": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "furikake",
+          "lift": "low",
+          "portability": "national",
+          "kind": "seasoning_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "gochujang": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by gochujang, korean chili.",
+      "missing_skus": [
+        {
+          "sku": "gochujang",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        },
+        {
+          "sku": "korean chili",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "harissa": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by harissa.",
+      "missing_skus": [
+        {
+          "sku": "harissa",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "jerk": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "4 missing SKU(s); ceiling set by jerk, allspice, scotch bonnet, thyme.",
+      "missing_skus": [
+        {
+          "sku": "jerk",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        },
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        },
+        {
+          "sku": "thyme",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "karaage": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by karaage, japanese fried chicken.",
+      "missing_skus": [
+        {
+          "sku": "karaage",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        },
+        {
+          "sku": "japanese fried chicken",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fried_protein_prep"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "kimchi": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "lentils": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by lentil.",
+      "missing_skus": [
+        {
+          "sku": "lentil",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_legume"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "miso": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": "Miso Glazed Salmon Plate"
+    },
+    "mole": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by mole.",
+      "missing_skus": [
+        {
+          "sku": "mole",
+          "lift": "low",
+          "portability": "national",
+          "kind": "sauce_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "nduja": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by nduja, 'nduja.",
+      "missing_skus": [
+        {
+          "sku": "nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        },
+        {
+          "sku": "'nduja",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "cured_meat_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "oxtail": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by oxtail.",
+      "missing_skus": [
+        {
+          "sku": "oxtail",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "pesto": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "plantain": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by plantain.",
+      "missing_skus": [
+        {
+          "sku": "plantain",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "fresh_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "scotch bonnet": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by scotch bonnet.",
+      "missing_skus": [
+        {
+          "sku": "scotch bonnet",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_or_fresh_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shakshuka": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by shakshuka, soft-cooked egg, egg + tomato.",
+      "missing_skus": [
+        {
+          "sku": "shakshuka",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "soft-cooked egg",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prep_workflow"
+        },
+        {
+          "sku": "egg + tomato",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "sumac": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by sumac.",
+      "missing_skus": [
+        {
+          "sku": "sumac",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tahini": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by tahini.",
+      "missing_skus": [
+        {
+          "sku": "tahini",
+          "lift": "low",
+          "portability": "national",
+          "kind": "paste_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tonkotsu": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by tonkotsu, pork bone broth.",
+      "missing_skus": [
+        {
+          "sku": "tonkotsu",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_day"
+        },
+        {
+          "sku": "pork bone broth",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "truffle": {
+      "lift": "high",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by truffle.",
+      "missing_skus": [
+        {
+          "sku": "truffle",
+          "lift": "high",
+          "portability": "regional",
+          "kind": "specialty_premium"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "yuzu": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by yuzu.",
+      "missing_skus": [
+        {
+          "sku": "yuzu",
+          "lift": "low",
+          "portability": "national",
+          "kind": "extract_shelf_stable"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "za'atar": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by za'atar, zaatar.",
+      "missing_skus": [
+        {
+          "sku": "za'atar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        },
+        {
+          "sku": "zaatar",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_blend"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "cotija": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by cotija.",
+      "missing_skus": [
+        {
+          "sku": "cotija",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "crema": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by crema, mexican crema.",
+      "missing_skus": [
+        {
+          "sku": "crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        },
+        {
+          "sku": "mexican crema",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "allspice": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by allspice.",
+      "missing_skus": [
+        {
+          "sku": "allspice",
+          "lift": "low",
+          "portability": "national",
+          "kind": "spice_dried"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "banchan": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "1 missing SKU(s); ceiling set by banchan.",
+      "missing_skus": [
+        {
+          "sku": "banchan",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "prepared_side_assortment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "galbi": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "3 missing SKU(s); ceiling set by galbi, kalbi, korean short rib.",
+      "missing_skus": [
+        {
+          "sku": "galbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "kalbi",
+          "lift": "high",
+          "portability": "national",
+          "kind": "marinated_protein_refrigerated"
+        },
+        {
+          "sku": "korean short rib",
+          "lift": "high",
+          "portability": "national",
+          "kind": "specialty_protein_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "japchae": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "2 missing SKU(s); ceiling set by japchae.",
+      "missing_skus": [
+        {
+          "sku": "japchae",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "prepared_dish"
+        },
+        {
+          "sku": "glass noodle",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_noodle"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "shawarma": {
+      "lift": "high",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by shawarma.",
+      "missing_skus": [
+        {
+          "sku": "shawarma",
+          "lift": "high",
+          "portability": "national",
+          "kind": "rotisserie_equipment"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "labneh": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by labneh.",
+      "missing_skus": [
+        {
+          "sku": "labneh",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "dairy_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "halloumi": {
+      "lift": "medium",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by halloumi.",
+      "missing_skus": [
+        {
+          "sku": "halloumi",
+          "lift": "medium",
+          "portability": "national",
+          "kind": "cheese_refrigerated"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "guajillo": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by guajillo.",
+      "missing_skus": [
+        {
+          "sku": "guajillo",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "ancho": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by ancho.",
+      "missing_skus": [
+        {
+          "sku": "ancho",
+          "lift": "low",
+          "portability": "national",
+          "kind": "dried_pepper"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "tofu": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "Brand delivers this flavor from current pantry \u2014 sauce/seasoning remix.",
+      "missing_skus": [
+        {
+          "sku": "sofritas",
+          "lift": "high",
+          "portability": "national",
+          "kind": "braise_multi_step"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "kabocha": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by kabocha, japanese pumpkin.",
+      "missing_skus": [
+        {
+          "sku": "kabocha",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        },
+        {
+          "sku": "japanese pumpkin",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "fresh_produce_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "ube": {
+      "lift": "medium",
+      "portability": "regional",
+      "rationale": "2 missing SKU(s); ceiling set by ube, purple yam.",
+      "missing_skus": [
+        {
+          "sku": "ube",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        },
+        {
+          "sku": "purple yam",
+          "lift": "medium",
+          "portability": "regional",
+          "kind": "specialty_produce"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    },
+    "matcha": {
+      "lift": "low",
+      "portability": "national",
+      "rationale": "1 missing SKU(s); ceiling set by matcha.",
+      "missing_skus": [
+        {
+          "sku": "matcha",
+          "lift": "low",
+          "portability": "national",
+          "kind": "powder_specialty"
+        }
+      ],
+      "lto_history_applied": false,
+      "lto_reference": null
+    }
+  }
+}

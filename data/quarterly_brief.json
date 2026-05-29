@@ -1,0 +1,2049 @@
+{
+  "_meta": {
+    "ref_quarter": "2026-Q1",
+    "prior_quarter": "2025-Q4",
+    "forecast_horizon": [
+      "2026-Q2",
+      "2026-Q3"
+    ],
+    "note": "Forecasts are simple OLS projections from trailing quarters \u2014 directional, not precise. We label them honestly."
+  },
+  "West Hollywood": {
+    "movers_up": [
+      {
+        "flavor": "matcha",
+        "delta": 4,
+        "ref_total": 20,
+        "prior_total": 16
+      },
+      {
+        "flavor": "kimchi",
+        "delta": 1,
+        "ref_total": 2,
+        "prior_total": 1
+      },
+      {
+        "flavor": "pesto",
+        "delta": 1,
+        "ref_total": 5,
+        "prior_total": 4
+      }
+    ],
+    "movers_down": [
+      {
+        "flavor": "shawarma",
+        "delta": -7,
+        "ref_total": 0,
+        "prior_total": 7
+      },
+      {
+        "flavor": "cauliflower",
+        "delta": -4,
+        "ref_total": 0,
+        "prior_total": 4
+      },
+      {
+        "flavor": "shakshuka",
+        "delta": -3,
+        "ref_total": 1,
+        "prior_total": 4
+      },
+      {
+        "flavor": "tofu",
+        "delta": -3,
+        "ref_total": 5,
+        "prior_total": 8
+      },
+      {
+        "flavor": "yuzu",
+        "delta": -2,
+        "ref_total": 1,
+        "prior_total": 3
+      }
+    ],
+    "transitions": [
+      {
+        "flavor": "pesto",
+        "prior_stage": "Weak",
+        "ref_stage": "Rising"
+      },
+      {
+        "flavor": "miso",
+        "prior_stage": "Rising",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "truffle",
+        "prior_stage": "Rising",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "shawarma",
+        "prior_stage": "Established",
+        "ref_stage": "Weak"
+      }
+    ],
+    "forecasts": [
+      {
+        "flavor": "truffle",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 19
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 14
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 19
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 24
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 22
+          }
+        ],
+        "forecast_q2_2026": 23.4,
+        "forecast_q3_2026": 24.7,
+        "forecast_band": 3.2,
+        "slope_per_quarter": 1.26,
+        "direction": "rising"
+      },
+      {
+        "flavor": "matcha",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 23
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 16
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 20
+          }
+        ],
+        "forecast_q2_2026": 20.5,
+        "forecast_q3_2026": 21.3,
+        "forecast_band": 2.9,
+        "slope_per_quarter": 0.77,
+        "direction": "rising"
+      },
+      {
+        "flavor": "burrata",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 5
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 2
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 4
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 8
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 7
+          }
+        ],
+        "forecast_q2_2026": 7.8,
+        "forecast_q3_2026": 8.6,
+        "forecast_band": 1.8,
+        "slope_per_quarter": 0.8,
+        "direction": "rising"
+      }
+    ],
+    "top_flavor_histories": [
+      {
+        "flavor": "truffle",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 3,
+            "leading": 3,
+            "total": 6
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 9,
+            "leading": 12,
+            "total": 21
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 7,
+            "leading": 12,
+            "total": 19
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 12,
+            "leading": 4,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 5,
+            "leading": 9,
+            "total": 14
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 12,
+            "leading": 7,
+            "total": 19
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 8,
+            "leading": 16,
+            "total": 24
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 12,
+            "leading": 10,
+            "total": 22
+          }
+        ],
+        "ref_total": 22,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "matcha",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 16,
+            "leading": 1,
+            "total": 17
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 16,
+            "leading": 0,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 15,
+            "leading": 1,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 14,
+            "leading": 2,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 22,
+            "leading": 1,
+            "total": 23
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 15,
+            "leading": 1,
+            "total": 16
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 20,
+            "leading": 0,
+            "total": 20
+          }
+        ],
+        "ref_total": 20,
+        "current_stage": "Established"
+      },
+      {
+        "flavor": "burrata",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 3,
+            "leading": 4,
+            "total": 7
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 1,
+            "leading": 4,
+            "total": 5
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 4,
+            "leading": 4,
+            "total": 8
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 3,
+            "leading": 4,
+            "total": 7
+          }
+        ],
+        "ref_total": 7,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "miso",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 2,
+            "leading": 3,
+            "total": 5
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 1,
+            "leading": 4,
+            "total": 5
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 3,
+            "total": 5
+          }
+        ],
+        "ref_total": 5,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "pesto",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 0,
+            "leading": 2,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 1,
+            "leading": 2,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 3,
+            "leading": 1,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 1,
+            "leading": 4,
+            "total": 5
+          }
+        ],
+        "ref_total": 5,
+        "current_stage": "Rising"
+      },
+      {
+        "flavor": "tofu",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 4,
+            "leading": 3,
+            "total": 7
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 7,
+            "leading": 0,
+            "total": 7
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 4,
+            "leading": 2,
+            "total": 6
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 5,
+            "leading": 3,
+            "total": 8
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 3,
+            "total": 5
+          }
+        ],
+        "ref_total": 5,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "jerk",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          }
+        ],
+        "ref_total": 2,
+        "current_stage": "Weak"
+      },
+      {
+        "flavor": "karaage",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 3,
+            "leading": 0,
+            "total": 3
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 0,
+            "leading": 1,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          }
+        ],
+        "ref_total": 2,
+        "current_stage": "Weak"
+      }
+    ]
+  },
+  "Williamsburg": {
+    "movers_up": [
+      {
+        "flavor": "oxtail",
+        "delta": 7,
+        "ref_total": 13,
+        "prior_total": 6
+      },
+      {
+        "flavor": "miso",
+        "delta": 4,
+        "ref_total": 8,
+        "prior_total": 4
+      },
+      {
+        "flavor": "truffle",
+        "delta": 4,
+        "ref_total": 11,
+        "prior_total": 7
+      },
+      {
+        "flavor": "pesto",
+        "delta": 3,
+        "ref_total": 5,
+        "prior_total": 2
+      },
+      {
+        "flavor": "galbi",
+        "delta": 3,
+        "ref_total": 3,
+        "prior_total": 0
+      }
+    ],
+    "movers_down": [
+      {
+        "flavor": "burrata",
+        "delta": -4,
+        "ref_total": 5,
+        "prior_total": 9
+      },
+      {
+        "flavor": "jerk",
+        "delta": -3,
+        "ref_total": 7,
+        "prior_total": 10
+      },
+      {
+        "flavor": "shawarma",
+        "delta": -3,
+        "ref_total": 9,
+        "prior_total": 12
+      },
+      {
+        "flavor": "labneh",
+        "delta": -2,
+        "ref_total": 1,
+        "prior_total": 3
+      },
+      {
+        "flavor": "kimchi",
+        "delta": -2,
+        "ref_total": 2,
+        "prior_total": 4
+      }
+    ],
+    "transitions": [
+      {
+        "flavor": "pesto",
+        "prior_stage": "Weak",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "matcha",
+        "prior_stage": "Established",
+        "ref_stage": "Rising"
+      },
+      {
+        "flavor": "oxtail",
+        "prior_stage": "Rising",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "cauliflower",
+        "prior_stage": "Established",
+        "ref_stage": "Weak"
+      },
+      {
+        "flavor": "tofu",
+        "prior_stage": "Rising",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "miso",
+        "prior_stage": "Weak",
+        "ref_stage": "Rising"
+      },
+      {
+        "flavor": "birria",
+        "prior_stage": "Weak",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "jerk",
+        "prior_stage": "Rising",
+        "ref_stage": "Steady"
+      }
+    ],
+    "forecasts": [
+      {
+        "flavor": "oxtail",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 5
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 9
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 13
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 23
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 6
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 13
+          }
+        ],
+        "forecast_q2_2026": 15.6,
+        "forecast_q3_2026": 16.8,
+        "forecast_band": 6.9,
+        "slope_per_quarter": 1.17,
+        "direction": "rising"
+      },
+      {
+        "flavor": "tofu",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 24
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 12
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 17
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 14
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 14
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 12
+          }
+        ],
+        "forecast_q2_2026": 9.8,
+        "forecast_q3_2026": 8.2,
+        "forecast_band": 3.8,
+        "slope_per_quarter": -1.63,
+        "direction": "falling"
+      },
+      {
+        "flavor": "truffle",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 14
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 8
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 5
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 11
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 7
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 11
+          }
+        ],
+        "forecast_q2_2026": 8.1,
+        "forecast_q3_2026": 7.8,
+        "forecast_band": 3.6,
+        "slope_per_quarter": -0.34,
+        "direction": "stable"
+      }
+    ],
+    "top_flavor_histories": [
+      {
+        "flavor": "oxtail",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 16,
+            "total": 17
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 1,
+            "leading": 11,
+            "total": 12
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 0,
+            "leading": 5,
+            "total": 5
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 0,
+            "leading": 9,
+            "total": 9
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 2,
+            "leading": 11,
+            "total": 13
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 5,
+            "leading": 18,
+            "total": 23
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 1,
+            "leading": 5,
+            "total": 6
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 7,
+            "leading": 6,
+            "total": 13
+          }
+        ],
+        "ref_total": 13,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "tofu",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 0,
+            "leading": 5,
+            "total": 5
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 14,
+            "total": 16
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 10,
+            "leading": 14,
+            "total": 24
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 4,
+            "leading": 8,
+            "total": 12
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 8,
+            "leading": 9,
+            "total": 17
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 8,
+            "leading": 6,
+            "total": 14
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 5,
+            "leading": 9,
+            "total": 14
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 8,
+            "leading": 4,
+            "total": 12
+          }
+        ],
+        "ref_total": 12,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "truffle",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 6,
+            "total": 8
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 8,
+            "leading": 6,
+            "total": 14
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 3,
+            "leading": 5,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 1,
+            "leading": 4,
+            "total": 5
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 6,
+            "leading": 5,
+            "total": 11
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 2,
+            "leading": 5,
+            "total": 7
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 3,
+            "leading": 8,
+            "total": 11
+          }
+        ],
+        "ref_total": 11,
+        "current_stage": "Rising"
+      },
+      {
+        "flavor": "shawarma",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 3,
+            "leading": 0,
+            "total": 3
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 7,
+            "leading": 0,
+            "total": 7
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 8,
+            "leading": 0,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 4,
+            "leading": 0,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 10,
+            "leading": 0,
+            "total": 10
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 10,
+            "leading": 0,
+            "total": 10
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 12,
+            "leading": 0,
+            "total": 12
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 9,
+            "leading": 0,
+            "total": 9
+          }
+        ],
+        "ref_total": 9,
+        "current_stage": "Established"
+      },
+      {
+        "flavor": "miso",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 3,
+            "leading": 2,
+            "total": 5
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 2,
+            "leading": 6,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 2,
+            "leading": 4,
+            "total": 6
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 6,
+            "total": 8
+          }
+        ],
+        "ref_total": 8,
+        "current_stage": "Rising"
+      },
+      {
+        "flavor": "birria",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 3,
+            "leading": 5,
+            "total": 8
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 9,
+            "total": 10
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 2,
+            "leading": 9,
+            "total": 11
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 3,
+            "leading": 0,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 4,
+            "leading": 3,
+            "total": 7
+          }
+        ],
+        "ref_total": 7,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "jerk",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 4,
+            "leading": 4,
+            "total": 8
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 4,
+            "leading": 6,
+            "total": 10
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 4,
+            "leading": 7,
+            "total": 11
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 5,
+            "total": 6
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 7,
+            "leading": 11,
+            "total": 18
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 5,
+            "leading": 8,
+            "total": 13
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 3,
+            "leading": 7,
+            "total": 10
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 3,
+            "leading": 4,
+            "total": 7
+          }
+        ],
+        "ref_total": 7,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "matcha",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 3,
+            "leading": 2,
+            "total": 5
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 4,
+            "leading": 2,
+            "total": 6
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 3,
+            "leading": 1,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 7,
+            "leading": 1,
+            "total": 8
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 2,
+            "leading": 4,
+            "total": 6
+          }
+        ],
+        "ref_total": 6,
+        "current_stage": "Rising"
+      }
+    ]
+  },
+  "Mission District": {
+    "movers_up": [
+      {
+        "flavor": "mole",
+        "delta": 7,
+        "ref_total": 19,
+        "prior_total": 12
+      },
+      {
+        "flavor": "al pastor",
+        "delta": 6,
+        "ref_total": 10,
+        "prior_total": 4
+      },
+      {
+        "flavor": "pesto",
+        "delta": 5,
+        "ref_total": 7,
+        "prior_total": 2
+      },
+      {
+        "flavor": "plantain",
+        "delta": 3,
+        "ref_total": 3,
+        "prior_total": 0
+      },
+      {
+        "flavor": "miso",
+        "delta": 3,
+        "ref_total": 4,
+        "prior_total": 1
+      }
+    ],
+    "movers_down": [
+      {
+        "flavor": "shawarma",
+        "delta": -4,
+        "ref_total": 6,
+        "prior_total": 10
+      },
+      {
+        "flavor": "kimchi",
+        "delta": -2,
+        "ref_total": 1,
+        "prior_total": 3
+      },
+      {
+        "flavor": "tofu",
+        "delta": -2,
+        "ref_total": 16,
+        "prior_total": 18
+      },
+      {
+        "flavor": "burrata",
+        "delta": -1,
+        "ref_total": 2,
+        "prior_total": 3
+      }
+    ],
+    "transitions": [
+      {
+        "flavor": "pesto",
+        "prior_stage": "Weak",
+        "ref_stage": "Steady"
+      },
+      {
+        "flavor": "al pastor",
+        "prior_stage": "Weak",
+        "ref_stage": "Established"
+      }
+    ],
+    "forecasts": [
+      {
+        "flavor": "birria",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 18
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 23
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 24
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 24
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 24
+          }
+        ],
+        "forecast_q2_2026": 27.4,
+        "forecast_q3_2026": 29.1,
+        "forecast_band": 1.9,
+        "slope_per_quarter": 1.69,
+        "direction": "rising"
+      },
+      {
+        "flavor": "mole",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 14
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 20
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 25
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 19
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 12
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 19
+          }
+        ],
+        "forecast_q2_2026": 17.7,
+        "forecast_q3_2026": 17.5,
+        "forecast_band": 5.2,
+        "slope_per_quarter": -0.14,
+        "direction": "stable"
+      },
+      {
+        "flavor": "tofu",
+        "history": [
+          {
+            "quarter": "2024-Q4",
+            "mentions": 17
+          },
+          {
+            "quarter": "2025-Q1",
+            "mentions": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "mentions": 21
+          },
+          {
+            "quarter": "2025-Q3",
+            "mentions": 17
+          },
+          {
+            "quarter": "2025-Q4",
+            "mentions": 18
+          },
+          {
+            "quarter": "2026-Q1",
+            "mentions": 16
+          }
+        ],
+        "forecast_q2_2026": 17.2,
+        "forecast_q3_2026": 17.1,
+        "forecast_band": 2.1,
+        "slope_per_quarter": -0.09,
+        "direction": "stable"
+      }
+    ],
+    "top_flavor_histories": [
+      {
+        "flavor": "birria",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 5,
+            "leading": 0,
+            "total": 5
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 9,
+            "leading": 1,
+            "total": 10
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 14,
+            "leading": 2,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 16,
+            "leading": 2,
+            "total": 18
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 22,
+            "leading": 1,
+            "total": 23
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 24,
+            "leading": 0,
+            "total": 24
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 19,
+            "leading": 5,
+            "total": 24
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 20,
+            "leading": 4,
+            "total": 24
+          }
+        ],
+        "ref_total": 24,
+        "current_stage": "Established"
+      },
+      {
+        "flavor": "mole",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 5,
+            "total": 7
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 6,
+            "leading": 3,
+            "total": 9
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 11,
+            "leading": 3,
+            "total": 14
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 14,
+            "leading": 6,
+            "total": 20
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 20,
+            "leading": 5,
+            "total": 25
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 16,
+            "leading": 3,
+            "total": 19
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 6,
+            "leading": 6,
+            "total": 12
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 13,
+            "leading": 6,
+            "total": 19
+          }
+        ],
+        "ref_total": 19,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "tofu",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 15,
+            "leading": 6,
+            "total": 21
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 13,
+            "leading": 4,
+            "total": 17
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 12,
+            "leading": 4,
+            "total": 16
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 12,
+            "leading": 9,
+            "total": 21
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 13,
+            "leading": 4,
+            "total": 17
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 10,
+            "leading": 8,
+            "total": 18
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 9,
+            "leading": 7,
+            "total": 16
+          }
+        ],
+        "ref_total": 16,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "al pastor",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 4,
+            "leading": 1,
+            "total": 5
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 6,
+            "leading": 0,
+            "total": 6
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 7,
+            "leading": 0,
+            "total": 7
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 8,
+            "leading": 0,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 9,
+            "leading": 0,
+            "total": 9
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 4,
+            "leading": 0,
+            "total": 4
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 10,
+            "leading": 0,
+            "total": 10
+          }
+        ],
+        "ref_total": 10,
+        "current_stage": "Established"
+      },
+      {
+        "flavor": "pesto",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 0,
+            "leading": 2,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 4,
+            "total": 6
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 3,
+            "leading": 1,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 0,
+            "leading": 3,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 5,
+            "leading": 3,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 5,
+            "leading": 2,
+            "total": 7
+          }
+        ],
+        "ref_total": 7,
+        "current_stage": "Steady"
+      },
+      {
+        "flavor": "shawarma",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 0,
+            "total": 1
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 13,
+            "leading": 0,
+            "total": 13
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 8,
+            "leading": 0,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 8,
+            "leading": 0,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 3,
+            "leading": 0,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 7,
+            "leading": 0,
+            "total": 7
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 10,
+            "leading": 0,
+            "total": 10
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 6,
+            "leading": 0,
+            "total": 6
+          }
+        ],
+        "ref_total": 6,
+        "current_stage": "Established"
+      },
+      {
+        "flavor": "cauliflower",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 0,
+            "total": 2
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 0,
+            "leading": 1,
+            "total": 1
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 3,
+            "leading": 1,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 1,
+            "leading": 1,
+            "total": 2
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 3,
+            "leading": 1,
+            "total": 4
+          }
+        ],
+        "ref_total": 4,
+        "current_stage": "Weak"
+      },
+      {
+        "flavor": "miso",
+        "history": [
+          {
+            "quarter": "2024-Q1",
+            "competitive": 0,
+            "leading": 0,
+            "total": 0
+          },
+          {
+            "quarter": "2024-Q2",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          },
+          {
+            "quarter": "2024-Q3",
+            "competitive": 2,
+            "leading": 2,
+            "total": 4
+          },
+          {
+            "quarter": "2024-Q4",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q1",
+            "competitive": 2,
+            "leading": 6,
+            "total": 8
+          },
+          {
+            "quarter": "2025-Q2",
+            "competitive": 0,
+            "leading": 4,
+            "total": 4
+          },
+          {
+            "quarter": "2025-Q3",
+            "competitive": 2,
+            "leading": 1,
+            "total": 3
+          },
+          {
+            "quarter": "2025-Q4",
+            "competitive": 0,
+            "leading": 1,
+            "total": 1
+          },
+          {
+            "quarter": "2026-Q1",
+            "competitive": 1,
+            "leading": 3,
+            "total": 4
+          }
+        ],
+        "ref_total": 4,
+        "current_stage": "Weak"
+      }
+    ]
+  }
+}

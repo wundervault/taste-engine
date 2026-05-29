@@ -1,0 +1,123 @@
+[
+  {
+    "brand": "Chipotle",
+    "dish_name": "Jerk Barbacoa Bowl",
+    "tagline": "Braised beef meets the bold heat Williamsburg is already lining up for.",
+    "ingredients": [
+      "barbacoa (braised beef, chipotle, cumin)",
+      "cilantro-lime white rice",
+      "black beans",
+      "corn salsa (corn, poblano, red onion, jalapeño, lime)",
+      "tomatillo red chili salsa (hot — dried red chili, chipotle, tomato)",
+      "fajita veggies (grilled bell peppers, onions)",
+      "chipotle honey vinaigrette",
+      "romaine lettuce"
+    ],
+    "trend_signal": "jerk: avg=84.8, recent=88.2 ↑ (strongest rising signal in dataset). Barbacoa's low-and-slow braised profile maps directly onto jerk's allspice-forward, smoky-heat flavor grammar — no new SKU needed.",
+    "gap_rationale": "Kokomo on Bedford Ave packs every weekend on braised oxtail and jerk chicken. Chipotle has braised beef depth in barbacoa and capsaicin heat in the red chili salsa but frames none of it as Caribbean. Williamsburg diners are already primed for that flavor register; the framing gap is the entire opportunity.",
+    "confidence": "HIGH",
+    "confidence_reason": "Barbacoa's existing spice profile (chipotle, cumin, slow braise) is adjacent enough to jerk that the dish lands credibly with zero new ingredients. Corn salsa adds the tropical brightness that reads Caribbean. Trend signal is the single strongest in the dataset and rising."
+  },
+  {
+    "brand": "Chipotle",
+    "dish_name": "Mole Negro Steak Burrito",
+    "tagline": "Dark, smoky, 30-ingredient depth — now in a burrito, actually fast.",
+    "ingredients": [
+      "steak (adobo-marinated, grilled)",
+      "tomatillo red chili salsa (hot — dried red chili, chipotle, tomato)",
+      "sofritas (organic braised tofu, chipotle, roasted poblano)",
+      "cilantro-lime brown rice",
+      "pinto beans",
+      "queso blanco (white cheese, tomatillo, jalapeño, poblano)",
+      "sour cream",
+      "flour tortilla (burrito)"
+    ],
+    "trend_signal": "mole: avg=69.8, recent=72.8 ↑. Second-strongest rising trend in the dataset, sitting at a consistently high search floor — this is sustained demand, not a spike.",
+    "gap_rationale": "Ensenada (Williamsburg's mariscos/mezcal spot) serves bold, dark-sauce coastal Mexican that locals treat as a flavor benchmark. Chipotle's tomatillo red chili salsa already carries chipotle smoke and dried red chili — the building blocks of mole negro. Layering it over steak with sofritas' roasted poblano depth and queso blanco creates a mole-adjacent bowl that Ensenada regulars will recognize as a real attempt, not a costume.",
+    "confidence": "HIGH",
+    "confidence_reason": "Mole is a top-tier search trend and Chipotle's existing chile-forward pantry (chipotle, dried red chili, roasted poblano in sofritas) genuinely approximates the flavor grammar. No new SKU. The dish name sets expectations correctly without overclaiming 'authentic mole.'"
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Braised Lamb Shakshuka Bowl",
+    "tagline": "K'Far energy, fast-casual speed — bold Israeli braise over lentils.",
+    "ingredients": [
+      "braised lamb (garlic, onion, turmeric, chili powder)",
+      "beluga lentils",
+      "harissa (North African chili paste)",
+      "roasted eggplant dip",
+      "tomato + onion (with oregano)",
+      "crumbled feta",
+      "pita bread",
+      "pickled onions",
+      "mixed greens (butter lettuce, baby kale, spinach, heritage greens)"
+    ],
+    "trend_signal": "shakshuka: avg=13.2, recent=11.5, trend=rising. Modest absolute volume but directionally rising in a neighborhood where Israeli cuisine is the dominant 2026 dining trend.",
+    "gap_rationale": "K'Far (Chef Solomonov, Hoxton Hotel lobby) and Laser Wolf have made Israeli braised-and-spiced dishes the reference point for Williamsburg's most trend-forward diners. CAVA has braised lamb, harissa, roasted eggplant, and tomato+onion — every component of an Israeli-inflected braise — but the menu frames them as generic Mediterranean. Repositioning these exact ingredients as a shakshuka-style bowl speaks directly to the K'Far/Laser Wolf audience.",
+    "confidence": "HIGH",
+    "confidence_reason": "All components are live pantry items. CAVA is already culturally adjacent to Israeli cuisine — the gap is naming and framing, not product development. The Williamsburg neighborhood demand signal (K'Far, Laser Wolf) is empirically strong."
+  },
+  {
+    "brand": "CAVA",
+    "dish_name": "Harissa Lamb Meatball Mezze",
+    "tagline": "Laser Wolf's mezze table, assembled in 90 seconds.",
+    "ingredients": [
+      "lamb meatballs (harissa, cilantro, spiced)",
+      "hummus (classic)",
+      "red pepper hummus",
+      "sumac slaw",
+      "kalamata olives (Manolakos family, Greece)",
+      "salt-brined pickles",
+      "persian cucumber",
+      "pita bread",
+      "pita crisps",
+      "lemon herb tahini",
+      "crumbled feta"
+    ],
+    "trend_signal": "jerk: avg=84.8, recent=88.2 ↑ (bold spiced protein trend driving demand for heat-forward dishes cross-cuisine). Supporting: oxtail avg=21.5, recent=22.2 ↑ — both signal that braised, deeply spiced proteins are the dominant NYC demand pattern in 2026.",
+    "gap_rationale": "Laser Wolf is James Beard-buzzed specifically for its mezze spread and charred spiced meats — that exact combination. CAVA's harissa lamb meatballs are one of the most underutilized items on the line; paired with the full mezze array (hummus, sumac slaw, pickles, tahini, olives, pita), this dish mirrors what diners spend $40+ on at Laser Wolf. The framing does the work.",
+    "confidence": "HIGH",
+    "confidence_reason": "Zero new ingredients. The mezze format is CAVA's native vernacular and all items are in-stock. The Laser Wolf gap is large and specific — locals know exactly what they're getting the chain version of, and that's a feature, not a bug."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Blackened Jerk Chicken Bowl",
+    "tagline": "The heat Williamsburg runs on — smoky, charred, already on the line.",
+    "ingredients": [
+      "Antibiotic-free blackened chicken",
+      "warm roasted sweet potatoes",
+      "napa cabbage slaw",
+      "cilantro",
+      "pickled onions",
+      "apple kimchi sauce",
+      "Sweetgreen hot sauce",
+      "golden quinoa",
+      "organic shredded kale"
+    ],
+    "trend_signal": "jerk: avg=84.8, recent=88.2 ↑ (strongest signal in dataset). Sweetgreen's blackened chicken already uses a char-forward, spiced technique — the flavor bridge to jerk is the shortest in the Sweetgreen pantry.",
+    "gap_rationale": "Kokomo on Bedford Ave drives weekend crowds on jerk chicken and tropical flavors. Sweetgreen's blackened chicken already has the char; apple kimchi sauce adds the fruit-forward brightness that mirrors jerk's allspice-pineapple profile; Sweetgreen hot sauce provides the capsaicin baseline. Sweet potatoes ground it in the Caribbean starch tradition. The gap: Sweetgreen frames its bold chicken as generic 'blackened' — renaming this combination as a jerk-style bowl captures Kokomo regulars who want bold but fast.",
+    "confidence": "HIGH",
+    "confidence_reason": "Every ingredient is already on the Sweetgreen line from existing menu items (Hot Honey Chicken, KBBQ Chicken). No new SKU. The blackened chicken's spice profile is the closest pantry analogue to jerk in the Sweetgreen system. Trend signal is the dataset leader."
+  },
+  {
+    "brand": "Sweetgreen",
+    "dish_name": "Elote Street Corn Salmon Bowl",
+    "tagline": "Corner-store elote meets Sweetgreen's miso salmon — summer's crossover hit.",
+    "ingredients": [
+      "Antibiotic-free miso glazed salmon",
+      "white rice",
+      "shredded cabbage",
+      "cilantro",
+      "pickled onions",
+      "avocado",
+      "lime cilantro jalapeño sauce",
+      "nori sesame seasoning",
+      "crispy onions",
+      "Sweetgreen hot sauce"
+    ],
+    "trend_signal": "elote: avg=13.8, recent=15.8 ↑. miso: avg=59.0, recent=49.5 (high floor, labeled rising). Elote is accelerating in NYC search volume; miso salmon is already a Sweetgreen anchor — stacking both trends in one dish captures two rising signals.",
+    "gap_rationale": "Ensenada (Williamsburg mariscos/mezcal) serves tostadas and crispy fish with the elote flavor profile — lime, chili, corn-char, cilantro — as its core identity. Sweetgreen's miso salmon already lands the umami and the char; lime cilantro jalapeño sauce, pickled onions, and crispy onions deliver the elote acid-crunch-heat triad. Shredded cabbage and avocado complete the coastal Mexican tostada grammar. The gap: Sweetgreen has never framed its salmon in a street-corn context — Ensenada regulars would immediately read this as their language.",
+    "confidence": "MID",
+    "confidence_reason": "Elote's core charred-corn element is not a standalone Sweetgreen pantry item (corn salsa is not listed). The dish leans on the elote flavor profile via lime, chili, cilantro, and onion rather than literal corn — which slightly weakens the signal. However all listed ingredients are confirmed pantry items and the trend pairing (miso salmon × elote) is genuinely novel and locally resonant. Confidence would be HIGH if corn were on the Sweetgreen line."
+  }
+]

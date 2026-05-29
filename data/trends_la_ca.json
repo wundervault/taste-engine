@@ -1,0 +1,156 @@
+{
+  "geo": "US-CA",
+  "timeframe": "today 12-m",
+  "terms": {
+    "harissa": {
+      "avg_12m": 7.1,
+      "recent_4w": 7.2,
+      "peak": 10,
+      "trend": "rising"
+    },
+    "tahini": {
+      "avg_12m": 17.7,
+      "recent_4w": 17.8,
+      "peak": 22,
+      "trend": "falling"
+    },
+    "sumac": {
+      "avg_12m": 11.3,
+      "recent_4w": 10.2,
+      "peak": 100,
+      "trend": "rising"
+    },
+    "za'atar": {
+      "avg_12m": 0.7,
+      "recent_4w": 1.0,
+      "peak": 2,
+      "trend": "rising"
+    },
+    "shakshuka": {
+      "avg_12m": 7.2,
+      "recent_4w": 7.0,
+      "peak": 20,
+      "trend": "rising"
+    },
+    "birria": {
+      "avg_12m": 46.6,
+      "recent_4w": 52.0,
+      "peak": 69,
+      "trend": "rising"
+    },
+    "al pastor": {
+      "avg_12m": 14.2,
+      "recent_4w": 15.0,
+      "peak": 29,
+      "trend": "rising"
+    },
+    "mole": {
+      "avg_12m": 72.2,
+      "recent_4w": 76.0,
+      "peak": 100,
+      "trend": "rising"
+    },
+    "adobo sauce": {
+      "avg_12m": 2.4,
+      "recent_4w": 3.0,
+      "peak": 3,
+      "trend": "rising"
+    },
+    "elote": {
+      "avg_12m": 16.9,
+      "recent_4w": 20.8,
+      "peak": 30,
+      "trend": "rising"
+    },
+    "kimchi": {
+      "avg_12m": 53.4,
+      "recent_4w": 54.8,
+      "peak": 100,
+      "trend": "rising"
+    },
+    "gochujang": {
+      "avg_12m": 14.8,
+      "recent_4w": 14.8,
+      "peak": 19,
+      "trend": "stable"
+    },
+    "bulgogi": {
+      "avg_12m": 22.0,
+      "recent_4w": 22.5,
+      "peak": 39,
+      "trend": "rising"
+    },
+    "bao bun": {
+      "avg_12m": 2.6,
+      "recent_4w": 3.0,
+      "peak": 6,
+      "trend": "rising"
+    },
+    "yuzu": {
+      "avg_12m": 28.4,
+      "recent_4w": 31.0,
+      "peak": 37,
+      "trend": "rising"
+    },
+    "calabrian chili": {
+      "avg_12m": 3.1,
+      "recent_4w": 3.2,
+      "peak": 5,
+      "trend": "rising"
+    },
+    "burrata": {
+      "avg_12m": 23.0,
+      "recent_4w": 22.5,
+      "peak": 39,
+      "trend": "falling"
+    },
+    "truffle": {
+      "avg_12m": 51.7,
+      "recent_4w": 53.5,
+      "peak": 73,
+      "trend": "rising"
+    },
+    "pesto": {
+      "avg_12m": 79.4,
+      "recent_4w": 83.8,
+      "peak": 100,
+      "trend": "stable"
+    },
+    "nduja": {
+      "avg_12m": 3.7,
+      "recent_4w": 4.0,
+      "peak": 9,
+      "trend": "rising"
+    },
+    "cauliflower": {
+      "avg_12m": 70.5,
+      "recent_4w": 69.0,
+      "peak": 96,
+      "trend": "rising"
+    },
+    "crispy chickpeas": {
+      "avg_12m": 0.2,
+      "recent_4w": 0.5,
+      "peak": 2,
+      "trend": "rising"
+    },
+    "lentils": {
+      "avg_12m": 46.7,
+      "recent_4w": 47.0,
+      "peak": 100,
+      "trend": "rising"
+    },
+    "farro": {
+      "avg_12m": 16.6,
+      "recent_4w": 15.8,
+      "peak": 30,
+      "trend": "falling"
+    },
+    "freekeh": {
+      "avg_12m": 1.4,
+      "recent_4w": 1.2,
+      "peak": 3,
+      "trend": "falling"
+    }
+  }
+}

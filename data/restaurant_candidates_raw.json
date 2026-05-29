@@ -1,0 +1,335 @@
+{
+  "weho": {
+    "label": "West Hollywood",
+    "candidates": [
+      {
+        "name": "GRANVILLE",
+        "slug": "granville-west-hollywood-2",
+        "review_count": 3200,
+        "rating": 4.4,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "La Boh\u00e8me",
+        "slug": "la-boh%C3%A8me-west-hollywood-3",
+        "review_count": 5000,
+        "rating": 4.5,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Carmel",
+        "slug": "carmel-los-angeles-2",
+        "review_count": 369,
+        "rating": 4.6,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Pura Vita",
+        "slug": "pura-vita-west-hollywood-2",
+        "review_count": 1200,
+        "rating": 4.6,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Sal\u2019s Place",
+        "slug": "sal-s-place-west-hollywood",
+        "review_count": 79,
+        "rating": 4.8,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Mutsu",
+        "slug": "mutsu-los-angeles",
+        "review_count": 171,
+        "rating": 4.8,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "OSTE",
+        "slug": "oste-los-angeles",
+        "review_count": 1400,
+        "rating": 4.6,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Casa Madera West Hollywood",
+        "slug": "casa-madera-west-hollywood-west-hollywood-2",
+        "review_count": 714,
+        "rating": 3.8,
+        "neighborhood": "Mondrian Los Angeles",
+        "categories": []
+      },
+      {
+        "name": "JINYA West Hollywood",
+        "slug": "jinya-west-hollywood-west-hollywood",
+        "review_count": 30,
+        "rating": 4.3,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Employees Only",
+        "slug": "employees-only-west-hollywood",
+        "review_count": 552,
+        "rating": 4.1,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Gracias Madre - West Hollywood",
+        "slug": "gracias-madre-west-hollywood-west-hollywood",
+        "review_count": 2,
+        "rating": 5.0,
+        "neighborhood": "Mondrian Los Angeles",
+        "categories": []
+      },
+      {
+        "name": "The Butcher, The Baker, The Cappuccino Maker",
+        "slug": "the-butcher-the-baker-the-cappuccino-maker-west-hollywood-2",
+        "review_count": 2,
+        "rating": 5.0,
+        "neighborhood": "Mondrian Los Angeles",
+        "categories": []
+      },
+      {
+        "name": "Dialog Cafe",
+        "slug": "dialog-cafe-west-hollywood",
+        "review_count": 2,
+        "rating": 5.0,
+        "neighborhood": "Mondrian Los Angeles",
+        "categories": []
+      },
+      {
+        "name": "Republique",
+        "slug": "republique-los-angeles-6",
+        "review_count": 2,
+        "rating": 5.0,
+        "neighborhood": "Mondrian Los Angeles",
+        "categories": []
+      },
+      {
+        "name": "Alba",
+        "slug": "alba-west-hollywood",
+        "review_count": 187,
+        "rating": 4.3,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Bacari W 3rd",
+        "slug": "bacari-w-3rd-los-angeles",
+        "review_count": 1700,
+        "rating": 4.4,
+        "neighborhood": "Beverly Grove",
+        "categories": []
+      },
+      {
+        "name": "Ysabel",
+        "slug": "ysabel-west-hollywood",
+        "review_count": 2000,
+        "rating": 3.8,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Tu Madre - West Hollywood",
+        "slug": "tu-madre-west-hollywood-west-hollywood",
+        "review_count": 1400,
+        "rating": 4.2,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Irie",
+        "slug": "irie-west-hollywood",
+        "review_count": 67,
+        "rating": 4.4,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Lan Noodle",
+        "slug": "lan-noodle-west-hollywood",
+        "review_count": 368,
+        "rating": 4.4,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Zarape\u2019 Cocina & Cantina",
+        "slug": "zarape-cocina-and-cantina-west-hollywood",
+        "review_count": 273,
+        "rating": 4.4,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Viva La Mamma",
+        "slug": "viva-la-mamma-los-angeles",
+        "review_count": 22,
+        "rating": 4.5,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "The Butcher's Daughter",
+        "slug": "the-butchers-daughter-west-hollywood",
+        "review_count": 540,
+        "rating": 4.1,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Love",
+        "slug": "love-west-hollywood",
+        "review_count": 395,
+        "rating": 4.8,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Charlie and Friends",
+        "slug": "charlie-and-friends-burbank",
+        "review_count": 288,
+        "rating": 4.6,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Golden Road Brewing",
+        "slug": "golden-road-brewing-huntington-beach",
+        "review_count": 482,
+        "rating": 4.2,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "catalina kitchen",
+        "slug": "catalina-kitchen-rancho-palos-verdes",
+        "review_count": 990,
+        "rating": 3.6,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Jinky's Cafe",
+        "slug": "jinkys-cafe-thousand-oaks",
+        "review_count": 548,
+        "rating": 3.1,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Canyon Bistro in Topanga",
+        "slug": "canyon-bistro-in-topanga-topanga",
+        "review_count": 500,
+        "rating": 3.8,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "The Sunset Restaurant",
+        "slug": "the-sunset-restaurant-malibu",
+        "review_count": 2100,
+        "rating": 3.8,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Duke's Malibu",
+        "slug": "dukes-malibu-malibu-2",
+        "review_count": 3600,
+        "rating": 3.9,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Tres LA Bistro & Cafe",
+        "slug": "tres-la-bistro-and-cafe-west-hollywood",
+        "review_count": 4,
+        "rating": 5.0,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "The Naughty Pig",
+        "slug": "the-naughty-pig-west-hollywood-2",
+        "review_count": 164,
+        "rating": 4.5,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Zinqu\u00e9",
+        "slug": "zinqu%C3%A9-west-hollywood-2",
+        "review_count": 1200,
+        "rating": 3.8,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Sushisamba",
+        "slug": "sushisamba-west-hollywood-5",
+        "review_count": 137,
+        "rating": 4.3,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Craig's",
+        "slug": "craigs-west-hollywood",
+        "review_count": 1400,
+        "rating": 3.9,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      },
+      {
+        "name": "Ka'teen",
+        "slug": "kateen-los-angeles-2",
+        "review_count": 1100,
+        "rating": 4.1,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Darling",
+        "slug": "darling-west-hollywood",
+        "review_count": 60,
+        "rating": 4.0,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Miznon",
+        "slug": "miznon-los-angeles-3",
+        "review_count": 57,
+        "rating": 4.5,
+        "neighborhood": null,
+        "categories": []
+      },
+      {
+        "name": "Gracias Madre",
+        "slug": "gracias-madre-west-hollywood-3",
+        "review_count": 5300,
+        "rating": 4.0,
+        "neighborhood": "West Hollywood",
+        "categories": []
+      }
+    ]
+  },
+  "williamsburg": {
+    "label": "Williamsburg",
+    "candidates": []
+  },
+  "mission": {
+    "label": "Mission District",
+    "candidates": []
+  }
+}
