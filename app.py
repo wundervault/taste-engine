@@ -410,11 +410,22 @@ def _city_label(city: str) -> str:
     return city
 
 
+_QUARTER_EXPR = """
+  substr(rv.review_date, 1, 4) || '-Q' ||
+    CASE
+      WHEN cast(substr(rv.review_date, 6, 2) AS INTEGER) BETWEEN 1 AND 3 THEN '1'
+      WHEN cast(substr(rv.review_date, 6, 2) AS INTEGER) BETWEEN 4 AND 6 THEN '2'
+      WHEN cast(substr(rv.review_date, 6, 2) AS INTEGER) BETWEEN 7 AND 9 THEN '3'
+      ELSE '4'
+    END
+""".strip()
+
+
 @st.cache_data(ttl=60)
 def monthly_mentions(city: str, flavors: list[str] | None = None,
                      pool: str | None = None) -> "pd.DataFrame":
-    """Per-flavor per-month mention counts for a city. Returns long-form DataFrame
-    (one row per flavor × month) so it plots cleanly in Altair/Streamlit."""
+    """Per-flavor per-quarter mention counts for a city. Returns long-form DataFrame
+    (one row per flavor × quarter) so it plots cleanly in Altair/Streamlit."""
     import pandas as pd
     conn = get_conn()
     pool_clause = ""
@@ -431,7 +442,7 @@ def monthly_mentions(city: str, flavors: list[str] | None = None,
     q = f"""
     SELECT
       fm.flavor,
-      substr(rv.review_date, 1, 7) AS month,
+      {_QUARTER_EXPR} AS quarter,
       COUNT(DISTINCT rv.id) AS mentions
     FROM flavor_mentions fm
     JOIN reviews rv ON rv.id = fm.review_id
@@ -439,8 +450,8 @@ def monthly_mentions(city: str, flavors: list[str] | None = None,
     WHERE r.city = ? AND rv.review_date IS NOT NULL
       {pool_clause}
       {flav_clause}
-    GROUP BY fm.flavor, month
-    ORDER BY month, fm.flavor
+    GROUP BY fm.flavor, quarter
+    ORDER BY quarter, fm.flavor
     """
     rows = conn.execute(q, args).fetchall()
     return pd.DataFrame([dict(r) for r in rows])
@@ -488,20 +499,20 @@ def quarterly_mentions(city: str, top_n: int = 15) -> "pd.DataFrame":
 
 @st.cache_data(ttl=60)
 def flavor_by_city(flavor: str) -> "pd.DataFrame":
-    """Cross-city monthly mention counts for one flavor."""
+    """Cross-city quarterly mention counts for one flavor."""
     import pandas as pd
     conn = get_conn()
-    q = """
+    q = f"""
     SELECT
       r.city,
-      substr(rv.review_date, 1, 7) AS month,
+      {_QUARTER_EXPR} AS quarter,
       COUNT(DISTINCT rv.id) AS mentions
     FROM flavor_mentions fm
     JOIN reviews rv ON rv.id = fm.review_id
     JOIN restaurants r ON r.id = rv.restaurant_id
     WHERE fm.flavor = ? AND rv.review_date IS NOT NULL
-    GROUP BY r.city, month
-    ORDER BY month, r.city
+    GROUP BY r.city, quarter
+    ORDER BY quarter, r.city
     """
     rows = conn.execute(q, (flavor,)).fetchall()
     return pd.DataFrame([dict(r) for r in rows])
@@ -611,11 +622,13 @@ def confidence_score_badge(score) -> str:
 def maturity_badge(stage: str | None) -> str:
     if not stage:
         return ""
-    color = MATURITY_COLORS.get(stage, "#888")
+    # Always Pillar 2 color (tan) so the badge visually attributes to Pillar 2 — Trend Maturity.
+    # Stage quality (Rising / Established / Peak) is conveyed by the text, not the color.
+    color = MEANING_COLORS["mid"]
     return (
         f'<span style="background:transparent; color:{color}; border:1px solid {color}; '
         f'padding:0.12rem 0.55rem; border-radius:4px; font-size:0.72rem; '
-        f'font-weight:600; letter-spacing:0.05em;" title="Maturity stage from competitive vs leading pool spread">'
+        f'font-weight:600; letter-spacing:0.05em;" title="Pillar 2 — Trend Maturity: competitive vs leading pool spread">'
         f'{stage.upper()}</span>'
     )
 
@@ -623,12 +636,14 @@ def maturity_badge(stage: str | None) -> str:
 def lift_badge(tier: str | None, portability: str | None) -> str:
     if not tier:
         return ""
-    color = LIFT_COLORS.get(tier, "#888")
+    # Always Pillar 3 color (rust) so the badge visually attributes to Pillar 3 — Innovation Feasibility.
+    # Tier quality (low / medium / high lift) is conveyed by the text, not the color.
+    color = MEANING_COLORS["low"]
     port_text = f" · {portability.upper()}" if portability else ""
     return (
         f'<span style="background:{color}; color:white; padding:0.12rem 0.55rem; '
         f'border-radius:4px; font-size:0.72rem; font-weight:600; letter-spacing:0.04em;" '
-        f'title="Operational lift tier + rollout portability">'
+        f'title="Pillar 3 — Innovation Feasibility: operational lift tier + rollout portability">'
         f'Lift {tier.upper()}{port_text}</span>'
     )
 
@@ -1484,22 +1499,29 @@ with tab_validation:
                                 "label": f'{e["brand"]} {e["item"]} ({e["year"]})'}
                               for e in v["chain_lto_events"]])
 
-        # National trend area chart — top panel, x-axis labels suppressed
-        # (shared with the indie panel below via vconcat)
-        nat_chart = alt.Chart(nat_df).mark_area(
-            color="#5A8B5A", opacity=0.18,
-            line={"color": "#3D5A40", "strokeWidth": 2},
-            interpolate="monotone",
-        ).encode(
-            x=alt.X("date:T", title=None,
-                    axis=alt.Axis(labels=False, ticks=False,
-                                  grid=True, gridColor="#e8e0cc", gridOpacity=0.6)),
-            y=alt.Y("interest:Q", title="Google Trends (0–100)"),
-            tooltip=["date:T", "interest:Q"],
+        # Single overlay chart — national Trends area (left axis) + indie
+        # city lines (right axis). Both share the x-axis so quarter ticks
+        # align across both datasets.
+        x_axis = alt.Axis(
+            format="%b '%y",
+            tickCount={"interval": "month", "step": 3},
+            labelAngle=-30, labelFontSize=11,
+            grid=True, gridColor="#e8e0cc", gridOpacity=0.6,
         )
 
-        # LTO event vertical rules — short labels to avoid the collision the
-        # design audit flagged. We use rotated short labels above each rule.
+        nat_layer = alt.Chart(nat_df).mark_area(
+            color="#5A8B5A", opacity=0.15,
+            line={"color": "#3D5A40", "strokeWidth": 1.5},
+            interpolate="monotone",
+        ).encode(
+            x=alt.X("date:T", title=None, axis=x_axis),
+            y=alt.Y("interest:Q",
+                    title="Google Trends (0–100)",
+                    axis=alt.Axis(titleColor="#3D5A40", orient="left")),
+            tooltip=[alt.Tooltip("date:T", format="%b %Y"), alt.Tooltip("interest:Q", title="Trend")],
+        )
+
+        # LTO event vertical rules — short rotated labels
         evt_df["short_label"] = evt_df.apply(
             lambda r: "Chipotle relaunch"
             if str(r["label"]).endswith("(2026)")
@@ -1515,62 +1537,43 @@ with tab_validation:
             color="#2c3e50", angle=270, baseline="top",
         ).encode(x="date:T", y=alt.value(8), text="short_label:N")
 
-        chart_top = (
-            alt.layer(nat_chart, lto_rules, lto_text)
-            .resolve_scale(y="independent")
-            .properties(height=280)
-        )
-
-        # Indie quarterly per-city lines — bottom panel, quarter-labeled x-axis
-        indie_chart = (
+        indie_layer = (
             alt.Chart(indie_df)
             .mark_line(
                 interpolate="monotone", strokeWidth=2.2,
                 point=alt.OverlayMarkDef(size=55, filled=True, opacity=0.9),
             )
             .encode(
-                x=alt.X("date:T", title=None,
-                        axis=alt.Axis(format="%b '%y",
-                                      tickCount={"interval": "month", "step": 3},
-                                      labelAngle=-30, labelFontSize=11,
-                                      grid=True, gridColor="#e8e0cc", gridOpacity=0.6)),
+                x=alt.X("date:T", title=None, axis=x_axis),
                 y=alt.Y("total:Q",
-                        axis=alt.Axis(title="Indie quarterly mentions",
-                                      titleColor="#8E4A3C"),
+                        title="Indie quarterly mentions",
+                        axis=alt.Axis(titleColor="#8E4A3C", orient="right"),
                         scale=alt.Scale(zero=True)),
                 color=alt.Color("city:N",
                                 scale=alt.Scale(
                                     domain=list(v["indie_review_quarterly"].keys()),
                                     range=["#A33A1F", "#C46B45", "#5A8B5A"],
                                 ),
-                                legend=alt.Legend(title="City", orient="right")),
-                tooltip=["city:N", "date:T", "total:Q"],
+                                legend=alt.Legend(title="City", orient="top-right")),
+                tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
         )
 
-        chart_indie = (
-            alt.layer(indie_chart, lto_rules)
-            .resolve_scale(y="shared")
-            .properties(height=200)
-        )
-
-        # vconcat binds both panels to a shared x domain so the time axes
-        # always align regardless of the indie data's narrower date range.
-        # padding must sit on the vconcat, not on individual sub-charts.
         combined = (
-            alt.vconcat(chart_top, chart_indie, spacing=2)
-            .resolve_scale(x="shared")
-            .properties(padding={"left": 5, "right": 70, "top": 25, "bottom": 5})
+            alt.layer(nat_layer, lto_rules, lto_text, indie_layer)
+            .resolve_scale(y="independent")
+            .properties(height=380,
+                        padding={"left": 5, "right": 5, "top": 25, "bottom": 5})
             .configure_view(strokeWidth=0, fill="#fffaf2")
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
 
         st.altair_chart(combined, use_container_width=True)
         st.caption(
-            "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
-            "Dashed lines mark Chipotle Chicken Al Pastor launch / return / relaunch dates (newsroom-verified). "
-            "**Bottom:** Quarterly indie al pastor mentions by city — Bright Data Google Maps Reviews Dataset, "
-            "dual-pool indies only (chains excluded). X-axis ticks at quarter boundaries."
+            "**Green area (left axis):** National Google Trends for al pastor (US, monthly 2019–2026). "
+            "**Colored lines (right axis):** Quarterly indie al pastor mentions by city — "
+            "Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded). "
+            "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified)."
         )
 
         with st.expander("Full validation story"):
@@ -1596,10 +1599,9 @@ with tab_velocity:
         "Each chart bins by month or quarter — no smoothing, no algorithmic curation."
     )
 
-    # ── Chart 1: top-flavors monthly trend ─────────────────────────────────
-    # Audit P1 fix: 8-color line spaghetti is illegible. Highlight top 3 only;
-    # gray the rest. Same data, decodable in 3 seconds.
-    st.markdown("#### Monthly flavor velocity — top 3 highlighted")
+    # ── Chart 1: top-flavors quarterly trend ──────────────────────────────
+    # Highlight top 3 only; gray the rest. Same data, decodable in 3 seconds.
+    st.markdown("#### Quarterly flavor velocity — top 3 highlighted")
     st.caption("Top 3 flavors by total mentions shown in color; the next 5 are grayed for context. Hover to inspect any line.")
     top_flavors = top_flavors_in_city(city_key, n=8)
     if not top_flavors:
@@ -1615,22 +1617,24 @@ with tab_velocity:
             # Bottom layer — grayed-out background flavors
             background = (
                 alt.Chart(df[~df["highlight"]])
-                .mark_line(strokeWidth=1.2, opacity=0.35)
+                .mark_line(strokeWidth=1.2, opacity=0.35, interpolate="monotone")
                 .encode(
-                    x=alt.X("month:T", title="Month", axis=alt.Axis(format="%b %Y")),
+                    x=alt.X("quarter:O", title="Quarter",
+                            sort=sorted(df["quarter"].unique().tolist())),
                     y=alt.Y("mentions:Q", title="Review mentions"),
                     detail="flavor:N",
                     color=alt.value("#a09683"),
-                    tooltip=["flavor", alt.Tooltip("month:T", format="%b %Y"), "mentions"],
+                    tooltip=["flavor", "quarter", "mentions"],
                 )
             )
 
             # Top layer — highlighted top 3
             foreground = (
                 alt.Chart(df[df["highlight"]])
-                .mark_line(point=alt.OverlayMarkDef(size=55, filled=True), strokeWidth=2.5)
+                .mark_line(point=alt.OverlayMarkDef(size=55, filled=True),
+                           strokeWidth=2.5, interpolate="monotone")
                 .encode(
-                    x="month:T",
+                    x=alt.X("quarter:O", sort=sorted(df["quarter"].unique().tolist())),
                     y="mentions:Q",
                     color=alt.Color("flavor:N",
                                     scale=alt.Scale(domain=top3,
@@ -1638,7 +1642,7 @@ with tab_velocity:
                                                            MEANING_COLORS["mid"],
                                                            MEANING_COLORS["low"]]),
                                     legend=alt.Legend(title="Top 3", orient="right")),
-                    tooltip=["flavor", alt.Tooltip("month:T", format="%b %Y"), "mentions"],
+                    tooltip=["flavor", "quarter", "mentions"],
                 )
             )
 
@@ -1702,11 +1706,13 @@ with tab_velocity:
                 "Williamsburg":    "#3D5A40",   # olive
                 "Mission District":"#C46B45",   # terracotta
             }
+            q_order = sorted(cdf["quarter"].unique().tolist())
             chart = (
                 alt.Chart(cdf)
-                .mark_line(point=alt.OverlayMarkDef(size=60, filled=True))
+                .mark_line(point=alt.OverlayMarkDef(size=60, filled=True),
+                           interpolate="monotone")
                 .encode(
-                    x=alt.X("month:T", title="Month", axis=alt.Axis(format="%b %Y")),
+                    x=alt.X("quarter:O", title="Quarter", sort=q_order),
                     y=alt.Y("mentions:Q", title="Review mentions"),
                     color=alt.Color(
                         "city:N",
@@ -1716,9 +1722,9 @@ with tab_velocity:
                         ),
                         legend=alt.Legend(title="City", orient="top"),
                     ),
-                    tooltip=["city", alt.Tooltip("month:T", format="%b %Y"), "mentions"],
+                    tooltip=["city", "quarter", "mentions"],
                 )
-                .properties(height=340, title=f"\"{chosen}\" mentions per month, by city")
+                .properties(height=340, title=f"\"{chosen}\" — quarterly mentions by city")
                 .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.5)
                 .configure_view(strokeWidth=0)
                 .configure_title(fontSize=14, color="#2A2825", anchor="start")
@@ -1748,11 +1754,13 @@ with tab_velocity:
             if not ldf.empty:
                 ldf = ldf.assign(pool="Leading (chef-driven)")
             combined = pd.concat([cdf, ldf], ignore_index=True)
+            q_order = sorted(combined["quarter"].unique().tolist())
             chart = (
                 alt.Chart(combined)
-                .mark_line(point=alt.OverlayMarkDef(size=60, filled=True))
+                .mark_line(point=alt.OverlayMarkDef(size=60, filled=True),
+                           interpolate="monotone")
                 .encode(
-                    x=alt.X("month:T", title="Month", axis=alt.Axis(format="%b %Y")),
+                    x=alt.X("quarter:O", title="Quarter", sort=q_order),
                     y=alt.Y("mentions:Q", title="Review mentions"),
                     color=alt.Color(
                         "pool:N",
@@ -1762,9 +1770,9 @@ with tab_velocity:
                         ),
                         legend=alt.Legend(title="Pool", orient="top"),
                     ),
-                    tooltip=["pool", alt.Tooltip("month:T", format="%b %Y"), "mentions"],
+                    tooltip=["pool", "quarter", "mentions"],
                 )
-                .properties(height=340, title=f"\"{chosen}\" — pool divergence in {city_label}")
+                .properties(height=340, title=f"\"{chosen}\" — pool divergence by quarter in {city_label}")
                 .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.5)
                 .configure_view(strokeWidth=0)
                 .configure_title(fontSize=14, color="#2A2825", anchor="start")
