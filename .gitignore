@@ -54,3 +54,8 @@ dist/
 # ranking + pantry_fit). Kept locally for reference, not in the repo.
 data/exec_overviews.json
 data/overview_snapshot.json
+
+# Old planning + debugging notes — not project source
+hackathon-scope.md
+vault_exec_problems.md
+test-write
