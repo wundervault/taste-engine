@@ -1040,17 +1040,17 @@ with col3:
 # here as a helper that the Overview tab uses; other tabs get nothing.
 PILLAR_HTML = (
     '<div style="display:flex; gap:0.6rem; margin-top:0.4rem; margin-bottom:0.6rem;">'
-    f'<div style="flex:1; background:#f4ede0; border-left:3px solid {MEANING_COLORS["high"]}; padding:0.4rem 0.7rem;">'
+    f'<div style="flex:1; background:#f4ede0; border-left:6px solid {MEANING_COLORS["high"]}; padding:0.4rem 0.7rem;">'
     f'<div style="font-size:0.7rem; font-weight:700; letter-spacing:0.07em; color:{MEANING_COLORS["high"]};">PILLAR 1</div>'
     '<div style="font-size:0.92rem; font-weight:600; color:#2a2a2a;">Signal Fusion</div>'
     '<div style="font-size:0.74rem; color:#5a4f3c;">National Trends × local indie reviews, weighted honestly.</div>'
     '</div>'
-    f'<div style="flex:1; background:#f4ede0; border-left:3px solid {MEANING_COLORS["mid"]}; padding:0.4rem 0.7rem;">'
+    f'<div style="flex:1; background:#f4ede0; border-left:6px solid {MEANING_COLORS["mid"]}; padding:0.4rem 0.7rem;">'
     f'<div style="font-size:0.7rem; font-weight:700; letter-spacing:0.07em; color:{MEANING_COLORS["mid"]};">PILLAR 2</div>'
     '<div style="font-size:0.92rem; font-weight:600; color:#2a2a2a;">Trend Maturity</div>'
     '<div style="font-size:0.74rem; color:#5a4f3c;">Competitive vs leading pool spread → Rising / Established / Peak.</div>'
     '</div>'
-    f'<div style="flex:1; background:#f4ede0; border-left:3px solid {MEANING_COLORS["low"]}; padding:0.4rem 0.7rem;">'
+    f'<div style="flex:1; background:#f4ede0; border-left:6px solid {MEANING_COLORS["low"]}; padding:0.4rem 0.7rem;">'
     f'<div style="font-size:0.7rem; font-weight:700; letter-spacing:0.07em; color:{MEANING_COLORS["low"]};">PILLAR 3</div>'
     '<div style="font-size:0.92rem; font-weight:600; color:#2a2a2a;">Innovation Feasibility</div>'
     '<div style="font-size:0.74rem; color:#5a4f3c;">Pantry lift tier + rollout portability + LTO history.</div>'
@@ -1434,7 +1434,7 @@ with tab_overview:
 # ── Evidence host tab — header ────────────────────────────────────────────
 with tab_evidence:
     st.markdown(
-        f'<div style="background:#f4ede0; border-left:3px solid {MEANING_COLORS["high"]}; '
+        f'<div style="background:#f4ede0; border-left:6px solid {MEANING_COLORS["high"]}; '
         f'padding:0.6rem 1rem; margin:0.4rem 0 1rem 0;">'
         f'<div style="font-size:0.7rem; font-weight:700; letter-spacing:0.07em; color:{MEANING_COLORS["high"]};">PILLAR 1 — SIGNAL FUSION</div>'
         f'<div style="font-size:0.85rem; color:#5a4f3c;">Where national Trends and local indie review data agree, and where they disagree honestly.</div>'
@@ -1772,7 +1772,7 @@ with tab_velocity:
 # ── Methodology host tab — header ─────────────────────────────────────────
 with tab_methodology:
     st.markdown(
-        f'<div style="background:#f4ede0; border-left:3px solid {MEANING_COLORS["low"]}; '
+        f'<div style="background:#f4ede0; border-left:6px solid {MEANING_COLORS["low"]}; '
         f'padding:0.6rem 1rem; margin:0.4rem 0 1rem 0;">'
         f'<div style="font-size:0.7rem; font-weight:700; letter-spacing:0.07em; color:{MEANING_COLORS["low"]};">PILLAR 3 — INNOVATION FEASIBILITY</div>'
         f'<div style="font-size:0.85rem; color:#5a4f3c;">Per-flavor signal rankings, brand pantry inventory, deliverability gaps, cross-city comparisons.</div>'
@@ -2055,7 +2055,7 @@ with tab_trends:
         if headline_parts:
             st.markdown(
                 f'<div style="font-family: Georgia, serif; font-size:1.1rem; line-height:1.5; '
-                f'color:#2A2825; background:#f4ede0; border-left:3px solid {MEANING_COLORS["high"]}; '
+                f'color:#2A2825; background:#f4ede0; border-left:6px solid {MEANING_COLORS["high"]}; '
                 f'padding:0.8rem 1.1rem; margin:0 0 1.2rem 0;">'
                 f'{". ".join(headline_parts)}.</div>',
                 unsafe_allow_html=True,
@@ -2265,7 +2265,7 @@ with tab_vs_llm:
         )
 
     st.markdown(
-        f'<div style="background:#fffaf2; border-left:3px solid {MEANING_COLORS["high"]}; '
+        f'<div style="background:#fffaf2; border-left:6px solid {MEANING_COLORS["high"]}; '
         f'padding:0.6rem 1rem; margin:0.6rem 0 1rem 0; font-size:0.88rem; color:#5a4f3c; line-height:1.5;">'
         f'Pantry · duplication · LTO history · cuisine coherence · dish-name truthfulness · '
         f'ambiguous terms · comp restaurant verification · numerical claim audit. '
