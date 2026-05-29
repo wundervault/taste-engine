@@ -1518,7 +1518,7 @@ with tab_validation:
         chart_top = (
             alt.layer(nat_chart, lto_rules, lto_text)
             .resolve_scale(y="independent")
-            .properties(height=280, padding={"left": 5, "right": 70, "top": 25, "bottom": 0})
+            .properties(height=280)
         )
 
         # Indie quarterly per-city lines — bottom panel, quarter-labeled x-axis
@@ -1551,14 +1551,16 @@ with tab_validation:
         chart_indie = (
             alt.layer(indie_chart, lto_rules)
             .resolve_scale(y="shared")
-            .properties(height=200, padding={"left": 5, "right": 70, "top": 0, "bottom": 5})
+            .properties(height=200)
         )
 
         # vconcat binds both panels to a shared x domain so the time axes
         # always align regardless of the indie data's narrower date range.
+        # padding must sit on the vconcat, not on individual sub-charts.
         combined = (
             alt.vconcat(chart_top, chart_indie, spacing=2)
             .resolve_scale(x="shared")
+            .properties(padding={"left": 5, "right": 70, "top": 25, "bottom": 5})
             .configure_view(strokeWidth=0, fill="#fffaf2")
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
