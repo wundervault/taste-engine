@@ -1495,18 +1495,14 @@ with tab_validation:
     else:
         v = json.loads(vpath.read_text())
 
-        # Constrain the headline + both charts to the same column width so
-        # the chart never exceeds the text block above it.
-        _ev_col, _ = st.columns([2, 1])
-        with _ev_col:
-         st.markdown(
+        st.markdown(
             f'<div style="font-family: Georgia, serif; font-size: 1.15rem; '
             f'line-height: 1.5; color: #2A2825; background: #f4ede0; '
             f'border-left: 3px solid #3D5A40; padding: 0.7rem 1rem; margin: 0.4rem 0 1rem 0;">'
             f'{v["story_headline"]}'
             f'</div>',
             unsafe_allow_html=True,
-         )
+        )
 
         # National trend line
         nat_df = pd.DataFrame(v["national_trend_monthly"])
@@ -1592,9 +1588,7 @@ with tab_validation:
                                     domain=list(v["indie_review_quarterly"].keys()),
                                     range=["#A33A1F", "#C46B45", "#5A8B5A"],
                                 ),
-                                legend=alt.Legend(
-                                    title="City", orient="bottom-right",
-                                )),
+                                legend=alt.Legend(title="City", orient="right")),
                 tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
         )
@@ -1615,14 +1609,13 @@ with tab_validation:
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
 
-        with _ev_col:
-            st.altair_chart(combined, use_container_width=True)
-            st.caption(
-                "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
-                "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
-                "**Bottom:** Quarterly indie al pastor mentions by city — "
-                "Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded)."
-            )
+        st.altair_chart(combined, use_container_width=True)
+        st.caption(
+            "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
+            "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
+            "**Bottom:** Quarterly indie al pastor mentions by city — "
+            "Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded)."
+        )
 
         with st.expander("Full validation story"):
             st.markdown(v["story_full"])
