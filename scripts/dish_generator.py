@@ -93,6 +93,13 @@ def existing_dishes(conn, brand: str) -> list[str]:
     return [r["item"] for r in rows]
 
 
+_CITY_LABELS = {
+    "weho":         "West Hollywood",
+    "williamsburg": "Williamsburg",
+    "mission":      "Mission District",
+}
+
+
 def signal_ranking(conn, city: str, geo: str, limit: int = 12,
                    pool: str | None = None) -> list[dict]:
     """Cross-source signal score: DMA-level Google Trends × city-scoped local review mentions.
@@ -104,7 +111,12 @@ def signal_ranking(conn, city: str, geo: str, limit: int = 12,
 
     City-scoping + pool-scoping happen in a subquery so the trends JOIN can
     stay LEFT (keeps trend-only flavors with 0 local mentions visible).
+
+    `city` may be a short key ("mission") or the full label ("Mission District");
+    both are accepted — keys are normalized to labels here so the SQL WHERE clause
+    matches the restaurants.city column.
     """
+    city = _CITY_LABELS.get(city, city)
     pool_filter = ""
     if pool == "competitive":
         pool_filter = "AND r.pool_competitive = 1"
@@ -125,8 +137,8 @@ def signal_ranking(conn, city: str, geo: str, limit: int = 12,
     FROM trends t
     LEFT JOIN (
       SELECT fm.flavor,
-             SUM(fm.count)              AS mentions,
-             COUNT(DISTINCT fm.review_id) AS reviews_hit
+             COUNT(DISTINCT rv.id) AS mentions,
+             COUNT(DISTINCT rv.id) AS reviews_hit
       FROM flavor_mentions fm
       JOIN reviews     rv ON rv.id = fm.review_id
       JOIN restaurants r  ON r.id  = rv.restaurant_id

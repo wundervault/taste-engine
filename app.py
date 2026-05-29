@@ -286,8 +286,9 @@ def load_signal_ranking(city: str, geo: str, limit: int = 25) -> list[dict]:
       ) AS signal_score
     FROM trends t
     LEFT JOIN (
-      SELECT fm.flavor, SUM(fm.count) AS mentions,
-             COUNT(DISTINCT fm.review_id) AS reviews_hit
+      SELECT fm.flavor,
+             COUNT(DISTINCT rv.id) AS mentions,
+             COUNT(DISTINCT rv.id) AS reviews_hit
       FROM flavor_mentions fm
       JOIN reviews     rv ON rv.id = fm.review_id
       JOIN restaurants r  ON r.id  = rv.restaurant_id
@@ -431,7 +432,7 @@ def monthly_mentions(city: str, flavors: list[str] | None = None,
     SELECT
       fm.flavor,
       substr(rv.review_date, 1, 7) AS month,
-      SUM(fm.count) AS mentions
+      COUNT(DISTINCT rv.id) AS mentions
     FROM flavor_mentions fm
     JOIN reviews rv ON rv.id = fm.review_id
     JOIN restaurants r ON r.id = rv.restaurant_id
@@ -494,7 +495,7 @@ def flavor_by_city(flavor: str) -> "pd.DataFrame":
     SELECT
       r.city,
       substr(rv.review_date, 1, 7) AS month,
-      SUM(fm.count) AS mentions
+      COUNT(DISTINCT rv.id) AS mentions
     FROM flavor_mentions fm
     JOIN reviews rv ON rv.id = fm.review_id
     JOIN restaurants r ON r.id = rv.restaurant_id
@@ -1483,35 +1484,27 @@ with tab_validation:
                                 "label": f'{e["brand"]} {e["item"]} ({e["year"]})'}
                               for e in v["chain_lto_events"]])
 
-        # National trend area chart
+        # National trend area chart — top panel, x-axis labels suppressed
+        # (shared with the indie panel below via vconcat)
         nat_chart = alt.Chart(nat_df).mark_area(
-            color="#5A8B5A", opacity=0.18, line={"color": "#3D5A40", "strokeWidth": 2}
+            color="#5A8B5A", opacity=0.18,
+            line={"color": "#3D5A40", "strokeWidth": 2},
+            interpolate="monotone",
         ).encode(
-            x=alt.X("date:T", title=None),
-            y=alt.Y("interest:Q", title="National Google Trends interest (0-100)"),
+            x=alt.X("date:T", title=None,
+                    axis=alt.Axis(labels=False, ticks=False,
+                                  grid=True, gridColor="#e8e0cc", gridOpacity=0.6)),
+            y=alt.Y("interest:Q", title="Google Trends (0–100)"),
             tooltip=["date:T", "interest:Q"],
-        )
-
-        # Indie quarterly per-city points
-        indie_chart = alt.Chart(indie_df).mark_circle(size=70, opacity=0.85).encode(
-            x="date:T",
-            y=alt.Y("total:Q",
-                    axis=alt.Axis(title="Indie quarterly mentions", titleColor="#8E4A3C"),
-                    scale=alt.Scale(zero=True)),
-            color=alt.Color("city:N", scale=alt.Scale(
-                domain=list(v["indie_review_quarterly"].keys()),
-                range=["#A33A1F", "#C46B45", "#5A8B5A"],
-            )),
-            tooltip=["city:N", "date:T", "total:Q"],
         )
 
         # LTO event vertical rules — short labels to avoid the collision the
         # design audit flagged. We use rotated short labels above each rule.
         evt_df["short_label"] = evt_df.apply(
-            lambda r: f'Chipotle relaunch'
+            lambda r: "Chipotle relaunch"
             if str(r["label"]).endswith("(2026)")
-            else (f'Chipotle return' if str(r["label"]).endswith("(2024)")
-                  else 'Chipotle launch'),
+            else ("Chipotle return" if str(r["label"]).endswith("(2024)")
+                  else "Chipotle launch"),
             axis=1,
         )
         lto_rules = alt.Chart(evt_df).mark_rule(
@@ -1519,22 +1512,63 @@ with tab_validation:
         ).encode(x="date:T", tooltip=["label:N"])
         lto_text = alt.Chart(evt_df).mark_text(
             align="left", dx=5, dy=12, fontSize=10, fontWeight=600,
-            color="#2c3e50", angle=270, baseline="top"
+            color="#2c3e50", angle=270, baseline="top",
         ).encode(x="date:T", y=alt.value(8), text="short_label:N")
 
-        chart = alt.layer(nat_chart, lto_rules, lto_text).resolve_scale(
-            y="independent"
-        ).properties(height=320, padding={"left": 5, "right": 70, "top": 25, "bottom": 5})
-
-        chart_indie = alt.layer(indie_chart, lto_rules).resolve_scale(y="shared").properties(
-            height=180, padding={"left": 5, "right": 70, "top": 5, "bottom": 5}
+        chart_top = (
+            alt.layer(nat_chart, lto_rules, lto_text)
+            .resolve_scale(y="independent")
+            .properties(height=280, padding={"left": 5, "right": 70, "top": 25, "bottom": 0})
         )
 
-        st.altair_chart(chart, use_container_width=True)
-        st.caption("**National Google Trends for al pastor (US, monthly 2019–2026).** Vertical dashed lines mark Chipotle Chicken Al Pastor launch / return / relaunch dates (newsroom-verified). Source: pytrends + Chipotle newsroom.")
+        # Indie quarterly per-city lines — bottom panel, quarter-labeled x-axis
+        indie_chart = (
+            alt.Chart(indie_df)
+            .mark_line(
+                interpolate="monotone", strokeWidth=2.2,
+                point=alt.OverlayMarkDef(size=55, filled=True, opacity=0.9),
+            )
+            .encode(
+                x=alt.X("date:T", title=None,
+                        axis=alt.Axis(format="%b '%y", tickCount="quarter",
+                                      labelAngle=-30, labelFontSize=11,
+                                      grid=True, gridColor="#e8e0cc", gridOpacity=0.6)),
+                y=alt.Y("total:Q",
+                        axis=alt.Axis(title="Indie quarterly mentions",
+                                      titleColor="#8E4A3C"),
+                        scale=alt.Scale(zero=True)),
+                color=alt.Color("city:N",
+                                scale=alt.Scale(
+                                    domain=list(v["indie_review_quarterly"].keys()),
+                                    range=["#A33A1F", "#C46B45", "#5A8B5A"],
+                                ),
+                                legend=alt.Legend(title="City", orient="right")),
+                tooltip=["city:N", "date:T", "total:Q"],
+            )
+        )
 
-        st.altair_chart(chart_indie, use_container_width=True)
-        st.caption("**Quarterly indie al pastor mentions by city.** Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded).")
+        chart_indie = (
+            alt.layer(indie_chart, lto_rules)
+            .resolve_scale(y="shared")
+            .properties(height=200, padding={"left": 5, "right": 70, "top": 0, "bottom": 5})
+        )
+
+        # vconcat binds both panels to a shared x domain so the time axes
+        # always align regardless of the indie data's narrower date range.
+        combined = (
+            alt.vconcat(chart_top, chart_indie, spacing=2)
+            .resolve_scale(x="shared")
+            .configure_view(strokeWidth=0, fill="#fffaf2")
+            .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
+        )
+
+        st.altair_chart(combined, use_container_width=True)
+        st.caption(
+            "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
+            "Dashed lines mark Chipotle Chicken Al Pastor launch / return / relaunch dates (newsroom-verified). "
+            "**Bottom:** Quarterly indie al pastor mentions by city — Bright Data Google Maps Reviews Dataset, "
+            "dual-pool indies only (chains excluded). X-axis ticks at quarter boundaries."
+        )
 
         with st.expander("Full validation story"):
             st.markdown(v["story_full"])
@@ -1895,10 +1929,16 @@ with tab_pantry:
 
 # ── Dishes ─────────────────────────────────────────────────────────────────
 with tab_dishes:
-    # Tiny breadcrumb instead of the full 3-pillar block
+    # Tiny breadcrumb — each pillar label uses its own pillar color to match
+    # the PILLAR_HTML on the Overview tab (high=slate, mid=tan, low=rust).
     st.markdown(
-        f'<div style="font-size:0.72rem; color:{MEANING_COLORS["mid"]}; letter-spacing:0.05em; '
-        f'margin-bottom:0.4rem;">PILLAR 2 — TREND MATURITY · PILLAR 3 — INNOVATION FEASIBILITY</div>',
+        f'<div style="font-size:0.72rem; letter-spacing:0.05em; margin-bottom:0.4rem;">'
+        f'<span style="color:{MEANING_COLORS["mid"]}; font-weight:700;">PILLAR 2</span>'
+        f'<span style="color:{MEANING_COLORS["mid"]}"> — TREND MATURITY</span>'
+        f'<span style="color:#a09683;"> · </span>'
+        f'<span style="color:{MEANING_COLORS["low"]}; font-weight:700;">PILLAR 3</span>'
+        f'<span style="color:{MEANING_COLORS["low"]}"> — INNOVATION FEASIBILITY</span>'
+        f'</div>',
         unsafe_allow_html=True,
     )
     st.subheader(f"Recommendations · {city_label}")
