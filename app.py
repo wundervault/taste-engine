@@ -82,12 +82,22 @@ CONFIDENCE_COLORS = {
 # scores are normalized to 0-100 (matching Google Trends and composite confidence).
 # Internal pool scores remain 0-1; we multiply by 100 at render time.
 STRENGTH_LABELS = [
-    (75, "Very strong", MEANING_COLORS["high"]),
-    (55, "Strong",      MEANING_COLORS["high"]),
-    (35, "Notable",     MEANING_COLORS["mid"]),
-    (20, "Emerging",    MEANING_COLORS["mid"]),
-    (0,  "Background",  MEANING_COLORS["muted"]),
+    (75, "Very strong", "#1B4F72"),   # deep navy
+    (55, "Strong",      "#2E86C1"),   # mid blue
+    (35, "Notable",     "#9C7F4A"),   # tan
+    (20, "Emerging",    "#C4A970"),   # light amber
+    (0,  "Background",  "#8B8378"),   # muted gray
 ]
+
+# Row background tints for the top-signals heatmap — rgba of the label color
+# at low opacity so the text stays readable.
+STRENGTH_BG = {
+    "Very strong": "rgba(27,79,114,0.10)",
+    "Strong":      "rgba(46,134,193,0.08)",
+    "Notable":     "rgba(156,127,74,0.08)",
+    "Emerging":    "rgba(196,169,112,0.06)",
+    "Background":  "#fffaf2",
+}
 
 
 def _to_100(score) -> float | None:
@@ -575,6 +585,20 @@ def brand_pill(brand: str) -> str:
     return pill(brand, BRAND_COLORS.get(brand, "#888"))
 
 
+def brand_banner(brand: str, subtitle: str = "") -> str:
+    """Full-width brand banner matching the Recommendations tab style."""
+    bc = BRAND_COLORS.get(brand, "#888")
+    sub = (f'<div style="font-size:0.78rem; opacity:0.85; letter-spacing:0.05em;">'
+           f'· {subtitle}</div>') if subtitle else ""
+    return (
+        f'<div style="background:{bc}; color:white; padding:0.45rem 1.1rem; '
+        f'border-radius:6px; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.7rem;">'
+        f'<div style="font-family:Georgia, serif; font-size:1.05rem; font-weight:700; '
+        f'letter-spacing:0.12em; text-transform:uppercase;">{brand}</div>'
+        f'{sub}</div>'
+    )
+
+
 def direction_arrow(d: str | None) -> str:
     return {"rising": "↑", "falling": "↓", "flat": "→"}.get(d, "")
 
@@ -604,17 +628,16 @@ LIFT_COLORS = {
 
 
 def confidence_score_badge(score) -> str:
-    """Numeric 0-100 composite confidence badge — the primary trust signal."""
+    """Numeric 0-100 composite confidence badge — Pillar 1 slate, score conveys level."""
     if score is None:
         return ""
-    if score >= 70: color = "#3D5A40"
-    elif score >= 55: color = "#5A8B5A"
-    elif score >= 40: color = "#B58A2E"
-    else: color = "#a09683"
+    # Always Pillar 1 color (slate) — confidence is the composite signal strength score.
+    # The number itself communicates level; color communicates pillar attribution.
+    color = MEANING_COLORS["high"]
     return (
         f'<span style="background:{color}; color:white; padding:0.15rem 0.6rem; '
         f'border-radius:4px; font-size:0.78rem; font-weight:700; letter-spacing:0.04em;" '
-        f'title="Composite of Trend 20% / Local 30% / Maturity 15% / Feasibility 20% / Recency 10% / LTO 5%">'
+        f'title="Pillar 1 — Signal Fusion: composite of Trend 20% / Local 30% / Maturity 15% / Feasibility 20% / Recency 10% / LTO 5%">'
         f'Confidence {int(score)}</span>'
     )
 
@@ -1160,7 +1183,7 @@ with tab_overview:
             f'<div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.4rem;">'
             f'<span style="background:{verdict_color}; color:white; padding:0.15rem 0.7rem; '
             f'border-radius:4px; font-size:0.72rem; font-weight:700; letter-spacing:0.06em;">{verdict_text}</span>'
-            f'{brand_pill(hero["brand"])}{confidence_score_badge(hero.get("confidence_score"))}'
+            f'{confidence_score_badge(hero.get("confidence_score"))}'
             f'{maturity_badge(hero.get("maturity_stage"))}'
             f'{lift_badge(hero.get("lift_tier"), hero.get("rollout_portability"))}'
             f'{lto_proven_badge(lto)}'
@@ -1245,10 +1268,11 @@ with tab_overview:
         for s in signals:
             score_100 = int((s["signal_score"] or 0) * 100)
             label, color = strength_label(score_100)
+            bg = STRENGTH_BG.get(label, "#fffaf2")
             st.markdown(
                 f'<div style="display:flex; align-items:center; justify-content:space-between; '
-                f'padding:0.4rem 0.7rem; margin:0.25rem 0; background:#fffaf2; '
-                f'border-radius:4px; border-left:3px solid {color};">'
+                f'padding:0.4rem 0.7rem; margin:0.25rem 0; background:{bg}; '
+                f'border-radius:4px; border-left:4px solid {color};">'
                 f'<div><strong>{s["term"]}</strong>'
                 f'<span style="font-size:0.78rem; color:#7a6f5c; margin-left:0.5rem;">'
                 f'{s["mentions"]} mentions</span></div>'
@@ -1864,7 +1888,7 @@ with tab_signals:
 with tab_pantry:
     st.subheader("Brand pantries (live, available SKUs)")
     brand_choice = st.selectbox("Brand", list(BRAND_COLORS.keys()))
-    st.markdown(brand_pill(brand_choice), unsafe_allow_html=True)
+    st.markdown(brand_banner(brand_choice), unsafe_allow_html=True)
 
     pantry = load_pantry(brand_choice)
     existing = load_existing_dishes(brand_choice)
@@ -2473,7 +2497,7 @@ with tab_gaps:
         cols = st.columns(3)
         for idx, brand in enumerate(BRAND_COLORS):
             with cols[idx]:
-                st.markdown(brand_pill(brand), unsafe_allow_html=True)
+                st.markdown(brand_banner(brand), unsafe_allow_html=True)
                 # Helper does the cuisine filter; we still filter for
                 # "undeliverable + meaningful score" at the render site since
                 # those are the gap criteria specific to this surface.
