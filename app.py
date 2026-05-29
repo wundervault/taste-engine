@@ -1524,31 +1524,16 @@ with tab_validation:
                                 "label": f'{e["brand"]} {e["item"]} ({e["year"]})'}
                               for e in v["chain_lto_events"]])
 
-        # Shared x-axis config: top panel hides labels (bottom panel owns them)
-        # so both panels align pixel-perfectly via vconcat resolve_scale(x="shared").
-        x_top = alt.Axis(
-            labels=False, ticks=False,
-            grid=True, gridColor="#e8e0cc", gridOpacity=0.6,
-        )
-        x_bottom = alt.Axis(
+        # Shared x-axis format — both charts rendered independently so
+        # use_container_width=True works correctly (vconcat breaks this).
+        x_axis = alt.Axis(
             format="%b '%y",
             tickCount={"interval": "month", "step": 3},
             labelAngle=-30, labelFontSize=11,
             grid=True, gridColor="#e8e0cc", gridOpacity=0.6,
         )
 
-        # Top panel — full Google Trends area (all real data, no split)
-        nat_chart = alt.Chart(nat_df).mark_area(
-            color="#5A8B5A", opacity=0.18,
-            line={"color": "#3D5A40", "strokeWidth": 2},
-            interpolate="monotone",
-        ).encode(
-            x=alt.X("date:T", title=None, axis=x_top),
-            y=alt.Y("interest:Q", title="Google Trends (0–100)"),
-            tooltip=[alt.Tooltip("date:T", format="%b %Y"), alt.Tooltip("interest:Q", title="Trend")],
-        )
-
-        # LTO event vertical rules — rotated labels in top panel only
+        # LTO event vertical rules
         evt_df["short_label"] = evt_df.apply(
             lambda r: "Chipotle relaunch"
             if str(r["label"]).endswith("(2026)")
@@ -1564,13 +1549,31 @@ with tab_validation:
             color="#2c3e50", angle=270, baseline="top",
         ).encode(x="date:T", y=alt.value(8), text="short_label:N")
 
-        chart_top = (
+        # Chart 1 — Google Trends
+        nat_chart = alt.Chart(nat_df).mark_area(
+            color="#5A8B5A", opacity=0.18,
+            line={"color": "#3D5A40", "strokeWidth": 2},
+            interpolate="monotone",
+        ).encode(
+            x=alt.X("date:T", title=None, axis=x_axis),
+            y=alt.Y("interest:Q", title="Google Trends (0–100)"),
+            tooltip=[alt.Tooltip("date:T", format="%b %Y"), alt.Tooltip("interest:Q", title="Trend")],
+        )
+        chart_trends = (
             alt.layer(nat_chart, lto_rules, lto_text)
             .resolve_scale(y="shared")
             .properties(height=260)
+            .configure_view(strokeWidth=0, fill="#fffaf2")
+            .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
+        )
+        st.altair_chart(chart_trends, use_container_width=True)
+        st.caption(
+            "National Google Trends for al pastor (US, monthly 2019–2026). "
+            "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
+            "Source: pytrends + Chipotle newsroom."
         )
 
-        # Bottom panel — indie quarterly city lines, legend at bottom
+        # Chart 2 — Indie quarterly city mentions
         indie_chart = (
             alt.Chart(indie_df)
             .mark_line(
@@ -1578,7 +1581,7 @@ with tab_validation:
                 point=alt.OverlayMarkDef(size=55, filled=True, opacity=0.9),
             )
             .encode(
-                x=alt.X("date:T", title=None, axis=x_bottom),
+                x=alt.X("date:T", title=None, axis=x_axis),
                 y=alt.Y("total:Q",
                         title="Indie quarterly mentions",
                         axis=alt.Axis(titleColor="#8E4A3C"),
@@ -1592,28 +1595,16 @@ with tab_validation:
                 tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
         )
-
-        chart_bottom = (
+        chart_indie = (
             alt.layer(indie_chart, lto_rules)
             .resolve_scale(y="shared")
-            .properties(height=180)
-        )
-
-        # vconcat — shared x keeps both panels aligned. Full container width
-        # (no column wrapper) so it matches the velocity charts on the Trends tab.
-        combined = (
-            alt.vconcat(chart_top, chart_bottom, spacing=2)
-            .resolve_scale(x="shared")
-            .properties(padding={"left": 5, "right": 5, "top": 20, "bottom": 5})
+            .properties(height=220)
             .configure_view(strokeWidth=0, fill="#fffaf2")
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
-
-        st.altair_chart(combined, use_container_width=True)
+        st.altair_chart(chart_indie, use_container_width=True)
         st.caption(
-            "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
-            "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
-            "**Bottom:** Quarterly indie al pastor mentions by city — "
+            "Quarterly indie al pastor mentions by city — "
             "Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded)."
         )
 
