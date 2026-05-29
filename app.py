@@ -82,21 +82,21 @@ CONFIDENCE_COLORS = {
 # scores are normalized to 0-100 (matching Google Trends and composite confidence).
 # Internal pool scores remain 0-1; we multiply by 100 at render time.
 STRENGTH_LABELS = [
-    (75, "Very strong", "#1B4F72"),   # deep navy
-    (55, "Strong",      "#2E86C1"),   # mid blue
-    (35, "Notable",     "#9C7F4A"),   # tan
-    (20, "Emerging",    "#C4A970"),   # light amber
-    (0,  "Background",  "#8B8378"),   # muted gray
+    (75, "Very strong", "#145A32"),   # dark green
+    (55, "Strong",      "#1E8449"),   # green
+    (35, "Notable",     "#D4AC0D"),   # amber
+    (20, "Emerging",    "#CA6F1E"),   # orange
+    (0,  "Background",  "#922B21"),   # dark red
 ]
 
 # Row background tints for the top-signals heatmap — rgba of the label color
 # at low opacity so the text stays readable.
 STRENGTH_BG = {
-    "Very strong": "rgba(27,79,114,0.10)",
-    "Strong":      "rgba(46,134,193,0.08)",
-    "Notable":     "rgba(156,127,74,0.08)",
-    "Emerging":    "rgba(196,169,112,0.06)",
-    "Background":  "#fffaf2",
+    "Very strong": "rgba(20,90,50,0.10)",
+    "Strong":      "rgba(30,132,73,0.08)",
+    "Notable":     "rgba(212,172,13,0.08)",
+    "Emerging":    "rgba(202,111,30,0.07)",
+    "Background":  "rgba(146,43,33,0.07)",
 }
 
 
