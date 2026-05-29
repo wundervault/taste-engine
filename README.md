@@ -4,7 +4,7 @@
 
 Built for the **Bright Data Hackathon · May 2026**.
 
-🍽️ Live: [tasteengine.wundervault.com](https://tasteengine.wundervault.com) · 📄 [Submission PDF](dist/SUBMISSION.pdf) · 🎬 [Video Script](dist/VIDEO_SCRIPT.pdf) · 🖼️ [Slides](dist/slides/PRESENTATION.pdf)
+🍽️ Live: **[tasteengine.wundervault.com](https://tasteengine.wundervault.com)**
 
 ---
 
@@ -78,7 +78,7 @@ Bright Data ─→ SQLite (hermes.db) ─→ deliverability matrix
                                    6 tabs · 18 cards · quarterly brief
 ```
 
-See [`SUBMISSION.md`](SUBMISSION.md) for the full architecture diagram, the validation story (al pastor crossing Weak → Established weeks before Chipotle's Feb 2026 relaunch), and the engineering narrative.
+The full architecture diagram, validation story (al pastor crossing Weak → Established weeks before Chipotle's Feb 2026 relaunch), and engineering narrative are in the hackathon submission packet — not committed here.
 
 ## Run locally
 

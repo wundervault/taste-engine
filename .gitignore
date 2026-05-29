@@ -36,7 +36,21 @@ data/cava_byo/
 .vscode/
 *.swp
 
-# Build outputs we keep
-# dist/SUBMISSION.pdf, dist/VIDEO_SCRIPT.pdf, dist/slides/PRESENTATION.pdf are committed.
-# Regenerable screenshots are not.
-dist/slides/shots/
+# Hackathon submission artifacts — not project files. Lives outside the repo.
+SUBMISSION.md
+SUBMISSION.html
+VIDEO_SCRIPT.md
+VIDEO_SCRIPT.html
+DESIGN_AUDIT.md
+DESIGN_AUDIT.html
+HANDOFF.md
+HANDOFF-*.md
+
+# Entire build output dir (PDFs, slides, screenshots) — generated, not source
+dist/
+
+# Retired LLM-generated prose surface (subagent output that bypassed our audits;
+# now replaced by deterministic content from quarterly_brief.json + signal
+# ranking + pantry_fit). Kept locally for reference, not in the repo.
+data/exec_overviews.json
+data/overview_snapshot.json
