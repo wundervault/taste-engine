@@ -128,6 +128,75 @@ def _resolve_city(city: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Signal ranking — shared by app.py and any agent that needs raw scores
+# ---------------------------------------------------------------------------
+
+def signal_ranking(conn, city: str, geo: str, limit: int = 12,
+                   pool: str | None = None) -> list[dict]:
+    """Cross-source signal score: DMA-level Google Trends × city-scoped review mentions.
+
+    city may be a short key ('mission') or full label ('Mission District').
+    pool: None = all restaurants; 'competitive' = indie lunch; 'leading' = chef-driven.
+    """
+    city = CITY_KEY_TO_LABEL.get(city, city)
+    pool_filter = ""
+    if pool == "competitive":
+        pool_filter = "AND r.pool_competitive = 1"
+    elif pool == "leading":
+        pool_filter = "AND r.pool_leading = 1"
+    q = f"""
+    SELECT
+      t.term,
+      t.avg_12m AS trend,
+      COALESCE(s.mentions, 0)    AS mentions,
+      COALESCE(s.reviews_hit, 0) AS reviews_hit,
+      ROUND(
+        (t.avg_12m / 100.0) * 0.5
+        + (CASE WHEN COALESCE(s.mentions, 0) > 30 THEN 1.0
+                ELSE COALESCE(s.mentions, 0) / 30.0 END) * 0.5,
+        3
+      ) AS signal_score
+    FROM trends t
+    LEFT JOIN (
+      SELECT fm.flavor,
+             COUNT(DISTINCT rv.id) AS mentions,
+             COUNT(DISTINCT rv.id) AS reviews_hit
+      FROM flavor_mentions fm
+      JOIN reviews     rv ON rv.id = fm.review_id
+      JOIN restaurants r  ON r.id  = rv.restaurant_id
+      WHERE r.city = ? {pool_filter}
+      GROUP BY fm.flavor
+    ) s ON s.flavor = t.term
+    WHERE t.geo = ?
+    ORDER BY signal_score DESC
+    LIMIT ?
+    """
+    return [dict(r) for r in conn.execute(q, (city, geo, limit))]
+
+
+def signal_ranking_dual(conn, city: str, geo: str, limit: int = 20) -> list[dict]:
+    """Top flavors with both competitive + leading pool scores side-by-side."""
+    comp = {r["term"]: r for r in signal_ranking(conn, city, geo, limit=50, pool="competitive")}
+    lead = {r["term"]: r for r in signal_ranking(conn, city, geo, limit=50, pool="leading")}
+    out = []
+    for term in sorted(set(comp) | set(lead)):
+        c = comp.get(term, {})
+        L = lead.get(term, {})
+        out.append({
+            "term":                 term,
+            "trend":                c.get("trend") or L.get("trend"),
+            "competitive_score":    c.get("signal_score", 0.0),
+            "competitive_mentions": c.get("mentions", 0),
+            "competitive_reviews":  c.get("reviews_hit", 0),
+            "leading_score":        L.get("signal_score", 0.0),
+            "leading_mentions":     L.get("mentions", 0),
+            "leading_reviews":      L.get("reviews_hit", 0),
+        })
+    out.sort(key=lambda r: max(r["competitive_score"] or 0, r["leading_score"] or 0), reverse=True)
+    return out[:limit]
+
+
+# ---------------------------------------------------------------------------
 # Tool implementations
 # ---------------------------------------------------------------------------
 

@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "scripts"))
 from hermes.db import DB_PATH  # noqa: E402
-from dish_generator import signal_ranking_dual, CITIES  # noqa: E402
+from dish_tools import signal_ranking_dual\nfrom dish_generator_agent import CITY_KEY_TO_LABEL as CITIES  # noqa: E402
 
 DATA = ROOT / "data"
 

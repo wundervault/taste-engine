@@ -123,14 +123,14 @@ def main():
     # Pull per-city signal ranking to find which gaps matter where
     print("Top 8 flavors per city — those with [✗] for a brand are gap candidates:")
     sys.path.insert(0, str(ROOT / "scripts"))
-    from dish_generator import signal_ranking, CITIES
+    from dish_tools import signal_ranking; from dish_generator_agent import CITY_KEY_TO_LABEL as CITIES
     for city_key, spec in CITIES.items():
         print(f"\n  {spec['city']} ({spec['geo']}):")
         top = signal_ranking(conn, spec["city"], spec["geo"], limit=8) if False else None
         # Re-open conn since main() closed it
         c2 = sqlite3.connect(DB_PATH)
         c2.row_factory = sqlite3.Row
-        from dish_generator import signal_ranking
+        from dish_tools import signal_ranking
         top = signal_ranking(c2, spec["city"], spec["geo"], limit=8)
         c2.close()
         for s in top:

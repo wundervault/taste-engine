@@ -78,7 +78,7 @@ def check_recommendation_files() -> tuple[int, int]:
 def check_signal_helper() -> list[str]:
     """Verify load_on_brand_signal_ranking actually filters off-brand."""
     # Simulate the helper call without importing streamlit's @st.cache_data
-    from dish_generator import signal_ranking_dual
+    from dish_tools import signal_ranking_dual
 
     issues = []
     # Use a simple sqlite connection

@@ -272,7 +272,7 @@ def load_signal_ranking_dual(city: str, geo: str, limit: int = 25) -> list[dict]
     """Returns top flavors with BOTH competitive + leading pool scores."""
     conn = get_conn()
     sys.path.insert(0, str(ROOT / "scripts"))
-    from dish_generator import signal_ranking_dual
+    from dish_tools import signal_ranking_dual
     return signal_ranking_dual(conn, city, geo, limit=limit)
 
 
