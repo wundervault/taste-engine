@@ -1589,8 +1589,7 @@ with tab_validation:
                                     range=["#A33A1F", "#C46B45", "#5A8B5A"],
                                 ),
                                 legend=alt.Legend(
-                                    title="City", orient="bottom",
-                                    direction="horizontal", titleAnchor="middle",
+                                    title="City", orient="bottom-right",
                                 )),
                 tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
@@ -1602,19 +1601,17 @@ with tab_validation:
             .properties(height=180)
         )
 
-        # vconcat — shared x keeps both panels aligned to the same date domain.
-        # Width constrained via columns below; padding on vconcat only.
+        # vconcat — shared x keeps both panels aligned. Full container width
+        # (no column wrapper) so it matches the velocity charts on the Trends tab.
         combined = (
             alt.vconcat(chart_top, chart_bottom, spacing=2)
             .resolve_scale(x="shared")
-            .properties(padding={"left": 5, "right": 10, "top": 20, "bottom": 5})
+            .properties(padding={"left": 5, "right": 5, "top": 20, "bottom": 5})
             .configure_view(strokeWidth=0, fill="#fffaf2")
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
 
-        col_chart, _ = st.columns([3, 0.01])
-        with col_chart:
-            st.altair_chart(combined, use_container_width=True)
+        st.altair_chart(combined, use_container_width=True)
         st.caption(
             "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
             "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
