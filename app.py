@@ -1537,23 +1537,8 @@ with tab_validation:
             grid=True, gridColor="#e8e0cc", gridOpacity=0.6,
         )
 
-        # Split national trend at the first date indie data exists.
-        # Before that date → dotted line (national signal, no local evidence).
-        # From that date  → solid area (both signals available).
-        indie_start = indie_df["date"].min() if not indie_df.empty else pd.Timestamp("2024-01-01")
-        nat_before = nat_df[nat_df["date"] < indie_start]
-        nat_after  = nat_df[nat_df["date"] >= indie_start]
-
-        nat_dotted = alt.Chart(nat_before).mark_line(
-            color="#3D5A40", strokeWidth=1.5, strokeDash=[4, 4],
-            opacity=0.5, interpolate="monotone",
-        ).encode(
-            x=alt.X("date:T", title=None, axis=x_top),
-            y=alt.Y("interest:Q", title="Google Trends (0–100)"),
-            tooltip=[alt.Tooltip("date:T", format="%b %Y"), alt.Tooltip("interest:Q", title="Trend")],
-        )
-
-        nat_solid = alt.Chart(nat_after).mark_area(
+        # Top panel — full Google Trends area (all real data, no split)
+        nat_chart = alt.Chart(nat_df).mark_area(
             color="#5A8B5A", opacity=0.18,
             line={"color": "#3D5A40", "strokeWidth": 2},
             interpolate="monotone",
@@ -1563,7 +1548,7 @@ with tab_validation:
             tooltip=[alt.Tooltip("date:T", format="%b %Y"), alt.Tooltip("interest:Q", title="Trend")],
         )
 
-        # LTO event vertical rules — short rotated labels in top panel only
+        # LTO event vertical rules — rotated labels in top panel only
         evt_df["short_label"] = evt_df.apply(
             lambda r: "Chipotle relaunch"
             if str(r["label"]).endswith("(2026)")
@@ -1580,12 +1565,12 @@ with tab_validation:
         ).encode(x="date:T", y=alt.value(8), text="short_label:N")
 
         chart_top = (
-            alt.layer(nat_dotted, nat_solid, lto_rules, lto_text)
+            alt.layer(nat_chart, lto_rules, lto_text)
             .resolve_scale(y="shared")
-            .properties(height=280)
+            .properties(height=260)
         )
 
-        # Bottom panel — indie quarterly city lines, same x domain via vconcat
+        # Bottom panel — indie quarterly city lines, legend at bottom
         indie_chart = (
             alt.Chart(indie_df)
             .mark_line(
@@ -1603,7 +1588,10 @@ with tab_validation:
                                     domain=list(v["indie_review_quarterly"].keys()),
                                     range=["#A33A1F", "#C46B45", "#5A8B5A"],
                                 ),
-                                legend=alt.Legend(title="City", orient="right")),
+                                legend=alt.Legend(
+                                    title="City", orient="bottom",
+                                    direction="horizontal", titleAnchor="middle",
+                                )),
                 tooltip=["city:N", alt.Tooltip("date:T", format="%b %Y"), "total:Q"],
             )
         )
@@ -1611,24 +1599,24 @@ with tab_validation:
         chart_bottom = (
             alt.layer(indie_chart, lto_rules)
             .resolve_scale(y="shared")
-            .properties(height=200)
+            .properties(height=180)
         )
 
-        # vconcat with shared x — both panels use the full national trend
-        # date range so the x-axes align. padding lives on the vconcat only.
+        # vconcat — shared x keeps both panels aligned to the same date domain.
+        # Width constrained via columns below; padding on vconcat only.
         combined = (
             alt.vconcat(chart_top, chart_bottom, spacing=2)
             .resolve_scale(x="shared")
-            .properties(padding={"left": 5, "right": 70, "top": 25, "bottom": 5})
+            .properties(padding={"left": 5, "right": 10, "top": 20, "bottom": 5})
             .configure_view(strokeWidth=0, fill="#fffaf2")
             .configure_axis(grid=True, gridColor="#e8e0cc", gridOpacity=0.6)
         )
 
-        st.altair_chart(combined, use_container_width=True)
+        col_chart, _ = st.columns([3, 0.01])
+        with col_chart:
+            st.altair_chart(combined, use_container_width=True)
         st.caption(
             "**Top:** National Google Trends for al pastor (US, monthly 2019–2026). "
-            "Dotted line = period before local indie review data exists (national signal only). "
-            "Solid area = period covered by both Trends and local reviews. "
             "Dashed verticals mark Chipotle Chicken Al Pastor launch / return / relaunch (newsroom-verified). "
             "**Bottom:** Quarterly indie al pastor mentions by city — "
             "Bright Data Google Maps Reviews Dataset, dual-pool indies only (chains excluded)."
